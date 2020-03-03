@@ -11,15 +11,39 @@ namespace ArrayProblems
         {
             Console.WriteLine("Hello Array Problems!");
 
-            //Problem1: LowerBoundSTL
             // RunLowerBoundSTL();
-
-            //Problem2: DynamicArray
-            RunDynamicArray();
+            // RunDynamicArray();
+            RunSparseArray();
 
             Console.ReadLine();
         }
 
+        static void RunSparseArray()
+        {
+            int stringsCount = Convert.ToInt32(Console.ReadLine());
+
+            string[] strings = new string[stringsCount];
+
+            for (int i = 0; i < stringsCount; i++)
+            {
+                string stringsItem = Console.ReadLine();
+                strings[i] = stringsItem;
+            }
+
+            int queriesCount = Convert.ToInt32(Console.ReadLine());
+
+            string[] queries = new string[queriesCount];
+
+            for (int i = 0; i < queriesCount; i++)
+            {
+                string queriesItem = Console.ReadLine();
+                queries[i] = queriesItem;
+            }
+
+            SparseArray sparseArray = new SparseArray();
+            int[] result = sparseArray.MatchingStrings(strings, queries);
+            Console.WriteLine(string.Join("\n", result));
+        }
 
         static void RunLowerBoundSTL()
         {
@@ -33,8 +57,6 @@ namespace ArrayProblems
             lBoundSTL.Execute();
             lBoundSTL.ShowResult();
         }
-
-
 
         static void RunDynamicArray()
         {
