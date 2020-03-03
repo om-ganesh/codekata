@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 namespace ArrayProblems
 {
@@ -9,7 +12,10 @@ namespace ArrayProblems
             Console.WriteLine("Hello Array Problems!");
 
             //Problem1: LowerBoundSTL
-            RunLowerBoundSTL();
+            // RunLowerBoundSTL();
+
+            //Problem2: DynamicArray
+            RunDynamicArray();
 
             Console.ReadLine();
         }
@@ -27,5 +33,29 @@ namespace ArrayProblems
             lBoundSTL.Execute();
             lBoundSTL.ShowResult();
         }
+
+
+
+        static void RunDynamicArray()
+        {
+
+            string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
+
+            int n = Convert.ToInt32(firstMultipleInput[0]);
+
+            int q = Convert.ToInt32(firstMultipleInput[1]);
+
+            List<List<int>> queries = new List<List<int>>();
+
+            for (int i = 0; i < q; i++)
+            {
+                queries.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(queriesTemp => Convert.ToInt32(queriesTemp)).ToList());
+            }
+
+            DynamicArray dynamicArray = new DynamicArray(n);
+            List<int> result = dynamicArray.Execute(queries);
+            Console.WriteLine(String.Join("\n", result));
+        }
+
     }
 }
