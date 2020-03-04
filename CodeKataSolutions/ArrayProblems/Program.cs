@@ -11,9 +11,9 @@ namespace ArrayProblems
         {
             Console.WriteLine("Hello Array Problems!");
 
-            // RunLowerBoundSTL();
+            RunLowerBoundSTL();
             // RunDynamicArray();
-            RunSparseArray();
+            // RunSparseArray();
 
             Console.ReadLine();
         }
@@ -49,11 +49,16 @@ namespace ArrayProblems
         {
             //LowerBoundSTL Problem
             int n = 8;
-            int[] nArray = { 1,1,2,3,6,9,9,15};
-            int q = 4;
-            int[] qArray = { 1,4,9,15};
+            Console.WriteLine("Input Array size:8");
+            List<int> nList = new List<int>();
+            nList.AddRange(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(t => Convert.ToInt32(t)));
 
-            LowerBoundSTL lBoundSTL = new LowerBoundSTL(n, nArray, q, qArray);
+            int q = 4; 
+            Console.WriteLine("Query Array size:4");
+            List<int> qList = new List<int>();
+            qList.AddRange(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(t => Convert.ToInt32(t)));
+
+            LowerBoundSTL lBoundSTL = new LowerBoundSTL(nList,qList);
             lBoundSTL.Execute();
             lBoundSTL.ShowResult();
         }
