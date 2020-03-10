@@ -21,11 +21,18 @@ namespace ArrayProblems
 
         static void RunBlockVolume()
         {
-            //int[] arr = {0,1,0,2,1,0,1,3,2,1,2,1 };
-            //int[] arr = { 0,0,2,0,1,0,2,0,3,0,1,1};
-            //int[] arr =  {0, 0, 4, 0, 1, 0, 2, 0, 3, 0, 1, 1, 4};
-            //int[] arr = { 1,2,3,4,3,2,1,1,2,3,4};
-            int[] arr = { 0, 0, 0, 1, 1, 0, 0 };
+            //int[] arr = {0,1,0,2,1,0,1,3,2,1,2,1 };//output=6
+            //int[] arr = { 0,0,2,0,1,0,2,0,3,0,1,1};//output=8
+            //int[] arr =  {0, 0, 4, 0, 1, 0, 2, 0, 3, 0, 1, 1, 4};//output=28
+            //int[] arr = { 1,2,3,4,3,2,1,1,2,3,4};//output=12
+            //int[] arr = { 0, 0, 0, 1, 1, 0, 0 };//output=0
+            //int[] arr = { 5, 0, 0 };  //output=0
+            //int[] arr = { 0, 2 }; //output=0
+            //int[] arr = { 1 }; //output=0
+            //int[] arr = { 0,0,3,0 };//output=0
+            //int[] arr = { 1,2,3,2,1 };//ouput=0
+            //int[] arr = { 3,2,1,0,1,2 };//output=4
+            int[] arr = { 3,2,3,2,3,2 };//output=2
             var result = AmznBlock.Execute(arr);
             Console.WriteLine($"Result = {result}");
         }
