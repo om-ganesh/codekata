@@ -13,9 +13,21 @@ namespace ArrayProblems
 
             // RunLowerBoundSTL();
             // RunDynamicArray();
-            RunSparseArray();
+            // RunSparseArray();
 
+            RunBlockVolume();
             Console.ReadLine();
+        }
+
+        static void RunBlockVolume()
+        {
+            //int[] arr = {0,1,0,2,1,0,1,3,2,1,2,1 };
+            //int[] arr = { 0,0,2,0,1,0,2,0,3,0,1,1};
+            //int[] arr =  {0, 0, 4, 0, 1, 0, 2, 0, 3, 0, 1, 1, 4};
+            //int[] arr = { 1,2,3,4,3,2,1,1,2,3,4};
+            int[] arr = { 0, 0, 0, 1, 1, 0, 0 };
+            var result = AmznBlock.Execute(arr);
+            Console.WriteLine($"Result = {result}");
         }
 
         static void RunSparseArray()
