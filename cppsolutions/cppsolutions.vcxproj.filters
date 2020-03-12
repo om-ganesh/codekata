@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DynamicArray.cpp">
+    <ClCompile Include="WaterBlockProblemAmazon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="STL.cpp">
+    <ClCompile Include="DynamicArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -27,7 +27,7 @@
     <ClCompile Include="SparseArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WaterBlockProblemAmazon.cpp">
+    <ClCompile Include="STL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
