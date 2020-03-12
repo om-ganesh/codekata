@@ -22,17 +22,13 @@ namespace ArrayProblems
 
     class LowerBoundSTL
     {
-        int m_inputCount = 0;
-        int[] m_inputList;
-        int m_queryCount = 0;
-        int[] m_queryList;
+        List<int> m_inputList;
+        List<int> m_queryList;
         List<Tuple<string, int>> m_resultList;
 
-        public LowerBoundSTL(int n, int[] nList, int q, int[] qList)
+        public LowerBoundSTL(List<int> nList, List<int> qList)
         {
-            this.m_inputCount = n;
             this.m_inputList = nList;
-            this.m_queryCount = q;
             this.m_queryList = qList;
             this.m_resultList = new List<Tuple<string, int>>();
         }
@@ -41,15 +37,43 @@ namespace ArrayProblems
         {
             foreach(int q in m_queryList)
             {
-                for(int i=0; i< m_inputList.Length; i++)
+                var lb = LowerBound(m_inputList, q); 
+                var ub = UpperBound(m_inputList, q);
+                if(q < m_queryList[0])
+                    m_resultList.Add(new Tuple<string, int>("No", 1));
+                else if (q == m_queryList[0])
+                    m_resultList.Add(new Tuple<string, int>("Yes", 1));
+                else if (q > m_queryList[m_queryList.Count-1])
+                    m_resultList.Add(new Tuple<string, int>("No", -1));
+                else
                 {
-                    if(m_inputList[i]>=q)
-                    {
-                        m_resultList.Add(new Tuple<string, int>((m_inputList[i] == q) ? "Yes" : "No", i+1));
-                        break;
-                    }
+                    m_resultList.Add(new Tuple<string, int>(ub[0] == q ? "Yes": "No", lb.Count+1));
                 }
             }
+        }
+
+        private List<int> LowerBound(List<int> input, int query)
+        {
+            List<int> lower = new List<int>();
+            foreach(int x in input)
+            {
+                if (x >= query)
+                    break;
+                lower.Add(x);
+            }
+            return lower;
+        }
+
+        private List<int> UpperBound(List<int> input, int query)
+        {
+            List<int> upper = new List<int>();
+            foreach (int x in input)
+            {
+                if (x < query)
+                    continue;
+                upper.Add(x);
+            }
+            return upper;
         }
 
         public void ShowResult()
