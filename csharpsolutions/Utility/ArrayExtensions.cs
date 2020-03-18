@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ArrayProblems
+namespace csharpsolutions.Utility
 {
     static class ArrayExtensions
     {
         public static int[] Trim(this int[] arr)
         {
             int startIndex = 0;
-            int endIndex = arr.Length-1;
+            int endIndex = arr.Length - 1;
             bool foundstart = false;
             bool foundend = false;
             for (int i = 0; i < arr.Length; i++)
@@ -21,7 +21,7 @@ namespace ArrayProblems
                     startIndex = i;
                     foundstart = true;
                 }
-                    
+
                 if (!foundend && arr[arr.Length - i - 1] != 0)
                 {
                     endIndex = arr.Length - i - 1;
@@ -29,7 +29,7 @@ namespace ArrayProblems
                 }
             }
             List<int> result = new List<int>();
-            for(int i=startIndex;i<=endIndex;i++)
+            for (int i = startIndex; i <= endIndex; i++)
             {
                 result.Add(arr[i]);
             }
