@@ -51,6 +51,11 @@ namespace csharpsolutions
             this.quantity = qty;
         }
 
+        public void ReadInput()
+        {
+            throw new NotImplementedException();
+        }
+
         public void ShowResult()
         {
             Console.WriteLine($"Showing the total water reserved from input array {string.Join(',', inputArray)}");

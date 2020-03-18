@@ -7,6 +7,9 @@ namespace csharpsolutions
     interface IProblem
     {
         public void Execute();
+
+        public void ReadInput();
+
         public void ShowResult();
     }
 }

@@ -64,6 +64,11 @@ namespace csharpsolutions
             }
         }
 
+        public void ReadInput()
+        {
+            throw new NotImplementedException();
+        }
+
         public void ShowResult()
         {
             Console.WriteLine($"The array {string.Join(',',queries)} appears these times in {string.Join(',', strings)}");
