@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
-namespace ArrayProblems
+namespace csharpsolutions
 {
     /// <summary>
     /// Source:
@@ -20,21 +21,27 @@ namespace ArrayProblems
     /// There will always be an answer for the query
     /// </summary>
 
-    class LowerBoundSTL
+    class LowerBoundSTL : IProblem
     {
-        List<int> m_inputList;
-        List<int> m_queryList;
+        // Input/Output variables
+        List<int> m_inputList = new List<int>();
+        List<int> m_queryList = new List<int>();
         List<Tuple<string, int>> m_resultList;
 
-        public LowerBoundSTL(List<int> nList, List<int> qList)
+        public LowerBoundSTL()
         {
-            this.m_inputList = nList;
-            this.m_queryList = qList;
-            this.m_resultList = new List<Tuple<string, int>>();
-        }
+            //LowerBoundSTL Problem
+            Console.WriteLine("Input 8 integer array in sorted order");
+            m_inputList.AddRange(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(t => Convert.ToInt32(t)));
 
+            Console.WriteLine("Test Array size:4");
+            m_queryList.AddRange(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(t => Convert.ToInt32(t)));
+
+        }
+        
         public void Execute()
         {
+            m_resultList = new List<Tuple<string, int>>();
             foreach(int q in m_queryList)
             {
                 var lb = LowerBound(m_inputList, q); 
@@ -49,6 +56,16 @@ namespace ArrayProblems
                 {
                     m_resultList.Add(new Tuple<string, int>(ub[0] == q ? "Yes": "No", lb.Count+1));
                 }
+            }
+        }
+
+        public void ShowResult()
+        {
+            //Show results
+            Console.WriteLine($"The elements {string.Join(',', m_queryList)} appears(YES/NO with index) in {string.Join(',', m_inputList)}");
+            foreach (Tuple<string, int> item in m_resultList)
+            {
+                Console.WriteLine($"{item.Item1} {item.Item2}");
             }
         }
 
@@ -74,14 +91,6 @@ namespace ArrayProblems
                 upper.Add(x);
             }
             return upper;
-        }
-
-        public void ShowResult()
-        {
-            foreach(Tuple<string, int> item in m_resultList)
-            {
-                Console.WriteLine($"{item.Item1} {item.Item2}");
-            }
         }
     }
 }
