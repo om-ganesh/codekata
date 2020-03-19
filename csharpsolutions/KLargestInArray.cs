@@ -32,6 +32,11 @@ namespace csharpsolutions
             }
         }
 
+        public void ReadInput()
+        {
+            throw new NotImplementedException();
+        }
+
         public void ShowResult()
         {
             Console.WriteLine($"Showing {k} largest element from input array {string.Join(',',arr)}");
