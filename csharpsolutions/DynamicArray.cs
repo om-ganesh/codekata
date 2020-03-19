@@ -59,6 +59,11 @@ namespace csharpsolutions
             }
         }
 
+        public void ReadInput()
+        {
+            throw new NotImplementedException();
+        }
+
         public void ShowResult()
         {
             Console.WriteLine("Solution for https://www.hackerrank.com/challenges/dynamic-array/problem");

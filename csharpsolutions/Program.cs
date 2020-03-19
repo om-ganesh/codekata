@@ -10,10 +10,17 @@ namespace csharpsolutions
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Algorithm Challenges");
-
-            IProblem problem = new DynamicArray();
-            problem.Execute();
-            problem.ShowResult();
+            string option = "n";
+            do
+            {
+                IProblem problem = new BalancedBrackets();
+                //problem.ReadInput();
+                problem.Execute();
+                problem.ShowResult();
+                Console.WriteLine("Press y/Y to repeat.");
+                option = Console.ReadLine().Trim();
+            }while(string.Equals(option, "y", StringComparison.InvariantCultureIgnoreCase));
+            
         }
 
     }
