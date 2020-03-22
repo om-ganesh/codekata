@@ -13,7 +13,7 @@ namespace csharpsolutions
             string option = "n";
             do
             {
-                IProblem problem = new BalancedBrackets();
+                IProblem problem = new SortingMerge();
                 //problem.ReadInput();
                 problem.Execute();
                 problem.ShowResult();
