@@ -13,8 +13,8 @@ namespace csharpsolutions
             string option = "n";
             do
             {
-                IProblem problem = new BalancedBrackets();
-                //problem.ReadInput();
+                IProblem problem = new MaxDiffInArray();
+                problem.ReadInput();
                 problem.Execute();
                 problem.ShowResult();
                 Console.WriteLine("Press y/Y to repeat.");
