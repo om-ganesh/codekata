@@ -18,6 +18,7 @@
 #include "SparseArray.cpp"
 #include "WaterBlockProblem.cpp"
 #include "BalancedBrackets.cpp"
+#include "MatrixMinimumCostPath.cpp"
 
 using namespace std;
 
@@ -42,5 +43,9 @@ int main()
 
     // 5. Balanced Brackets
     BalancedBrackets bb;
-    bb.execute();
+    // bb.execute();
+
+    // 6. Matrix Minimum Cost Path Finding
+    MatrixMinimumCostPath mmcp;
+    mmcp.execute();
 }
