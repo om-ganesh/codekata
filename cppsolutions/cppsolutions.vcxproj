@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{825B9298-DB00-49AF-A492-71012180EDCA}</ProjectGuid>
+    <ProjectGuid>{1FECFD62-ED8F-4A23-B637-D6510A99F302}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ArrayProblems</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -151,7 +151,7 @@
     <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="STL.cpp" />
-    <ClCompile Include="WaterBlockProblemAmazon.cpp" />
+    <ClCompile Include="WaterBlockProblem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
