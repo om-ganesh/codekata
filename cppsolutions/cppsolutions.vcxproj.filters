@@ -27,7 +27,7 @@
     <ClCompile Include="SparseArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WaterBlockProblemAmazon.cpp">
+    <ClCompile Include="WaterBlockProblem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
