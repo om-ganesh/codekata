@@ -14,7 +14,7 @@ namespace csharpsolutions
             string option;
             do
             {
-                IProblem problem = new MaxDiffInArray();
+                IProblem problem = new PeakFinding1d();
                 problem.ReadInput();
                 problem.Execute();
                 problem.ShowResult();
