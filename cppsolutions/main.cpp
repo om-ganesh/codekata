@@ -17,6 +17,7 @@
 #include "DynamicArray.cpp"
 #include "SparseArray.cpp"
 #include "WaterBlockProblem.cpp"
+#include "BalancedBrackets.cpp"
 
 using namespace std;
 
@@ -35,7 +36,11 @@ int main()
     SparseArray sa;
     //sa.execute();
 
-    // 4.Amazon Waterblock
+    // 4. Amazon Waterblock
     WaterBlockProblem wbp;
     //wbp.execute();
+
+    // 5. Balanced Brackets
+    BalancedBrackets bb;
+    bb.execute();
 }
