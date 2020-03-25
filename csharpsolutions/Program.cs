@@ -14,8 +14,7 @@ namespace csharpsolutions
             string option;
             do
             {
-                // Call the problem class here
-                IProblem problem = new IntegerMultiplication();
+                IProblem problem = new MaxDiffInArray();
                 problem.ReadInput();
                 problem.Execute();
                 problem.ShowResult();
