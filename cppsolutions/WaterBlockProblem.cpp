@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Data {
+class WaterBlockProblem {
 
     vector<int> data{ 0,1,0,2,1,0,1,3,2,1,2,1 }; // 6
     // vector<int> data{ 0,0,2,0,1,0,2,0,3,0,1,1 }; // 8
@@ -58,41 +58,42 @@ class Data {
         
         return highestValue;
     }
+public:
+    int execute(void)
+    {
+        vector<int> a;
+        WaterBlockProblem data;
+        a = data.GetTestData();
+
+        int leftHighest, rightHighest, minOfTwo;
+        int sum = 0;
+
+        // start from index 1 and go until length-1
+        for (int i = 1; i < a.size() - 1; i++)
+        {
+            // Get highest values towards left and right:
+            leftHighest = data.GetHighestTowards("left", i);
+            rightHighest = data.GetHighestTowards("right", i);
+
+            // Get minimum of two highest values:
+            int minOfTwo = min(leftHighest, rightHighest);
+
+            // If the current index is zero then it can store minOfTwo amount of water
+            // If not then the current index value should be subtracted from minOfTwo:
+            if (a[i] == 0)
+            {
+                sum += minOfTwo;
+            }
+            else
+            {
+                if ((minOfTwo - a[i]) > 0)
+                    sum += minOfTwo - a[i];
+            }
+        }
+
+        cout << "total Unit of Water: " << sum;
+
+        return 0;
+    }
 };
 
-int main (void)
-{
-    vector<int> a;
-    Data d;
-    a = d.GetTestData();
-    
-    int leftHighest, rightHighest, minOfTwo;
-    int sum = 0;
-    
-    // start from index 1 and go until length-1
-    for (int i = 1; i < a.size() - 1; i++)
-    {
-        // Get highest values towards left and right:
-        leftHighest = d.GetHighestTowards("left", i);
-        rightHighest = d.GetHighestTowards("right", i);
-        
-        // Get minimum of two highest values:
-        int minOfTwo = min(leftHighest, rightHighest);
-        
-        // If the current index is zero then it can store minOfTwo amount of water
-        // If not then the current index value should be subtracted from minOfTwo:
-        if (a[i] == 0)
-        {
-            sum += minOfTwo;
-        }
-        else
-        {
-            if ((minOfTwo-a[i]) > 0)
-                sum += minOfTwo-a[i];
-        }
-    }
-    
-    cout << "total Unit of Water: " << sum;
-
-    return 0;
-}

@@ -14,10 +14,27 @@ using namespace std;
 
 class SparseArray
 {
-public:
     // Complete the matchingStrings function below.
+    vector<int> matchingStrings(vector<string> strings, vector<string> queries) {
+
+        int qLength = queries.size();
+        vector<int> countArray;
+
+        for (int i = 0; i < qLength; i++)
+        {
+            int ct = count(strings.begin(), strings.end(), queries[i]);
+            countArray.push_back(ct);
+        }
+
+        return countArray;
+    }
+
+public:
+
     int execute()
     {
+        // ofstream fout(getenv("OUTPUT_PATH"));
+        ofstream fout("OUTPUT_PATH");
 
         int strings_count;
         cin >> strings_count;
@@ -48,31 +65,18 @@ public:
         vector<int> res = matchingStrings(strings, queries);
 
         for (int i = 0; i < res.size(); i++) {
-            cout << res[i];
+            fout << res[i];
 
             if (i != res.size() - 1) {
-                cout << "\n";
+                fout << "\n";
             }
         }
 
-        cout << "\n";
+        fout << "\n";
+
+        fout.close();
 
         return 0;
-    }
- 
-private:
-    vector<int> matchingStrings(vector<string> strings, vector<string> queries) {
-
-        int qLength = queries.size();
-        vector<int> countArray;
-
-        for (int i = 0; i < qLength; i++)
-        {
-            int ct = count(strings.begin(), strings.end(), queries[i]);
-            countArray.push_back(ct);
-        }
-
-        return countArray;
     }
 
 };
