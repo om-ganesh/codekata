@@ -16,20 +16,26 @@
 #include "STL.cpp"
 #include "DynamicArray.cpp"
 #include "SparseArray.cpp"
+#include "WaterBlockProblem.cpp"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
 
-    //1.STL
-    //STL stl;
+    // 1.STL
+    STL stl;
     //stl.execute();
 
-    //2.Dynamic Array
+    // 2.Dynamic Array
     DynamicArray da;
-    da.execute();
+    //da.execute();
 
-    //3.Sparse Array
-    //SparseArray sa;
+    // 3.Sparse Array
+    SparseArray sa;
     //sa.execute();
+
+    // 4.Amazon Waterblock
+    WaterBlockProblem wbp;
+    //wbp.execute();
 }
