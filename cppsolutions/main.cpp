@@ -19,6 +19,7 @@
 #include "WaterBlockProblem.cpp"
 #include "BalancedBrackets.cpp"
 #include "MatrixMinimumCostPath.cpp"
+#include "MergeSort.cpp"
 
 using namespace std;
 
@@ -47,5 +48,9 @@ int main()
 
     // 6. Matrix Minimum Cost Path Finding
     MatrixMinimumCostPath mmcp;
-    mmcp.execute();
+    // mmcp.execute();
+
+    // 7. Merge Sort
+    MergeSort ms;
+    ms.execute();
 }

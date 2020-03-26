@@ -151,6 +151,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="STL.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />
