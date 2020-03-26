@@ -152,6 +152,7 @@
     <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="MatrixFindPeak.cpp" />
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
+    <ClCompile Include="MaxDifferenceInArray.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="STL.cpp" />

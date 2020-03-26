@@ -21,6 +21,7 @@
 #include "MatrixMinimumCostPath.cpp"
 #include "MergeSort.cpp"
 #include "MatrixFindPeak.cpp"
+#include "MaxDifferenceInArray.cpp"
 
 using namespace std;
 
@@ -57,5 +58,9 @@ int main()
 
     // 8. Matrix Find Peak
     MatrixFindPeak mfp;
-    mfp.execute();
+    // mfp.execute();
+
+    // 9. Max Diff in Array
+    MaxDifferenceInArray mdia;
+    mdia.execute();
 }
