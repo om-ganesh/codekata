@@ -20,6 +20,7 @@
 #include "BalancedBrackets.cpp"
 #include "MatrixMinimumCostPath.cpp"
 #include "MergeSort.cpp"
+#include "MatrixFindPeak.cpp"
 
 using namespace std;
 
@@ -52,5 +53,9 @@ int main()
 
     // 7. Merge Sort
     MergeSort ms;
-    ms.execute();
+    // ms.execute();
+
+    // 8. Matrix Find Peak
+    MatrixFindPeak mfp;
+    mfp.execute();
 }

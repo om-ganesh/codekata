@@ -150,6 +150,7 @@
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
+    <ClCompile Include="MatrixFindPeak.cpp" />
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="SparseArray.cpp" />
