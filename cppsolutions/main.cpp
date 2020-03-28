@@ -22,6 +22,7 @@
 #include "MergeSort.cpp"
 #include "MatrixFindPeak.cpp"
 #include "MaxDifferenceInArray.cpp"
+#include "KLargestInArray.cpp"
 
 using namespace std;
 
@@ -62,5 +63,9 @@ int main()
 
     // 9. Max Diff in Array
     MaxDifferenceInArray mdia;
-    mdia.execute();
+    // mdia.execute();
+
+    // 10. K Largest In Array
+    KLargestInArray klia;
+    klia.execute();
 }

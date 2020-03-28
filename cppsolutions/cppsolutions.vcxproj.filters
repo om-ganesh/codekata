@@ -45,5 +45,8 @@
     <ClCompile Include="MaxDifferenceInArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KLargestInArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
