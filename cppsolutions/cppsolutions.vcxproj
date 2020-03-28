@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BalancedBrackets.cpp" />
+    <ClCompile Include="KaratsubaIntegerMultiplication.cpp" />
     <ClCompile Include="KLargestInArray.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
