@@ -51,5 +51,8 @@
     <ClCompile Include="KaratsubaIntegerMultiplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MagicSquare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

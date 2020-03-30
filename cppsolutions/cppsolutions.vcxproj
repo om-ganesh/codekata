@@ -150,6 +150,7 @@
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="KaratsubaIntegerMultiplication.cpp" />
     <ClCompile Include="KLargestInArray.cpp" />
+    <ClCompile Include="MagicSquare.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="MatrixFindPeak.cpp" />

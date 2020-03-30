@@ -24,6 +24,7 @@
 #include "MaxDifferenceInArray.cpp"
 #include "KLargestInArray.cpp"
 #include "KaratsubaIntegerMultiplication.cpp"
+#include "MagicSquare.cpp"
 
 using namespace std;
 
@@ -72,5 +73,9 @@ int main()
 
     // 11. Karatsuba Multiplication
     KaratsubaIntegerMultiplication kim;
-    kim.execute();
+    // kim.execute();
+
+    // 12 . Magic Square
+    MagicSquare msq;
+    msq.execute();
 }
