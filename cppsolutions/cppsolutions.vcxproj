@@ -151,6 +151,7 @@
     <ClCompile Include="KaratsubaIntegerMultiplication.cpp" />
     <ClCompile Include="KLargestInArray.cpp" />
     <ClCompile Include="MagicSquare.cpp" />
+    <ClCompile Include="MagicSquareForming.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
     <ClCompile Include="MatrixFindPeak.cpp" />

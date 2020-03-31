@@ -25,6 +25,7 @@
 #include "KLargestInArray.cpp"
 #include "KaratsubaIntegerMultiplication.cpp"
 #include "MagicSquare.cpp"
+#include "MagicSquareForming.cpp"
 
 using namespace std;
 
@@ -77,5 +78,9 @@ int main()
 
     // 12 . Magic Square
     MagicSquare msq;
-    msq.execute();
+    // msq.execute();
+
+    // 13. Magic Square (3x3) difference 
+    MagicSquareForming msf;
+    msf.execute();
 }
