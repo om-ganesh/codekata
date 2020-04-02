@@ -27,6 +27,7 @@
 #include "MagicSquare.cpp"
 #include "MagicSquareForming.cpp"
 #include "GivenSumSubArray.cpp"
+#include "FindDistinctNumbers.cpp"
 
 using namespace std;
 
@@ -87,5 +88,9 @@ int main()
 
     // 14. Given Sum Sub Array
     GivenSumSubArray gssa;
-    gssa.execute();
+    // gssa.execute();
+
+    // 15. Find Distinct Numbers
+    FindDistinctNumbers fdn;
+    fdn.execute();
 }

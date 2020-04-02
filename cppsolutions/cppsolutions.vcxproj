@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BalancedBrackets.cpp" />
+    <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
     <ClCompile Include="KaratsubaIntegerMultiplication.cpp" />
     <ClCompile Include="KLargestInArray.cpp" />
