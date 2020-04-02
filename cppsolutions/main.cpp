@@ -26,6 +26,7 @@
 #include "KaratsubaIntegerMultiplication.cpp"
 #include "MagicSquare.cpp"
 #include "MagicSquareForming.cpp"
+#include "GivenSumSubArray.cpp"
 
 using namespace std;
 
@@ -82,5 +83,9 @@ int main()
 
     // 13. Magic Square (3x3) difference 
     MagicSquareForming msf;
-    msf.execute();
+    // msf.execute();
+
+    // 14. Given Sum Sub Array
+    GivenSumSubArray gssa;
+    gssa.execute();
 }
