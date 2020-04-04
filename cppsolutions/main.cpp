@@ -29,6 +29,7 @@
 #include "GivenSumSubArray.cpp"
 #include "FindDistinctNumbers.cpp"
 #include "FindLargestWordInDictionary.cpp"
+#include "JumpingNumber.cpp"
 
 using namespace std;
 
@@ -97,5 +98,9 @@ int main()
 
     // 16. Find Largest Word in Dictionary
     FindLargestWordInDictionary flwid;
-    flwid.execute();
+    // flwid.execute();
+
+    // 17. Jumping Number
+    JumpingNumber jn;
+    jn.execute();
 }
