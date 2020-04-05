@@ -12,7 +12,6 @@
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
 
-#include <iostream>
 #include "STL.cpp"
 #include "DynamicArray.cpp"
 #include "SparseArray.cpp"
@@ -30,6 +29,7 @@
 #include "FindDistinctNumbers.cpp"
 #include "FindLargestWordInDictionary.cpp"
 #include "JumpingNumber.cpp"
+#include "BinaryTreeExample.cpp"
 
 using namespace std;
 
@@ -102,5 +102,9 @@ int main()
 
     // 17. Jumping Number
     JumpingNumber jn;
-    jn.execute();
+    // jn.execute();
+
+    // 18. Binary Tree
+    BinaryTreeAPI btapi;
+    btapi.execute();
 }
