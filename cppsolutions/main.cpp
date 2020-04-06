@@ -30,6 +30,7 @@
 #include "FindLargestWordInDictionary.cpp"
 #include "JumpingNumber.cpp"
 #include "BinaryTreeExample.cpp"
+#include "StackDataStructureByForwardList.cpp"
 
 using namespace std;
 
@@ -106,5 +107,9 @@ int main()
 
     // 18. Binary Tree
     BinaryTreeAPI btapi;
-    btapi.execute();
+    // btapi.execute();
+
+    // 19. Stack Implementation using forward_list
+    StackDataStructureByForwardList sdsbfl;
+    sdsbfl.execute();
 }
