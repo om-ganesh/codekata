@@ -75,5 +75,8 @@
     <ClCompile Include="StackDataStructureByForwardList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QueueDataStructureByList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

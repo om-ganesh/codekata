@@ -31,6 +31,7 @@
 #include "JumpingNumber.cpp"
 #include "BinaryTreeExample.cpp"
 #include "StackDataStructureByForwardList.cpp"
+#include "QueueDataStructureByList.cpp"
 
 using namespace std;
 
@@ -111,5 +112,9 @@ int main()
 
     // 19. Stack Implementation using forward_list
     StackDataStructureByForwardList sdsbfl;
-    sdsbfl.execute();
+    // sdsbfl.execute();
+
+    // 20. Queue Implementation using List
+    QueueDataStructureByList qdsbl;
+    qdsbl.execute();
 }
