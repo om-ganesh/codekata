@@ -32,6 +32,7 @@
 #include "BinaryTreeExample.cpp"
 #include "StackDataStructureByForwardList.cpp"
 #include "QueueDataStructureByList.cpp"
+#include "GraphBFSAndDFS.cpp"
 
 using namespace std;
 
@@ -116,5 +117,9 @@ int main()
 
     // 20. Queue Implementation using List
     QueueDataStructureByList qdsbl;
-    qdsbl.execute();
+    // qdsbl.execute();
+
+    // 21. Graph BFS and DFS
+    GraphBFSAndDFS gbd;
+    gbd.execute();
 }

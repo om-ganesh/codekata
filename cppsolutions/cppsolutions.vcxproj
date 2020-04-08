@@ -152,6 +152,7 @@
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
+    <ClCompile Include="GraphBFSAndDFS.cpp" />
     <ClCompile Include="JumpingNumber.cpp" />
     <ClCompile Include="KaratsubaIntegerMultiplication.cpp" />
     <ClCompile Include="KLargestInArray.cpp" />
