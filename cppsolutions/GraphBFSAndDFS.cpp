@@ -9,17 +9,29 @@ class GraphBFSAndDFS
 {
 private:
 
-	vector<vector<int>> graphByAdjacentMatrix{
+	vector<vector<int>> graphByAdjacentMatrixForBFS{
 		{0, 1, 0, 1, 0, 0, 0},
 		{0, 0, 1, 0, 0, 1, 0},
 		{0, 0, 0, 0, 1, 0, 1},
 		{0, 0, 0, 0, 0, 1, 0},
 		{0, 1, 0, 0, 0, 1, 0},
 		{1, 0, 0, 0, 0, 0, 0},
-		{0, 0, 0, 0, 1, 0, 0} 
+		{0, 0, 0, 0, 1, 0, 0}
 	};
 
-	vector<int> statusVector{1, 1, 1, 1, 1, 1, 1};
+	vector<vector<int>> graphByAdjacentMatrixForDFS{
+		{0, 1, 0, 1, 0, 0, 0, 0},
+		{0, 0, 1, 0, 0, 1, 0, 0},
+		{0, 0, 0, 0, 1, 0, 1, 1},
+		{0, 0, 0, 0, 0, 1, 0, 0},
+		{0, 1, 0, 0, 0, 1, 0, 0},
+		{1, 0, 0, 0, 0, 0, 0, 0},
+		{0, 0, 0, 0, 1, 0, 0, 1},
+		{1, 0, 0, 0, 0, 0, 0, 0}
+	};
+
+	vector<int> statusVectorBFS{ 1, 1, 1, 1, 1, 1, 1 };
+	vector<int> statusVectorDFS{ 1, 1, 1, 1, 1, 1, 1, 1 };
 
 	void traverseNodesByBFS()
 	{
@@ -29,14 +41,14 @@ private:
 		int startingNode = 0;
 
 		visited.push(startingNode);
-		statusVector[startingNode] = 3;
+		statusVectorBFS[startingNode] = 3;
 
-		for (int i = 0; i < graphByAdjacentMatrix.size(); i++)
+		for (int i = 0; i < graphByAdjacentMatrixForBFS.size(); i++)
 		{
-			if (graphByAdjacentMatrix[startingNode][i] == 1)
+			if (graphByAdjacentMatrixForBFS[startingNode][i] == 1)
 			{
 				adjacent.push(i);
-				statusVector[i] = 2;
+				statusVectorBFS[i] = 2;
 			}
 		}
 
@@ -44,15 +56,15 @@ private:
 		{
 			int node = adjacent.front();
 			visited.push(node);
-			statusVector[node] = 3;
+			statusVectorBFS[node] = 3;
 			adjacent.pop();
 
-			for (int i = 0; i < graphByAdjacentMatrix.size(); i++)
+			for (int i = 0; i < graphByAdjacentMatrixForBFS.size(); i++)
 			{
-				if (graphByAdjacentMatrix[node][i] == 1 && statusVector[i] == 1)
+				if (graphByAdjacentMatrixForBFS[node][i] == 1 && statusVectorBFS[i] == 1)
 				{
 					adjacent.push(i);
-					statusVector[i] = 2;
+					statusVectorBFS[i] = 2;
 				}
 			}
 		}
@@ -72,6 +84,30 @@ private:
 
 	void traverseNodesByDFS()
 	{
+		stack<int> dfsStack;
+
+		int startingNode = 7;
+
+		dfsStack.push(startingNode);
+		statusVectorDFS[startingNode] = 2;
+
+		while (!dfsStack.empty())
+		{
+			int printNode = dfsStack.top();
+			cout << printNode << " ";
+			statusVectorDFS[printNode] = 3;
+			dfsStack.pop();
+
+			for (int i = 0; i < statusVectorDFS.size(); i++)
+			{
+				if (graphByAdjacentMatrixForDFS[printNode][i] == 1 && statusVectorDFS[i] == 1)
+				{
+					dfsStack.push(i);
+					statusVectorDFS[i] = 2;
+				}
+			}
+
+		}
 
 	}
 

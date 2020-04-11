@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
+    <ClCompile Include="ExpressionEvaluate.cpp" />
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
