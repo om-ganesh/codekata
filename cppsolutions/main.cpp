@@ -127,9 +127,9 @@ int main()
 
     // 22. Expression Evaluation
     ExpressionEvaluate ee;
-    // ee.execute();
+    ee.execute();
 
     // 23. Boundary Check
     BoundaryCheck bc;
-    bc.execute();
+    // bc.execute();
 }
