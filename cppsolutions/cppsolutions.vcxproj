@@ -148,9 +148,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BalancedBrackets.cpp" />
+    <ClCompile Include="BinaryTreeExample.cpp" />
+    <ClCompile Include="BoundaryCheck.cpp" />
+    <ClCompile Include="ExpressionEvaluate.cpp" />
+    <ClCompile Include="FindDistinctNumbers.cpp" />
+    <ClCompile Include="FindLargestWordInDictionary.cpp" />
+    <ClCompile Include="GivenSumSubArray.cpp" />
+    <ClCompile Include="GraphBFSAndDFS.cpp" />
+    <ClCompile Include="JumpingNumber.cpp" />
+    <ClCompile Include="KaratsubaIntegerMultiplication.cpp" />
+    <ClCompile Include="KLargestInArray.cpp" />
+    <ClCompile Include="MagicSquare.cpp" />
+    <ClCompile Include="MagicSquareForming.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="DynamicArray.cpp" />
+    <ClCompile Include="MatrixFindPeak.cpp" />
+    <ClCompile Include="MatrixMinimumCostPath.cpp" />
+    <ClCompile Include="MaxDifferenceInArray.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="SparseArray.cpp" />
+    <ClCompile Include="StackDataStructureByForwardList.cpp" />
     <ClCompile Include="STL.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />
   </ItemGroup>
