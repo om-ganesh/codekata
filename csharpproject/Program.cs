@@ -14,8 +14,8 @@ namespace csharpproject
             string option;
             do
             {
-                IProblem problem = new PeakFinding1d();
-                problem.ReadInput();
+                IProblem problem = new ArrayRangeFind();
+                //problem.ReadInput();
                 problem.Execute();
                 problem.ShowResult();
                 
