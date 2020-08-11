@@ -12,12 +12,29 @@
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
 
-#include <iostream>
 #include "STL.cpp"
 #include "DynamicArray.cpp"
 #include "SparseArray.cpp"
 #include "WaterBlockProblem.cpp"
 #include "BalancedBrackets.cpp"
+#include "MatrixMinimumCostPath.cpp"
+#include "MergeSort.cpp"
+#include "MatrixFindPeak.cpp"
+#include "MaxDifferenceInArray.cpp"
+#include "KLargestInArray.cpp"
+#include "KaratsubaIntegerMultiplication.cpp"
+#include "MagicSquare.cpp"
+#include "MagicSquareForming.cpp"
+#include "GivenSumSubArray.cpp"
+#include "FindDistinctNumbers.cpp"
+#include "FindLargestWordInDictionary.cpp"
+#include "JumpingNumber.cpp"
+#include "BinaryTreeExample.cpp"
+#include "StackDataStructureByForwardList.cpp"
+#include "QueueDataStructureByList.cpp"
+#include "GraphBFSAndDFS.cpp"
+#include "ExpressionEvaluate.cpp"
+#include "BoundaryCheck.cpp"
 
 using namespace std;
 
@@ -42,5 +59,77 @@ int main()
 
     // 5. Balanced Brackets
     BalancedBrackets bb;
-    bb.execute();
+    // bb.execute();
+
+    // 6. Matrix Minimum Cost Path Finding
+    MatrixMinimumCostPath mmcp;
+    // mmcp.execute();
+
+    // 7. Merge Sort
+    MergeSort ms;
+    // ms.execute();
+
+    // 8. Matrix Find Peak
+    MatrixFindPeak mfp;
+    // mfp.execute();
+
+    // 9. Max Diff in Array
+    MaxDifferenceInArray mdia;
+    // mdia.execute();
+
+    // 10. K Largest In Array
+    KLargestInArray klia;
+    // klia.execute();
+
+    // 11. Karatsuba Multiplication
+    KaratsubaIntegerMultiplication kim;
+    // kim.execute();
+
+    // 12 . Magic Square
+    MagicSquare msq;
+    // msq.execute();
+
+    // 13. Magic Square (3x3) difference 
+    MagicSquareForming msf;
+    // msf.execute();
+
+    // 14. Given Sum Sub Array
+    GivenSumSubArray gssa;
+    // gssa.execute();
+
+    // 15. Find Distinct Numbers
+    FindDistinctNumbers fdn;
+    // fdn.execute();
+
+    // 16. Find Largest Word in Dictionary
+    FindLargestWordInDictionary flwid;
+    // flwid.execute();
+
+    // 17. Jumping Number
+    JumpingNumber jn;
+    // jn.execute();
+
+    // 18. Binary Tree
+    BinaryTreeAPI btapi;
+    // btapi.execute();
+
+    // 19. Stack Implementation using forward_list
+    StackDataStructureByForwardList sdsbfl;
+    // sdsbfl.execute();
+
+    // 20. Queue Implementation using List
+    QueueDataStructureByList qdsbl;
+    // qdsbl.execute();
+
+    // 21. Graph BFS and DFS
+    GraphBFSAndDFS gbd;
+    // gbd.execute();
+
+    // 22. Expression Evaluation
+    ExpressionEvaluate ee;
+    ee.execute();
+
+    // 23. Boundary Check
+    BoundaryCheck bc;
+    // bc.execute();
 }
