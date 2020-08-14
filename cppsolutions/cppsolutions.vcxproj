@@ -167,6 +167,7 @@
     <ClCompile Include="MaxDifferenceInArray.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
+    <ClCompile Include="FindMaximumRange.cpp" />
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="StackDataStructureByForwardList.cpp" />
     <ClCompile Include="STL.cpp" />
