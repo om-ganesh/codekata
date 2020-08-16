@@ -6,6 +6,15 @@ We are using Visual Studio 2019 (.net version 8.0) for the programming.
 
 This file maintains the details of each program and the related source/other information.
 
+CATEGORY1: DSA Fundametals Implementation
+
+1. Binary Tree
+ -insert
+ -search
+ -delete 
+
+
+CATEGORY2: PROBLEM SOLVING
 
 1. Dynamic Array 
 
@@ -28,10 +37,14 @@ This file maintains the details of each program and the related source/other inf
 
 10. Peak Finding in 1D Array
 
-11. ArrayRangeFind.cs
+11. ArrayRangeFind
 Given the array, find the largest range in the consecutive number sequence.
 Input: [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 13, 6]
 Output: 7 (from 0 to 7 the range is 7 which is largest )
 
+12. BoundaryCheck
+ -Refer the attached image inside problems folder
 
-
+13. Expression Evaluation
+//expr = int | ( operand expr+ ) //expr can occur multiple times
+//op :: = '+' | '*'

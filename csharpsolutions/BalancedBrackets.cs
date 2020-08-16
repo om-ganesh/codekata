@@ -26,8 +26,50 @@ namespace csharpsolutions
         {
             for(int i=0; i <data.Length; i++)
             {
-                result[i] = isBalanced(data[i]);
+                result[i] = isBalancedNew(data[i]);
             }
+        }
+
+         // Complete the isBalanced function below.
+        Boolean isBalancedNew(string s) {
+
+            Stack<char> stack = new Stack<char>();
+            for(int j=0; j< s.Length; j++)
+            {
+                //If Input is opening brackets, push to stack and continue
+                if (s[j] == '(' || s[j] == '[' || s[j] == '{')
+                {
+                    stack.Push(s[j]);
+                }
+                // If Input is closing bracket, and stack is empty, return as already failed
+                else if(( s[j]==']' || s[j] == ')' || s[j] == '}')
+                    && stack.Count ==0)
+                {
+                    return false;
+                }else 
+                {
+                    
+                    return false;
+                }
+
+                
+
+                //If I got closing brackets, and stack not empty compare with stack top
+                //If stack top and input char is matching, pop and continue next input
+                //If not, return as already failed
+                if ( (s[j] == '(' && stack.Peek() == ')')
+                    || (s[j] == '[' && stack.Peek() == ']')
+                    || (s[j] == '{' && stack.Peek() == '}'))
+                {
+                    stack.Pop();
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            return stack.Count==0;
         }
 
         // Complete the isBalanced function below.
@@ -36,7 +78,7 @@ namespace csharpsolutions
             Stack<char> stack = new Stack<char>();
             for(int j=0; j< s.Length; j++)
             {
-                switch(s[j])
+                switch(s[j])//()[]) //stack 
                 {
                     case '{':
                         stack.Push('}');
