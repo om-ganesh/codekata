@@ -7,27 +7,27 @@ This file maintains the details of each program and the related source/other inf
 # CATEGORY1: Algorithm Fundamentals
 This section includes all the basic fundamental algorithms and the varieties of implementations
 
-#### Binary Tree
-◦ Definition: Implement methods Insert(), Search(), Delete()  
-◦ Solution: [BinaryTreeExample.cpp](cppsolutions/BinaryTreeExample.cpp)  
+### ****Binary Tree**
+Definition: Implement methods Insert(), Search(), Delete()  
+Solution: [BinaryTreeExample.cpp](cppsolutions/BinaryTreeExample.cpp)  
 
 
-#### Merge Sorting
+### **Merge Sorting**
 Definition: Implement the merge sort [GeekforGeeks](https://www.geeksforgeeks.org/merge-sort/)  
 Solution: [SortingMerge.cs](csharpproject/SortingMerge.cs)  / [MergeSort.cpp](cppsolutions/MergeSort.cpp) 
 
 
-#### Stack
+### **Stack**
 Definition: Implement Stack  
 Solution: [StackDataStructureByForwardList.cpp](cppsolutions/StackDataStructureByForwardList.cpp)  
 
 
-#### Queue
+### **Queue**
 Definition: Implement Queue  
 Solution: [QueueDataStructureByList.cpp](cppsolutions/QueueDataStructureByList.cpp)  
 
 
-#### Graph Traversal
+### **Graph Traversal**
 Definition: Implement the searching algorithm for graph sort  
 Solution: [GraphBFSAndDFS.cpp](cppsolutions/GraphBFSAndDFS.cpp)  
 
@@ -35,11 +35,11 @@ Solution: [GraphBFSAndDFS.cpp](cppsolutions/GraphBFSAndDFS.cpp)
 # CATEGORY2: Problems
 This section includes various problems from different online sources and real interview sessions
 
-#### Dynamic Array  
+### **Dynamic Array**  
 Definition: [From HackerRank](https://www.hackerrank.com/challenges/dynamic-array/problem)  
 Solution: [DynamicArray.cs](csharpproject/DynamicArray.cs)  / [DynamicArray.cpp](cppsolutions/DynamicArray.cpp)  
 
-#### Lower Bound STL
+### **Lower Bound STL**
 _Definition:_  
 ```
 Given N integers in sorted order and Q queries, with an integer in each query
@@ -50,32 +50,32 @@ If the given query integer is not present in array, return index at which the sm
 Reference: [From HackerRank](https://www.hackerrank.com/challenges/cpp-lower-bound)  
 Solution: [LowerBoundSTL.cs](csharpproject/LowerBoundSTL.cs)  / [STL.cpp](cppsolutions/STL.cpp)  
 
-#### Block Storage
+### **Block Storage**
 Definition:  [Visual description](problems/AmznArray-WellContainerProblem.jpg)  
 Solution: [AmznBlock.cs](csharpproject/AmznBlock.cs)  / [WaterBlockProblem.cpp](cppsolutions/WaterBlockProblem.cpp)  
 
-#### Sparse Arrays  
+### **Sparse Arrays**  
 Definition: [From HackerRank](https://www.hackerrank.com/challenges/sparse-arrays/problem)  
 Solution: [SparseArray.cs](csharpproject/SparseArray.cs)  / [SparseArray.cpp](cppsolutions/SparseArray.cpp)  
 
-#### Balanced Bracket
+### **Balanced Bracket**
 Definition: [From HackerRank](https://www.hackerrank.com/challenges/sparse-arrays/problem)  
 Solution: [BalancedBrackets.cs](csharpproject/BalancedBrackets.cs)  / [BalancedBrackets.cpp](cppsolutions/BalancedBrackets.cpp)  
 
-#### Minimum Cost Path Matrix
+### **Minimum Cost Path Matrix**
 Definition: [Visual description](problems/CodeJam-Matrix-MinimumPath.png)  
 Solution: [MatrixMinimumCostPath.cpp](cppsolutions/MatrixMinimumCostPath.cpp)  
 
-#### Karatsuba Multiplication
+### **Karatsuba Multiplication**
 Definition: [From HackerRank](https://www.geeksforgeeks.org/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/)  
 Solution: [IntegerMultiplication.cs](csharpproject/IntegerMultiplication.cs)  / [KaratsubaIntegerMultiplication.cpp](cppsolutions/KaratsubaIntegerMultiplication.cpp)   
 Reference: [Solution explained](problems/KaratsubaMultiplicationMethod.png)  
 
-#### Maxmimum Difference in Array
+### **Maxmimum Difference in Array**
 Definition: TODO   
 Solution: [MaxDiffInArray.cs](csharpproject/MaxDiffInArray.cs)  / [MaxDifferenceInArray.cpp](cppsolutions/MaxDifferenceInArray.cpp)  
 
-#### Peak Finding in 1D Array
+### **Peak Finding in 1D Array**
 _Definition:_   
 ```
 For a array of numbers, find the peak, if it exists
@@ -84,15 +84,15 @@ Position 2 is peak iff b>=a and b>=c, in edge, only look on one side
 ```
 Solution: [PeakFinding1d.cs](csharpproject/PeakFinding1d.cs)
 
-#### Peak Finding in 2D Array
+### **Peak Finding in 2D Array**
 Definition: [Visual description](problems/findpeak.png)  
 Solution: [MatrixFindPeak.cpp](cppsolutions/MatrixFindPeak.cpp)  
 
-#### Finding Kth largest element in Array
+### **Finding Kth largest element in Array**
 Definition: Find the kth largest element in the array  
 Solution: [KLargestInArray.cs](csharpproject/KLargestInArray.cs)  / [KLargestInArray.cpp](cppsolutions/KLargestInArray.cpp)  
 
-#### Finding largest Range
+### **Finding largest Range**
 _Definition:_  
 ```
 Given the array, find the largest range in the consecutive number sequence.  
@@ -101,7 +101,7 @@ Output: 7 (from 0 to 7 the range is 7 which is largest )
 ```
 Solution (C#): [ArrayRangeFind.cs](csharpproject/ArrayRangeFind.CS)  
 
-#### Magic Square Formation
+### **Magic Square Formation**
 Definition: [From HackerRank](https://www.hackerrank.com/challenges/magic-square-forming/problem)  
 Solution: [MagicSquareForming.cpp](cppsolutions/MagicSquareForming.cpp)  
 
@@ -113,12 +113,12 @@ The next number(2) is placed at(i - 1, j + 1).If this position already has a num
 ```
 Solution: [MagicSquare.cpp](cppsolutions/MagicSquare.cpp)  
 
-#### Boundary Checking
+### **Boundary Checking**
 Definition: TODO  
 Solution: [BoundaryCheck.cpp](cppsolutions/BoundaryCheck.cpp)  
 
 
-#### Expression Evaluation
+### **Expression Evaluation**
 _Definition:_  
 ```
 expr = int | (operand expr+)
@@ -126,19 +126,19 @@ op = '+' | '*'
 ```
 Solution: [ExpressionEvaluate.cpp](cppsolutions/ExpressionEvaluate.cpp)  
 
-#### Largest Word in Dictionary
+### **Largest Word in Dictionary**
 Definition: [From Geeksforgeeks](https://practice.geeksforgeeks.org/problems/find-largest-word-in-dictionary/0)  
 Solution: [FindLargestWordInDictionary.cpp](cppsolutions/FindLargestWordInDictionary.cpp)  
 
-#### Subarray with given sum
+### **Subarray with given sum**
 Definition: [From Geeksforgeeks](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0)  
 Solution: [GivenSumSubArray.cpp](cppsolutions/GivenSumSubArray.cpp)  
 
-#### Intersection of two arrays
+### **Intersection of two arrays**
 Definition: [From Leetcode](https://leetcode.com/problems/intersection-of-two-arrays/)  
 Solution: Not implemented yet  
 
-#### Find middle of given linked list
+### **Find middle of given linked list**
 _Definition:_
 ```
 Given a singly linked list, find middle of the linked list. 
@@ -147,7 +147,7 @@ output should be 3.
 ```
 Reference: [From Geeksforgeeks](https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)
 
-#### Finding Distinct number
+### **Finding Distinct number**
 _Definition:_
 ```
 You are given an array A containing 2*N+2 positive numbers, out of which 2*N numbers exist in pairs,
@@ -157,7 +157,7 @@ You need to find the other two numbers and print them in ascending order
 Reference: [from Geeksforgeeks](https://practice.geeksforgeeks.org/problems/finding-the-numbers/0)  
 Solution: [FindDistinctNumbers.cpp](cppsolutions/FindDistinctNumbers.cpp) 
 
-#### Jumping Number
+### **Jumping Number**
 Definition: TODO  
 Solution: [JumpingNumber.cpp](cppsolutions/JumpingNumber.cpp)  
 
@@ -166,7 +166,7 @@ This section includes all the problems discussed from the book: Robert Sedgewick
 Book Url: [Algorithms - 4th Edition](https://algs4.cs.princeton.edu/home/)  
 
 
-#### ArrayTripletsSumToZero.cs
+### **ArrayTripletsSumToZero.cs**
 _Definition:_
 ```
 Given N distinct integers, how many triples sum to exactly zero?    
