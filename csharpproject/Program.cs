@@ -14,11 +14,11 @@ namespace csharpproject
             string option;
             do
             {
-                IProblem problem = new PeakFinding1d();
-                problem.ReadInput();
+                IProblem problem = new ArrayTripletsSumToZero();
+                //problem.ReadInput();
                 problem.Execute();
                 problem.ShowResult();
-                
+
                 // Repeat the problem?
                 Console.WriteLine("Press y/Y to repeat.");
                 option = Console.ReadLine().Trim();
