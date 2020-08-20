@@ -7,7 +7,7 @@ This file maintains the details of each program and the related source/other inf
 # CATEGORY1: Algorithm Fundamentals
 This section includes all the basic fundamental algorithms and the varieties of implementations
 
-### ****Binary Tree**
+### **Binary Tree**
 Definition: Implement methods Insert(), Search(), Delete()  
 Solution: [BinaryTreeExample.cpp](cppsolutions/BinaryTreeExample.cpp)  
 
@@ -99,7 +99,7 @@ Given the array, find the largest range in the consecutive number sequence.
 Input: [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 13, 6]  
 Output: 7 (from 0 to 7 the range is 7 which is largest )
 ```
-Solution (C#): [ArrayRangeFind.cs](csharpproject/ArrayRangeFind.CS)  
+Solution: [ArrayRangeFind.cs](csharpproject/ArrayRangeFind.CS)  
 
 ### **Magic Square Formation**
 Definition: [From HackerRank](https://www.hackerrank.com/challenges/magic-square-forming/problem)  
@@ -166,9 +166,20 @@ This section includes all the problems discussed from the book: Robert Sedgewick
 Book Url: [Algorithms - 4th Edition](https://algs4.cs.princeton.edu/home/)  
 
 
-### **ArrayTripletsSumToZero.cs**
+### **ArrayTripletsSumToZero**
 _Definition:_
 ```
 Given N distinct integers, how many triples sum to exactly zero?    
 ```
 Reference: [Chapter2](https://algs4.cs.princeton.edu/14analysis/)
+
+### **Maximum Profit with Stocks**
+_Definition:_
+```
+Write an efficient function that takes stock_prices and returns the best profit I could have made from one purchase and one sale of one share of stock yesterday.
+For, stock_prices = [10, 7, 5, 8, 11, 9]
+get_max_profit(stock_prices)
+Result = 6 (buying for $5 and selling for $11)  
+```
+Reference: [StockPrice](https://www.interviewcake.com/question/python/stock-price)
+
