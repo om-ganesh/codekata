@@ -14,17 +14,22 @@ namespace csharpproject
             string option;
             do
             {
-                IProblem problem = new ArrayRangeFind();
-                //problem.ReadInput();
-                problem.Execute();
-                problem.ShowResult();
+
+                // Replace your running program here
+
+                IProblem problem = new BestProfitStock();
                 
-                // Repeat the problem?
+                //problem.ReadInput();
+                
+                problem.Execute();
+                
+                //problem.ShowResult();
+                
+                
+                // skeleton for running application
                 Console.WriteLine("Press y/Y to repeat.");
                 option = Console.ReadLine().Trim();
-
             }while(string.Equals(option, "y", StringComparison.InvariantCultureIgnoreCase));
-            
         }
 
     }
