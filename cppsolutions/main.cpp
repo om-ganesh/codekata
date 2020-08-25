@@ -36,6 +36,7 @@
 #include "ExpressionEvaluate.cpp"
 #include "BoundaryCheck.cpp"
 #include "FindMaximumRange.cpp"
+#include "StockPrice.cpp"
 
 using namespace std;
 
@@ -136,5 +137,9 @@ int main()
 
     // 24. Find Maximum Range
     FindMaximumRange fmr;
-    fmr.execute();
+    // fmr.execute();
+
+    // 25. Stock Price
+    StockPrice sp;
+    sp.execute();
 }
