@@ -40,9 +40,11 @@ For example: _ck-24-palindrome-subash_
 9. Please follow following format to the commit message  
 
 ```
-CK-[ISSUE #] Title of the Commit <=Subject line (50 character max)
+Title of the Commit <=Subject line (50 character max)
 
 # Description <= Message block (Optional, 72-character wrapped)
+
+Resolve #[IssueNumber]
 ```
 **FYI;** This template is already available in the repository, so just follow these steps to apply the commit template.  
 - Go to the root path of the repository in your gitbash  
