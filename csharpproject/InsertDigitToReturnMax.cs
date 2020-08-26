@@ -12,7 +12,7 @@ namespace csharpproject
         List<int> inputs = new List<int>();
         public void ReadInput()
         {
-            inputs.AddRange(new []{ 97642, -97642, 5555, 1234, -1234, 4321, 21, -456, 9, -9, 0, 200, -200 });
+            inputs.AddRange(new []{ 97642, -97642, 5555, 1234, -1234, 4321, 21, -456, 9, -9, 0, 200, -200, 206, 204, -206, -204 });
         }
 
         public void Execute()
@@ -55,12 +55,7 @@ namespace csharpproject
             int right = number;//97642, 4 
             int bits = (int)Math.Ceiling(Math.Log10((double)right));//5,3
 
-            if(right < 10)
-            {
-                return digit >= right ? digit * 10 + right : right * 10 + digit;
-            }
-
-            while (right >= 10)//T,T,T
+            while (bits >1)//T,T,T
             {
                 int msb = right / (int)Math.Pow(10, bits - 1);//9,7,6,4
                 if (digit >= msb)//F,F,F,T
@@ -83,11 +78,7 @@ namespace csharpproject
             int right = -1 * number;//1234
             int bits = (int)Math.Ceiling(Math.Log10((double)right));//4
 
-            if (right < 10)
-            {
-                return -1 * (digit <= right ? digit * 10 + right : right * 10 + digit);
-            }
-            while (right >= 10)//T
+            while (bits > 1)//T
             {
                 int msb = right / (int)Math.Pow(10, bits - 1);//1,2,3
                 if (digit <= msb)//F,F,F
