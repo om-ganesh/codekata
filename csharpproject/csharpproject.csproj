@@ -48,6 +48,7 @@
     <Compile Include="BalancedBrackets.cs" />
     <Compile Include="BestProfitStock.cs" />
     <Compile Include="DynamicArray.cs" />
+    <Compile Include="HashsetDesign.cs" />
     <Compile Include="IntegerMultiplication.cs" />
     <Compile Include="IProblem.cs" />
     <Compile Include="KLargestInArray.cs" />
