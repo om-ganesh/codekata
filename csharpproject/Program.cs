@@ -17,13 +17,13 @@ namespace csharpproject
 
                 // Replace your running program here
 
-                IProblem problem = new BestProfitStock();
+                IProblem problem = new StackToReverseText();
                 
-                //problem.ReadInput();
+                problem.ReadInput();
                 
                 problem.Execute();
                 
-                //problem.ShowResult();
+                problem.ShowResult();
                 
                 
                 // skeleton for running application

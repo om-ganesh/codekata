@@ -58,7 +58,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortingMerge.cs" />
     <Compile Include="SparseArray.cs" />
+    <Compile Include="StackToEvaluateInfix.cs" />
+    <Compile Include="StackToReverseText.cs" />
     <Compile Include="Utility\ArrayExtensions.cs" />
+    <Compile Include="Utility\StackArray.cs" />
+    <Compile Include="Utility\StackLinkedList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
