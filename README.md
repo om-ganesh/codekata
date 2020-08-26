@@ -44,8 +44,10 @@ Title of the Commit <=Subject line (50 character max)
 
 # Description <= Message block (Optional, 72-character wrapped)
 
-Resolve #[IssueNumber]
+Related To #[IssueNumber]  
 ```
+**Note:** Using **Resolves #[IssueNumber]** will close the issue on project board timeline
+
 **FYI;** This template is already available in the repository, so just follow these steps to apply the commit template.  
 - Go to the root path of the repository in your gitbash  
 - Write the following command to configure your commit template  
