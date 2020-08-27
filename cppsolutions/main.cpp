@@ -36,6 +36,7 @@
 #include "ExpressionEvaluate.cpp"
 #include "BoundaryCheck.cpp"
 #include "FindMaximumRange.cpp"
+#include "DuplicateParenthesis.cpp"
 
 using namespace std;
 
@@ -136,5 +137,9 @@ int main()
 
     // 24. Find Maximum Range
     FindMaximumRange fmr;
-    fmr.execute();
+    // fmr.execute();
+
+    // 27. Check Duplicate Parenthesis
+    DuplicateParenthesis dp;
+    dp.execute();
 }
