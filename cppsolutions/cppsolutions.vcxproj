@@ -172,6 +172,7 @@
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="StackDataStructureByForwardList.cpp" />
     <ClCompile Include="STL.cpp" />
+    <ClCompile Include="StockPrice.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

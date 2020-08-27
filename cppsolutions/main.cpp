@@ -36,6 +36,7 @@
 #include "ExpressionEvaluate.cpp"
 #include "BoundaryCheck.cpp"
 #include "FindMaximumRange.cpp"
+#include "StockPrice.cpp"
 #include "DuplicateParenthesis.cpp"
 
 using namespace std;
@@ -139,7 +140,12 @@ int main()
     FindMaximumRange fmr;
     // fmr.execute();
 
-    // 27. Check Duplicate Parenthesis
+    // 25. Stock Price
+    StockPrice sp;
+    sp.execute();
+    
+    // 26. Check Duplicate Parenthesis
     DuplicateParenthesis dp;
     dp.execute();
+
 }
