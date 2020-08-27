@@ -17,10 +17,8 @@ namespace csharpproject
 
                 // Replace your running program here
 
-                IProblem problem = new BestProfitStock();
-                
-                //problem.ReadInput();
-                
+                IProblem problem = new FindDuplicateParenthesis();
+                problem.ReadInput();
                 problem.Execute();
                 
                 //problem.ShowResult();
