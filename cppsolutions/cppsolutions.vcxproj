@@ -166,6 +166,7 @@
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
     <ClCompile Include="MaxDifferenceInArray.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="MirrorBinaryTree.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
     <ClCompile Include="SparseArray.cpp" />

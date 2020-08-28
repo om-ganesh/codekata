@@ -37,6 +37,7 @@
 #include "BoundaryCheck.cpp"
 #include "FindMaximumRange.cpp"
 #include "StockPrice.cpp"
+#include "MirrorBinaryTree.cpp"
 
 using namespace std;
 
@@ -141,5 +142,9 @@ int main()
 
     // 25. Stock Price
     StockPrice sp;
-    sp.execute();
+    // sp.execute();
+
+    // 27. Mirror Binary Tree
+    MirrorBinaryTree mbt;
+    mbt.execute();
 }
