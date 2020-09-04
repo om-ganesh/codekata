@@ -17,7 +17,7 @@ namespace csharpproject
 
                 // Replace your running program here
 
-                IProblem problem = new BestProfitStock();
+                IProblem problem = new SplitArray();
                 
                 //problem.ReadInput();
                 

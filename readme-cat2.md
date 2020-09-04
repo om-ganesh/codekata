@@ -161,24 +161,17 @@ Reference: [StockPrice](https://www.interviewcake.com/question/python/stock-pric
 Solution: [BestProfitStock.cs](csharpproject/BestProfitStock.cs)  / [StockPrice.cpp](cppsolutions/StockPrice.cpp)  
 
 
-### **Intersection of two arrays**
-Issue: https://github.com/om-ganesh/codekata/issues/32  
+### **Split array into two equal sum subarrays**
+Issue: https://github.com/om-ganesh/codekata/issues/46    
 Definition:
 ```
-Find the intersection of two arrays: 
+You're given an array made up of positive integers. Split the given array into two smaller arrays where the sums of each smaller array are equal. 
+Print out the index from where the left and right smaller arrays are equal.
 Example:
-Input: {11,3,4,9,2} and {2,5,3}
-Output: {3,2}")
+[1,2,1,1,3] -> 2
+[1,1,1,1,1,5] -> 4
+[5,2,3] -> 0
+[1, 2, 3, 4, 5, 5] -> 3
 ```
-Reference: [From Leetcode](https://leetcode.com/problems/intersection-of-two-arrays/)  
-Solution: Not implemented yet  
-
-### **Find middle of given linked list**
-Issue: TODO  
-Definition:
-```
-Given a singly linked list, find middle of the linked list. 
-Example: If given linked list is 1->2->3->4->5->6 then output should be 4
-```
-Reference: [From Geeksforgeeks](https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)  
-Solution: Not implemented yet   
+Reference: [From geeksforgeeks](https://www.geeksforgeeks.org/split-array-two-equal-sum-subarrays/)  
+Solution: [SplitArray.cs](csharpproject/SplitArray.cs) 
