@@ -38,6 +38,7 @@
 #include "FindMaximumRange.cpp"
 #include "StockPrice.cpp"
 #include "MirrorBinaryTree.cpp"
+#include "EqualSumSubArray.cpp"
 
 using namespace std;
 
@@ -146,5 +147,9 @@ int main()
 
     // 27. Mirror Binary Tree
     MirrorBinaryTree mbt;
-    mbt.execute();
+    // mbt.execute();
+
+    // 28. Equal Sum SubArray
+    EqualSumSubArray essa;
+    essa.execute();
 }

@@ -150,6 +150,7 @@
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
     <ClCompile Include="BoundaryCheck.cpp" />
+    <ClCompile Include="EqualSumSubArray.cpp" />
     <ClCompile Include="ExpressionEvaluate.cpp" />
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
