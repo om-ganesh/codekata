@@ -164,25 +164,17 @@ Result = 6 (buying for $5 and selling for $11)
 Reference: [StockPrice](https://www.interviewcake.com/question/python/stock-price)  
 Solution: [BestProfitStock.cs](csharpproject/BestProfitStock.cs)  / [StockPrice.cpp](cppsolutions/StockPrice.cpp)  
 
-
-### **Intersection of two arrays**
-Issue: https://github.com/om-ganesh/codekata/issues/32  
+### **Find duplicate parenthesis**
+Issue: https://github.com/om-ganesh/codekata/issues/19  
 Definition:
 ```
-Find the intersection of two arrays: 
+Given a balanced expression that can contain opening and closing parenthesis, check if expression contains any duplicate parenthesis or not
 Example:
-Input: {11,3,4,9,2} and {2,5,3}
-Output: {3,2}")
-```
-Reference: [From Leetcode](https://leetcode.com/problems/intersection-of-two-arrays/)  
-Solution: Not implemented yet  
+Input: (a+b)+((c+d))
+Output: YES
 
-### **Find middle of given linked list**
-Issue: TODO  
-Definition:
+Input: ((a+b)+(c+d))
+Output: NO
 ```
-Given a singly linked list, find middle of the linked list. 
-Example: If given linked list is 1->2->3->4->5->6 then output should be 4
-```
-Reference: [From Geeksforgeeks](https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)  
-Solution: Not implemented yet   
+Reference: [Geeksforgeeks](https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
+Solution: [FindDuplicateParenthesis.cs](csharpproject/FindDuplicateParenthesis.cs)

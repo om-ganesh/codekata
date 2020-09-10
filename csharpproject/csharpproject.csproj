@@ -49,6 +49,7 @@
     <Compile Include="BestProfitStock.cs" />
     <Compile Include="DynamicArray.cs" />
     <Compile Include="InsertDigitToReturnMax.cs" />
+    <Compile Include="FindDuplicateParenthesis.cs" />
     <Compile Include="IntegerMultiplication.cs" />
     <Compile Include="IProblem.cs" />
     <Compile Include="KLargestInArray.cs" />
