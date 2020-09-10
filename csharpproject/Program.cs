@@ -22,9 +22,7 @@ namespace csharpproject
                 //problem.ReadInput();
                 
                 problem.Execute();
-                
                 //problem.ShowResult();
-                
                 
                 // skeleton for running application
                 Console.WriteLine("Press y/Y to repeat.");

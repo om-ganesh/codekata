@@ -140,13 +140,17 @@ Solution: [JumpingNumber.cpp](cppsolutions/JumpingNumber.cpp)
 Issue: https://github.com/om-ganesh/codekata/issues/29  
 Definition:
 ```
-Write an efficient that takes a number and a digit and returns the highest number, by putting that digit in any location.  
-Definition: find_max_number(int number, int digit)  
-Example1: Number = 756, Digit=4, Result = 7564  
-Example2: Number = -1234, Digit=3, Result = -12334  
+Write a function that returns the maximum possible value obtained by inserting one digit inside the decimal number
+Example: Given digit '5'
+Given N = 276, function should return 5276
+Given N = -999, function should return -5999
+Given N = 0, function should return 50
+Given N = 860, function should return 8650) 
 ```
+Reference: [from Knowsh](https://www.knowsh.com/Notes/250501/Maximum-Possible-Value-By-Inserting-5)  
 Solution: [FindMaximumNumber.cpp](cppsolutions/FindMaximumNumber.cpp)  
-Discussion: [InsertDigit.png](problems/InsertDigit.png)   
+Discussion: [InsertDigit.png](problems/hint-getmaxinsertdigitbetweennumber.png.png)   
+Source: FAANG 2020  
 
 ### **Maximum Profit with Stocks**
 Issue: https://github.com/om-ganesh/codekata/issues/28  
@@ -160,6 +164,20 @@ Result = 6 (buying for $5 and selling for $11)
 Reference: [StockPrice](https://www.interviewcake.com/question/python/stock-price)  
 Solution: [BestProfitStock.cs](csharpproject/BestProfitStock.cs)  / [StockPrice.cpp](cppsolutions/StockPrice.cpp)  
 
+### **Find duplicate parenthesis**
+Issue: https://github.com/om-ganesh/codekata/issues/19  
+Definition:
+```
+Given a balanced expression that can contain opening and closing parenthesis, check if expression contains any duplicate parenthesis or not
+Example:
+Input: (a+b)+((c+d))
+Output: YES
+
+Input: ((a+b)+(c+d))
+Output: NO
+```
+Reference: [Geeksforgeeks](https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
+Solution: [FindDuplicateParenthesis.cs](csharpproject/FindDuplicateParenthesis.cs)
 
 ### **Split array into two equal sum subarrays**
 Issue: https://github.com/om-ganesh/codekata/issues/46    
