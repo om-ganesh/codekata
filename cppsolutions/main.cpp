@@ -38,6 +38,7 @@
 #include "FindMaximumRange.cpp"
 #include "FindMaximumNumber.cpp"
 #include "StockPrice.cpp"
+#include "DuplicateParenthesis.cpp"
 
 using namespace std;
 
@@ -147,4 +148,9 @@ int main()
     // 26. Stock Price
     StockPrice sp;
     sp.execute();
+    
+    // 26. Check Duplicate Parenthesis
+    DuplicateParenthesis dp;
+    dp.execute();
+
 }
