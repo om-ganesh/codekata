@@ -19,10 +19,11 @@ namespace csharpproject
 
                 IProblem problem = new FindDuplicateParenthesis();
                 problem.ReadInput();
+                IProblem problem = new InsertDigitToReturnMax();
+                problem.ReadInput();
+                
                 problem.Execute();
-                
                 //problem.ShowResult();
-                
                 
                 // skeleton for running application
                 Console.WriteLine("Press y/Y to repeat.");
