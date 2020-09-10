@@ -150,10 +150,12 @@
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
     <ClCompile Include="BoundaryCheck.cpp" />
+    <ClCompile Include="DuplicateParenthesis.cpp" />
     <ClCompile Include="EqualSumSubArray.cpp" />
     <ClCompile Include="ExpressionEvaluate.cpp" />
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
+    <ClCompile Include="FindMaximumNumber.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
     <ClCompile Include="GraphBFSAndDFS.cpp" />
     <ClCompile Include="JumpingNumber.cpp" />

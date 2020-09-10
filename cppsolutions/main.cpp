@@ -36,7 +36,9 @@
 #include "ExpressionEvaluate.cpp"
 #include "BoundaryCheck.cpp"
 #include "FindMaximumRange.cpp"
+#include "FindMaximumNumber.cpp"
 #include "StockPrice.cpp"
+#include "DuplicateParenthesis.cpp"
 #include "MirrorBinaryTree.cpp"
 #include "EqualSumSubArray.cpp"
 
@@ -141,9 +143,17 @@ int main()
     FindMaximumRange fmr;
     // fmr.execute();
 
-    // 25. Stock Price
+    // 25. Find Maximum Number given a Digit
+    FindMaximumNumber fmn;
+    // fmn.execute();
+  
+    // 26. Stock Price
     StockPrice sp;
-    // sp.execute();
+    //sp.execute();
+    
+    // 26. Check Duplicate Parenthesis
+    DuplicateParenthesis dp;
+    //dp.execute();
 
     // 27. Mirror Binary Tree
     MirrorBinaryTree mbt;

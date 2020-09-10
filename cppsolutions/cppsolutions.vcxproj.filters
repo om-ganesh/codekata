@@ -90,7 +90,13 @@
     <ClCompile Include="FindMaximumRange.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FindMaximumNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="StockPrice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DuplicateParenthesis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MirrorBinaryTree.cpp">
