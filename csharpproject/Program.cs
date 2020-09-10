@@ -17,10 +17,9 @@ namespace csharpproject
 
                 // Replace your running program here
 
-                IProblem problem = new FindDuplicateParenthesis();
-                problem.ReadInput();
-                IProblem problem = new InsertDigitToReturnMax();
-                problem.ReadInput();
+                IProblem problem = new SplitArray();
+                
+                //problem.ReadInput();
                 
                 problem.Execute();
                 //problem.ShowResult();

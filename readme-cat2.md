@@ -178,3 +178,18 @@ Output: NO
 ```
 Reference: [Geeksforgeeks](https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
 Solution: [FindDuplicateParenthesis.cs](csharpproject/FindDuplicateParenthesis.cs)
+
+### **Split array into two equal sum subarrays**
+Issue: https://github.com/om-ganesh/codekata/issues/46    
+Definition:
+```
+You're given an array made up of positive integers. Split the given array into two smaller arrays where the sums of each smaller array are equal. 
+Print out the index from where the left and right smaller arrays are equal.
+Example:
+[1,2,1,1,3] -> 2
+[1,1,1,1,1,5] -> 4
+[5,2,3] -> 0
+[1, 2, 3, 4, 5, 5] -> 3
+```
+Reference: [From geeksforgeeks](https://www.geeksforgeeks.org/split-array-two-equal-sum-subarrays/)  
+Solution: [SplitArray.cs](csharpproject/SplitArray.cs) 
