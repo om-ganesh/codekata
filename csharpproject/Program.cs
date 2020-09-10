@@ -14,17 +14,11 @@ namespace csharpproject
             string option;
             do
             {
-
-                // Replace your running program here
-
-                IProblem problem = new BestProfitStock();
-                
-                //problem.ReadInput();
+                IProblem problem = new InsertDigitToReturnMax();
+                problem.ReadInput();
                 
                 problem.Execute();
-                
                 //problem.ShowResult();
-                
                 
                 // skeleton for running application
                 Console.WriteLine("Press y/Y to repeat.");
