@@ -14,6 +14,11 @@ namespace csharpproject
             string option;
             do
             {
+
+                // Replace your running program here
+
+                IProblem problem = new FindDuplicateParenthesis();
+                problem.ReadInput();
                 IProblem problem = new InsertDigitToReturnMax();
                 problem.ReadInput();
                 
