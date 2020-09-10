@@ -36,6 +36,7 @@
 #include "ExpressionEvaluate.cpp"
 #include "BoundaryCheck.cpp"
 #include "FindMaximumRange.cpp"
+#include "FindMaximumNumber.cpp"
 #include "StockPrice.cpp"
 
 using namespace std;
@@ -139,7 +140,11 @@ int main()
     FindMaximumRange fmr;
     // fmr.execute();
 
-    // 25. Stock Price
+    // 25. Find Maximum Number given a Digit
+    FindMaximumNumber fmn;
+    // fmn.execute();
+  
+    // 26. Stock Price
     StockPrice sp;
     sp.execute();
 }
