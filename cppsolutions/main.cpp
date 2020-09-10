@@ -39,6 +39,8 @@
 #include "FindMaximumNumber.cpp"
 #include "StockPrice.cpp"
 #include "DuplicateParenthesis.cpp"
+#include "MirrorBinaryTree.cpp"
+#include "EqualSumSubArray.cpp"
 
 using namespace std;
 
@@ -147,10 +149,17 @@ int main()
   
     // 26. Stock Price
     StockPrice sp;
-    sp.execute();
+    //sp.execute();
     
     // 26. Check Duplicate Parenthesis
     DuplicateParenthesis dp;
-    dp.execute();
+    //dp.execute();
 
+    // 27. Mirror Binary Tree
+    MirrorBinaryTree mbt;
+    // mbt.execute();
+
+    // 28. Equal Sum SubArray
+    EqualSumSubArray essa;
+    essa.execute();
 }
