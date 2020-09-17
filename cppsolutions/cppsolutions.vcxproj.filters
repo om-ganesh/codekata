@@ -105,5 +105,8 @@
     <ClCompile Include="EqualSumSubArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumWindowSubstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
