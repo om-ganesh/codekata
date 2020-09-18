@@ -42,6 +42,7 @@
 #include "MirrorBinaryTree.cpp"
 #include "EqualSumSubArray.cpp"
 #include "MinimumSpanningTree.cpp"
+#include "CriticalAndPseudocriticalEdges.cpp"
 
 using namespace std;
 
@@ -166,5 +167,9 @@ int main()
 
     // 29. Minimum Spanning Tree
     MinimumSpanningTree mst;
-    mst.execute();
+    // mst.execute();
+
+    // 30. Critical-Pseudocritical Edges
+    CriticalAndPseudocriticalEdges cpce;
+    cpce.execute();
 }
