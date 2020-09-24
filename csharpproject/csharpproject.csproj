@@ -61,6 +61,7 @@
     <Compile Include="LowerBoundSTL.cs" />
     <Compile Include="MagicSquareFormation.cs" />
     <Compile Include="MaxDiffInArray.cs" />
+    <Compile Include="MSTMinCostToConnectPoints.cs" />
     <Compile Include="PeakFinding1d.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

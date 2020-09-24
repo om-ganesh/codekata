@@ -19,7 +19,7 @@ namespace csharpproject
             {
 
                 // Just replace the name of the class to execute
-                IProblem problem = new LongestPalindromeSubstring();
+                IProblem problem = new MSTMinCostToConnectPoints();
                 problem.Execute();
                 problem.ShowResult();
                 
@@ -27,6 +27,5 @@ namespace csharpproject
                 option = Console.ReadLine().Trim();
             }while(string.Equals(option, "y", StringComparison.InvariantCultureIgnoreCase));
         }
-
     }
 }
