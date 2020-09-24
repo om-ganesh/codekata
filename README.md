@@ -5,25 +5,8 @@ This file maintains the details of each program and the related source/other inf
 * IDE: Visual Studio 2019 (.net version 8.0)  
 
 ## Problem Categories
-The repository/project CodeKata (aka **CK**) is divided into different categories, as follows with respective readme file.
-
-
-### CATEGORY1: Algorithm Fundamentals
-This section includes all the basic fundamental algorithms and the varieties of implementations  
-[View readme for details](readme-cat1.md)
-  
-  
-  
-### CATEGORY2: Problems
-This section includes various problems from different online sources and real interview sessions  
-[View readme for details](readme-cat2.md)  
-  
-
-    
-### CATEGORY3: Algorithms: 24-part Lecture Series
-This section includes all the problems discussed from the book: Robert Sedgewick / Kevin Wayne  
-Book Url: [Algorithms - 4th Edition](https://algs4.cs.princeton.edu/home/)   
-[View readme for details](readme-cat3.md)  
+The repository/project CodeKata (aka **CK**) is divided into different categories, and distributed into different projects.  
+You can find the respective readme file for each project, illustrating the addressed problem solutions.  
 
 
 ## Code Contribution

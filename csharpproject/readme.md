@@ -1,4 +1,4 @@
-# CATEGORY2: Problems
+# Online Problems (mostly from geeksofgeeks, leetcode, hackerrank, and more)
 This section includes various problems from different online sources and real interview sessions
 
 ### **Dynamic Array**  
