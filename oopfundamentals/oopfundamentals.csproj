@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{949C3854-17E0-459A-AEA4-0FBAB037299B}</ProjectGuid>
+    <ProjectGuid>{42B718AC-9306-4106-AF31-A7AA7C87EB75}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>dsaexposed</RootNamespace>
-    <AssemblyName>dsaexposed</AssemblyName>
+    <RootNamespace>oopfundamentals</RootNamespace>
+    <AssemblyName>oopfundamentals</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,20 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuiltInCollections.cs" />
-    <Compile Include="models\BinarySearcher.cs" />
-    <Compile Include="models\CompanyTree.cs" />
-    <Compile Include="models\MyLinkedList.cs" />
-    <Compile Include="models\Node.cs" />
-    <Compile Include="models\SortingAlgo.cs" />
-    <Compile Include="MyLinkedListImplement.cs" />
+    <Compile Include="models\Car.cs" />
+    <Compile Include="models\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShowTreeChildrenBreadthWise.cs" />
-    <Compile Include="TreeTraversal.cs" />
+    <Compile Include="WhatIsStaticInitializer.cs" />
+    <Compile Include="WhatIsVirtual.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
