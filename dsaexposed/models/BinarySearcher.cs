@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DSAExposed.models
+namespace dsaexposed.models
 {
     
     public class BinarySearcher

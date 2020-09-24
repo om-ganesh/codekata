@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DSAExposed
+namespace dsaexposed.models
 {
     class MyLinkedList<T>
     {

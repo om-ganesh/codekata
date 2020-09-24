@@ -16,3 +16,9 @@ Solution: [MyLinkedList.cs](models/MyLinkedList.cs)
 Issue:  
 Definition: Implement Bubble, Insertion, Selection and Merge Sorting algorithms
 Solution: [SortingAlgo.cs](models/SortingAlgo.cs)  
+
+### **Tree Traversal Algorithms**
+Issue:  
+Definition: Implement tree traversal algorithms  
+API: : PreTraversal, InTraversal, PostTraversal, BFS Traversal, BFS Traversal with level, Breadth First Search (BFS), Depth First Search (DFS)  
+Solution: [SortingAlgo.cs](models/SortingAlgo.cs)  

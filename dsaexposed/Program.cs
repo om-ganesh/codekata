@@ -1,5 +1,5 @@
-﻿using DSAExposed;
-using DSAExposed.models;
+﻿using dsaexposed;
+using dsaexposed.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,10 +19,15 @@ namespace dsaexposed
 
             BinarySearcher.Init();
 
-            //SortingAlgo.Init();
+            SortingAlgo.Init();
 
-            //Just exploring the builtin collections also
-            //BuiltInCollections.Init();
+            Console.WriteLine("@HelloGybe Interview!!!");
+            ShowTreeChildrenBreadthWise.Init();
+
+            Console.WriteLine("@IBM Asked!!!");
+            TreeTraversal traversal = new TreeTraversal();
+            traversal.Init();
+            traversal.Init(true); //Create a binary search tree
 
             Console.Read();
         }
