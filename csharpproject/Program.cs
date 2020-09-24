@@ -17,10 +17,9 @@ namespace csharpproject
 
                 // Replace your running program here
 
-                IProblem problem = new SplitArray();
+                IProblem problem = new LongestPalindromeSubstring();
                 
                 //problem.ReadInput();
-                
                 problem.Execute();
                 //problem.ShowResult();
                 

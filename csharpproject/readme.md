@@ -1,4 +1,4 @@
-# Online Problems (mostly from geeksofgeeks, leetcode, hackerrank, and more)
+﻿# Online Problems (mostly from geeksofgeeks, leetcode, hackerrank, and more)
 This section includes various problems from different online sources and real interview sessions
 
 ### **Dynamic Array**  
@@ -193,3 +193,17 @@ Example:
 ```
 Reference: [From geeksforgeeks](https://www.geeksforgeeks.org/split-array-two-equal-sum-subarrays/)  
 Solution: [SplitArray.cs](csharpproject/SplitArray.cs) 
+
+### **Longest palindrome substring from the given string**
+Issue: https://github.com/om-ganesh/codekata/issues/54    
+Definition:
+```
+Given a string S, find the longest palindromic substring in S. Substring of string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S). Palindrome string: A string which reads the same backwards. More formally, S is palindrome if reverse(S) = S. Incase of conflict, return the substring which occurs first ( with the least starting index ).
+NOTE: Required Time Complexity O(n2).
+Example:
+Input: aaaabbaa
+Output:
+aabbaa
+```
+Reference: [From geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0)  
+Solution: [LongestPalindromeSubstring.cs](csharpproject/LongestPalindromeSubstring.cs) 

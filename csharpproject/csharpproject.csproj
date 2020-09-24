@@ -53,6 +53,7 @@
     <Compile Include="IntegerMultiplication.cs" />
     <Compile Include="IProblem.cs" />
     <Compile Include="KLargestInArray.cs" />
+    <Compile Include="LongestPalindromeSubstring.cs" />
     <Compile Include="LowerBoundSTL.cs" />
     <Compile Include="MaxDiffInArray.cs" />
     <Compile Include="PeakFinding1d.cs" />
