@@ -58,13 +58,13 @@
     <Compile Include="PeakFinding1d.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortingMerge.cs" />
     <Compile Include="SparseArray.cs" />
     <Compile Include="SplitArray.cs" />
     <Compile Include="Utility\ArrayExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="readme.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

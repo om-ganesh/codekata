@@ -5,7 +5,8 @@ This file maintains the details of each program and the related source/other inf
 * IDE: Visual Studio 2019 (.net version 8.0)  
 
 ## Problem Categories
-The repository/project CodeKata (aka **CK**) is divided into different categories, as follows with respective readme file.
+The repository/project CodeKata (aka **CK**) is divided into different categories, and distributed into different projects.  
+You can find the respective readme file for each project, illustrating the addressed problem solutions.  
 
 
 ### CATEGORY1: Algorithm Fundamentals

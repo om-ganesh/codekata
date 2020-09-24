@@ -3,24 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace csharpproject
+namespace dsaexposed
 {
-    class SortingMerge : IProblem
+    class SortingMerge
     {
-        int[] input;
-        int[] output;
-        public void Execute()
+        static int[] input;
+        public static void Init()
         {
             //Give input array separated by space
             input = new int[] { 8, -5, 3, 0, 1, 4, -2 };
             //input = new int[] { 8, 5, 3, 6, 1, 4, 2 };
             //input = new int[] { 5,4,3,2,1 };
             Console.WriteLine($"The input array is: [{string.Join(",", input)}]");
-            output = Sort(input);
+            var output = Sort(input);
+            Console.WriteLine($"The sorted array is: [{string.Join(",", output)}]");
 
         }
 
-        private int[] Sort(int[] x)
+        private static int[] Sort(int[] x)
         {
             if(x.Length<=2)
             {
@@ -52,7 +52,7 @@ namespace csharpproject
             return result;
         }
 
-        private int[] Merge(int[] left, int[] right)
+        private static int[] Merge(int[] left, int[] right)
         {
             int[] c = new int[left.Length+right.Length];
             int i = 0, j=0;
@@ -80,17 +80,6 @@ namespace csharpproject
                 }
             }
             return c;
-        }
-
-        public void ReadInput()
-        {
-            //int inputSize = Convert.ToInt32(Console.ReadLine());
-            input = (Console.ReadLine().Split(' ').ToList().Select(x => Convert.ToInt32(x))).ToArray();
-        }
-
-        public void ShowResult()
-        {
-            Console.WriteLine($"The sorted array is: [{string.Join(",",output)}]");
         }
     }
 }

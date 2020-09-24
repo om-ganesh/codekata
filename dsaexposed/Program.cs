@@ -16,6 +16,7 @@ namespace dsaexposed
 
             //TODO
             //MyLinkedListImplement.Init();
+            SortingMerge.Init();
 
             BinarySearcher.Init();
 

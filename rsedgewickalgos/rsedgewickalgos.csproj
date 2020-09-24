@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{949C3854-17E0-459A-AEA4-0FBAB037299B}</ProjectGuid>
+    <ProjectGuid>{009D99FF-1909-4359-966C-0C66D68DB62C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>dsaexposed</RootNamespace>
-    <AssemblyName>dsaexposed</AssemblyName>
+    <RootNamespace>rsedgewickalgos</RootNamespace>
+    <AssemblyName>rsedgewickalgos</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="models\BinarySearcher.cs" />
-    <Compile Include="models\CompanyTree.cs" />
-    <Compile Include="models\MyLinkedList.cs" />
-    <Compile Include="models\Node.cs" />
-    <Compile Include="models\SortingAlgo.cs" />
-    <Compile Include="MyLinkedListImplement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShowTreeChildrenBreadthWise.cs" />
-    <Compile Include="SortingMerge.cs" />
-    <Compile Include="TreeTraversal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oopfundamentals", "oopfunda
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JonahRuleEngine", "JonahRuleEngine\JonahRuleEngine.csproj", "{ED66236D-77C0-4D15-BFA7-42FA739453E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rsedgewickalgos", "rsedgewickalgos\rsedgewickalgos.csproj", "{009D99FF-1909-4359-966C-0C66D68DB62C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,18 @@ Global
 		{ED66236D-77C0-4D15-BFA7-42FA739453E5}.Release|x64.Build.0 = Release|Any CPU
 		{ED66236D-77C0-4D15-BFA7-42FA739453E5}.Release|x86.ActiveCfg = Release|Any CPU
 		{ED66236D-77C0-4D15-BFA7-42FA739453E5}.Release|x86.Build.0 = Release|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Debug|x64.Build.0 = Debug|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Debug|x86.Build.0 = Debug|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Release|x64.ActiveCfg = Release|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Release|x64.Build.0 = Release|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Release|x86.ActiveCfg = Release|Any CPU
+		{009D99FF-1909-4359-966C-0C66D68DB62C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
