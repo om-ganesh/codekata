@@ -46,6 +46,7 @@
     <Compile Include="AmznBlock.cs" />
     <Compile Include="ArrayRangeFind.cs" />
     <Compile Include="BalancedBrackets.cs" />
+    <Compile Include="MinimumSubstring.cs" />
     <Compile Include="StockPriceProfit.cs" />
     <Compile Include="DynamicArray.cs" />
     <Compile Include="FindDistinctNumbers.cs" />

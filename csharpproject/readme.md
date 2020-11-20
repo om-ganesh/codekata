@@ -121,3 +121,17 @@ Solution: [FindDuplicateParenthesis.cs](csharpproject/FindDuplicateParenthesis.c
 Issue: https://github.com/om-ganesh/codekata/issues/46    
 Definition: [geeksforgeeks](https://www.geeksforgeeks.org/split-array-two-equal-sum-subarrays/)  
 Solution: [TwoEqualSumSubarray.cs](csharpproject/TwoEqualSumSubarray.cs) 
+
+### **Minimum substring containing all characters**
+Issue: https://github.com/om-ganesh/codekata/issues/60  
+Definition:
+```
+Given an array of characters and a string, implement a method to return a minimum length substring containing all characters in the array.
+Example:
+arr: ['a','b','c']
+str: abdc
+Output: abdc
+```
+Reference: [interviewing.io](https://interviewing.io/recordings/Python-JPMorgan-1/)
+Solution: [MinimumSubstring.cs](csharpproject/MinimumSubstring.cs) 
+
