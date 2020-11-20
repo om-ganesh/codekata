@@ -6,30 +6,33 @@ using System.Threading.Tasks;
 
 namespace csharpproject
 {
-    class SplitArray : IProblem
+    /// <summary>
+    /// https://www.geeksforgeeks.org/split-array-two-equal-sum-subarrays/
+    /// </summary>
+    class TwoEqualSumSubarray : IProblem
     {
-        List<int[]> data;
-        public SplitArray()
+        List<int[]> dataset;
+        public TwoEqualSumSubarray()
         {
-            data = new List<int[]>();
-            data.Add(new[] {1, 2, 3});
-            data.Add(new[] {1, 2, 3, 3});
-            data.Add(new[] { 1, 2, 3, 4, 5, 5 });
-            data.Add(new[] { 4, 1, 2, 3 });
-            data.Add(new[] { 4, 3, 2, 1 });
-            data.Add(new[] { 1, 2, 1, 1, 3 });
-            data.Add(new[] { 1, 1, 1, 1, 1, 5 });
-            data.Add(new[] { 5, 2, 3 });
-            data.Add(new[] {1, -2, 0, 2, 1 });
+            dataset = new List<int[]>();
+            dataset.Add(new[] {1, 2, 3});
+            dataset.Add(new[] {1, 2, 3, 3});
+            dataset.Add(new[] { 1, 2, 3, 4, 5, 5 });
+            dataset.Add(new[] { 4, 1, 2, 3 });
+            dataset.Add(new[] { 4, 3, 2, 1 });
+            dataset.Add(new[] { 1, 2, 1, 1, 3 });
+            dataset.Add(new[] { 1, 1, 1, 1, 1, 5 });
+            dataset.Add(new[] { 5, 2, 3 });
+            dataset.Add(new[] {1, -2, 0, 2, 1 });
 
         }
         public void Execute()
         {
-            data.ForEach(d =>
+            dataset.ForEach(data =>
             {
-                Console.WriteLine($"\nRunning Dataset: {string.Join(",", d)}");
+                Console.WriteLine($"\nRunning Dataset: {string.Join(",", data)}");
 
-               var index = GetSplitIndex(d);
+               var index = GetSplitIndex(data);
                 if (index == -1)
                 {
                     Console.WriteLine($"Output: Array can not be equally splitted"); 

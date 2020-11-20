@@ -7,26 +7,31 @@ using System.Threading.Tasks;
 namespace csharpproject
 {
     /// <summary>
+    /// https://www.interviewcake.com/question/python/stock-price
     /// Case1: The price is constant througout the day
     /// Case2: The price continuously decline throughout the days
     /// </summary>
-    class BestProfitStock : IProblem
+    class StockPriceProfit : IProblem
     {
+        List<int[]> dataset = new List<int[]>();
+
+        public StockPriceProfit()
+        {
+            dataset.Add(new[] { 10, 7, 5, 8, 11, 9 });
+            dataset.Add(new[] { 12, 11, 9, 7, 3 });
+            dataset.Add(new[] { 11, 11, 11, 11 });
+            dataset.Add(new[] { 1, 11, 3, 0, 15, 9, 2, 4, 10, 7, 12, 8 });
+            dataset.Add(new[] { 1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 13, 6, 12, 14, 16, 18, 19, 17 });
+            dataset.Add(new[] { 1 });
+            dataset.Add(new[] { 4, 3, 2, 1 });
+        }
+
         public void Execute()
         {
-            List<int[]> data = new List<int[]>();
-            data.Add(new[] { 10, 7, 5, 8, 11, 9 });
-            data.Add(new[] { 12, 11,9,7,3 });
-            data.Add(new[] { 11, 11, 11, 11 });
-            data.Add(new[] { 1, 11, 3, 0, 15, 9, 2, 4, 10, 7, 12, 8 });
-            data.Add(new[] { 1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 13, 6, 12, 14, 16, 18, 19, 17 });
-            data.Add(new[] { 1 });
-            data.Add(new[] { 4, 3, 2, 1 });
-
-            data.ForEach(dt =>
+            dataset.ForEach(data =>
             {
-                bool status = TryGetMaxProfit(dt, out int result);
-                Console.Write($"The max profit from stock prices [{string.Join(",", dt)}] = ");
+                bool status = TryGetMaxProfit(data, out int result);
+                Console.Write($"The max profit from stock prices [{string.Join(",", data)}] = ");
                 if (status)
                 {
                     Console.WriteLine(result);
@@ -36,11 +41,6 @@ namespace csharpproject
                     Console.WriteLine("Invalid Input");
                 }
             });
-        }
-
-        public void ReadInput()
-        {
-            throw new NotImplementedException();
         }
 
         public void ShowResult()

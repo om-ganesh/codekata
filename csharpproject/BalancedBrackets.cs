@@ -5,7 +5,10 @@ using System.Linq;
 
 namespace csharpproject
 {
-    class BalancedBrackets: IProblem
+    /// <summary>
+    /// https://www.hackerrank.com/challenges/balanced-brackets/problem
+    /// </summary>
+    class BalancedBrackets : IProblem
     {
         string[] data;
         bool[] result;
@@ -13,13 +16,6 @@ namespace csharpproject
         {
             data = new string[]{ " ", "( ", " (]", "[||]", "((((()", "()))", "(()]", "{}[","[]{}","{[]}","[]{(}","({[}])","{{[[(())]]}}" };
             result = new bool[data.Length];
-        }
-
-        public void ReadInput()
-        {
-            Console.WriteLine("Give input strings separated by , e.g. {]{}((,[]");
-            data = Console.ReadLine().TrimEnd().Split(',');
-            result = new Boolean[data.Length]; 
         }
 
         public void Execute()

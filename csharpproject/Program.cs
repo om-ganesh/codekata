@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace csharpproject
 {
+    /// <summary>
+    /// https://github.com/om-ganesh/codekata/tree/master/csharpproject
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -17,10 +20,8 @@ namespace csharpproject
 
                 // Replace your running program here
 
-                IProblem problem = new SplitArray();
-                
+                IProblem problem = new KLargestInArray();
                 //problem.ReadInput();
-                
                 problem.Execute();
                 //problem.ShowResult();
                 

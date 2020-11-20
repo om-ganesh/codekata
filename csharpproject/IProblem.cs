@@ -6,8 +6,6 @@ namespace csharpproject
 {
     interface IProblem
     {
-        void ReadInput(); 
-        
         void Execute();
         
 

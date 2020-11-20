@@ -4,13 +4,16 @@ using System.Text;
 
 namespace csharpproject
 {
-    class IntegerMultiplication : IProblem
+    /// <summary>
+    /// https://www.geeksforgeeks.org/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/
+    /// </summary>
+    class KaratsubaMultiplication : IProblem
     {
         int input1;
         int input2;
         int result;
             
-        public IntegerMultiplication()
+        public KaratsubaMultiplication()
         {
             input1 = 5678;
             input2 = 1234;

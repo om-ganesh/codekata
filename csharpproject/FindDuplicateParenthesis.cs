@@ -8,36 +8,39 @@ using System.Threading.Tasks;
 
 namespace csharpproject
 {
+    /// <summary>
+    /// https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
+    /// </summary>
     class FindDuplicateParenthesis : IProblem
     {
-        List<string> inputs = new List<string>();
+        List<string> dataset = new List<string>();
         public void ReadInput()
         {
-            //inputs.Add("(a+b)+((c+d))");
-            //inputs.Add("((a+b)+(c+d))");
-            //inputs.Add("(((a+(b)))+(c+d))");
-            //inputs.Add("((a+(b))+(c+d))");
-            //inputs.Add("(((a+(b))+c+d))");
-            //inputs.Add("((a+(b))+(c+d))");
-            inputs.Add("(((a)))");
+            dataset.Add("(a+b)+((c+d))");
+            dataset.Add("((a+b)+(c+d))");
+            dataset.Add("(((a+(b)))+(c+d))");
+            dataset.Add("((a+(b))+(c+d))");
+            dataset.Add("(((a+(b))+c+d))");
+            dataset.Add("((a+(b))+(c+d))");
+            dataset.Add("(((a)))");
             //Scenario: If stack top is also closing and input expression is opening at same instance its duplicate
         }
 
         public void Execute()
         {
-            inputs.ForEach(input =>
+            dataset.ForEach(data =>
             {
-                sbyte result = ContainsAnyDuplicateParenthesis(input);
+                sbyte result = ContainsAnyDuplicateParenthesis(data);
 
                 if(result == -1)
                 {
-                    Console.WriteLine($"The array {input} is invalid expression");
+                    Console.WriteLine($"The array {data} is invalid expression");
                 }
                 else
                 {
                     //string postfix = ConvertInfixToPostfix(input);
                     //Console.WriteLine($"The infix {input} expression for which postfix is {postfix}");
-                    Console.WriteLine($"The array {input} contains duplicate parenthesis ? {result}");
+                    Console.WriteLine($"The array {data} contains duplicate parenthesis ? {result}");
                 }
             });
         }
@@ -94,7 +97,6 @@ namespace csharpproject
 
         public void ShowResult()
         {
-            throw new NotImplementedException();
         }
 
         // Not part of the solution
@@ -147,4 +149,4 @@ namespace csharpproject
         //    return !(element == '+' || element == '-' || element == '*' || element == '(' || element == ')');
         //}
     }
- }
+}
