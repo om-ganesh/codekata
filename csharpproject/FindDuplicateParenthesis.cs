@@ -14,7 +14,8 @@ namespace csharpproject
     class FindDuplicateParenthesis : IProblem
     {
         List<string> dataset = new List<string>();
-        public void ReadInput()
+
+        public FindDuplicateParenthesis()
         {
             dataset.Add("(a+b)+((c+d))");
             dataset.Add("((a+b)+(c+d))");

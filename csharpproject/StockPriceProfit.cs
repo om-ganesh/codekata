@@ -45,7 +45,6 @@ namespace csharpproject
 
         public void ShowResult()
         {
-            throw new NotImplementedException();
         }
 
         private bool TryGetMaxProfit(int[] prices, out int maxProfit)

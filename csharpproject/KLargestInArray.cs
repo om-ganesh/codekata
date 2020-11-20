@@ -23,8 +23,11 @@ namespace csharpproject
 
         public void Execute()
         {
-            //FindKLargestElements();
-            kthLargest = FindKthLargest(arr, k);
+            //Problem1 
+            FindKLargestElements();
+
+            //Problem2
+            kthLargest = FindKthLargest1(arr, k);
             Console.WriteLine($"The {k}th largest element from {string.Join(",", arr)} is {kthLargest}");
 
         }

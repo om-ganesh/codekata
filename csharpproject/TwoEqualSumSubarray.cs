@@ -87,7 +87,6 @@ namespace csharpproject
 
         public void ShowResult()
         {
-            throw new NotImplementedException();
         }
     }
 }
