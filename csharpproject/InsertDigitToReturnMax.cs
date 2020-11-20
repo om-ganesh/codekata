@@ -9,15 +9,16 @@ namespace csharpproject
     class InsertDigitToReturnMax : IProblem
     {
         int digit = 5;
-        List<int> inputs = new List<int>();
-        public void ReadInput()
-        {
-            inputs.AddRange(new []{ 97642, -97642, 5555, 1234, -1234, 4321, 21, -456, 9, -9, 0, 200, -200, 206, 204, -206, -204 });
-        }
+        List<int> dataset = new List<int>();
 
+        public InsertDigitToReturnMax()
+        {
+            dataset.AddRange(new[] { 97642, -97642, 5555, 1234, -1234, 4321, 21, -456, 9, -9, 0, 200, -200, 206, 204, -206, -204 });
+        }
+        
         public void Execute()
         {
-            inputs.ForEach(number =>
+            dataset.ForEach(number =>
             {
                 int result = GiveMaxByInsertingDigit(number, digit);
                 Console.WriteLine($"The max number after inserting {digit} in between number {number} = {result}");
@@ -28,7 +29,6 @@ namespace csharpproject
 
         public void ShowResult()
         {
-            throw new NotImplementedException();
         }
 
 

@@ -5,13 +5,26 @@ using System.Linq;
 
 namespace csharpproject
 {
+    /// <summary>
+    /// https://www.geeksforgeeks.org/maximum-difference-between-two-elements-in-an-array/
+    /// </summary>
     class MaxDiffInArray : IProblem
     {
-        int[] data;
-        int diff;
+        List<int[]> dataset = new List<int[]>();
+
+        public MaxDiffInArray()
+        {
+            dataset.Add(new int[]{12,30,7,0,1,88,88 });
+            dataset.Add(new int[]{12,30,7,0,1,-88,88 });
+            dataset.Add(new int[] { -12, -30, -7, -1, -88, -8 });
+        }
         public void Execute()
         {
-            diff = FindMaxDiff(data);
+            dataset.ForEach(data =>
+            {
+                var diff = FindMaxDiff(data);
+                Console.WriteLine($"The max diff in array {String.Join(",", data)} is {diff}");
+            });
         }
 
         private int FindMaxDiff(int[] arr)
@@ -34,16 +47,9 @@ namespace csharpproject
             return max-min;
         }
 
-        public void ReadInput()
-        {
-            //data = new int[]{12,30,7,0,1,88,88 };
-            //data = new int[]{12,30,7,0,1,-88,88 };
-            data = new int[]{-12,-30,-7,-1,-88,-8 };
-        }
-
         public void ShowResult()
         {
-            Console.WriteLine($"The max diff in array {String.Join(",", data)} is {diff}");
+            
         }
     }
 }

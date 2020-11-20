@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace csharpproject
@@ -10,11 +11,25 @@ namespace csharpproject
     /// </summary>
     class PeakFinding1d : IProblem
     {
-        int[] data;
-        int peak;
+        List<int[]> dataset = new List<int[]>();
+
+        public PeakFinding1d()
+        {
+            dataset.Add(new int[]{1,2,33,30,22,20,19,13,4,4 });
+            dataset.Add(new int[]{4,9,8,7,6,5,4 });
+            dataset.Add(new int[]{1,2,6,7,8,9,2});
+            dataset.Add(new int[]{1,2,3,4,3,2,1});
+            dataset.Add(new int[]{1,2,3,4 });
+            dataset.Add(new int[] { 4, 3, 2 });
+        }
         public void Execute()
         {
-            peak = FindPeak(0, data.Length-1, data);
+            dataset.ForEach(data =>
+             {
+                 var peak = FindPeak(0, data.Length - 1, data);
+                 string result = peak == -1 ? "Not Found" : data[peak].ToString();
+                 System.Console.WriteLine($"The peak for {string.Join(",", data)} is {result}");
+             });
         }
 
         private int FindPeak(int l, int r, int[] arr)
@@ -34,20 +49,9 @@ namespace csharpproject
             return result; //Not found
         }
 
-        public void ReadInput()
-        {
-            //data = new int[]{1,2,33,30,22,20,19,13,4,4 };
-            //data = new int[]{4,9,8,7,6,5,4 };
-            //data = new int[]{1,2,6,7,8,9,2};
-            //data = new int[]{1,2,3,4,3,2,1};
-            //data = new int[]{1,2,3,4 };
-            data = new int[]{4,3,2 };
-        }
-
         public void ShowResult()
         {
-            string result = peak == -1 ? "Not Found": data[peak].ToString();
-            System.Console.WriteLine($"The peak for {string.Join(",", data)} is {result}");
+            
         }
     }
 }

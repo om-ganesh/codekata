@@ -6,7 +6,6 @@ using System.Text;
 namespace csharpproject
 {
     /// <summary>
-    /// Source:
     /// https://www.hackerrank.com/challenges/dynamic-array/problem
     /// </summary>
     class DynamicArray : IProblem
@@ -57,11 +56,6 @@ namespace csharpproject
                         break;
                 }
             }
-        }
-
-        public void ReadInput()
-        {
-            throw new NotImplementedException();
         }
 
         public void ShowResult()

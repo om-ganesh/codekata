@@ -46,21 +46,26 @@
     <Compile Include="AmznBlock.cs" />
     <Compile Include="ArrayRangeFind.cs" />
     <Compile Include="BalancedBrackets.cs" />
-    <Compile Include="BestProfitStock.cs" />
+    <Compile Include="StockPriceProfit.cs" />
     <Compile Include="DynamicArray.cs" />
+    <Compile Include="FindDistinctNumbers.cs" />
+    <Compile Include="GivenSumSubArray.cs" />
     <Compile Include="InsertDigitToReturnMax.cs" />
     <Compile Include="FindDuplicateParenthesis.cs" />
-    <Compile Include="IntegerMultiplication.cs" />
+    <Compile Include="JumpingNumbers.cs" />
+    <Compile Include="KaratsubaMultiplication.cs" />
     <Compile Include="IProblem.cs" />
     <Compile Include="KLargestInArray.cs" />
+    <Compile Include="LargestWordInDictionary.cs" />
     <Compile Include="LongestPalindromeSubstring.cs" />
     <Compile Include="LowerBoundSTL.cs" />
+    <Compile Include="MagicSquareFormation.cs" />
     <Compile Include="MaxDiffInArray.cs" />
     <Compile Include="PeakFinding1d.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SparseArray.cs" />
-    <Compile Include="SplitArray.cs" />
+    <Compile Include="TwoEqualSumSubarray.cs" />
     <Compile Include="Utility\ArrayExtensions.cs" />
   </ItemGroup>
   <ItemGroup>

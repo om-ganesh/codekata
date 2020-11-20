@@ -6,35 +6,64 @@ using System.Text;
 
 namespace csharpproject
 {
+    /// <summary>
+    /// https://leetcode.com/problems/kth-largest-element-in-an-array/
+    /// </summary>
     class KLargestInArray : IProblem
     {
         int k;
+        int kthLargest;
         int[] arr;
         int[] result;
         public KLargestInArray()
         {
-            this.arr = new int[] { 1, 1, 2, 3, 6, 9, 9, 15 };
+            this.arr = new int[] { 21, 12, 20, 35, 6, 9, 9, 15 };
             this.k = 3;
         }
 
         public void Execute()
         {
-            result = new int[k];
-            //copy first 3 to result
-            Array.Copy(arr, result, k);
+            //Problem1 
+            FindKLargestElements();
 
-            for(int i = k; i<arr.Length;i++)
-            {
-                if(arr[i]>smallest(result,out int index))
-                {
-                    result[index] = arr[i];
-                }
-            }
+            //Problem2
+            kthLargest = FindKthLargest1(arr, k);
+            Console.WriteLine($"The {k}th largest element from {string.Join(",", arr)} is {kthLargest}");
+
         }
 
-        public void ReadInput()
+        // TODO Implement in O(n) as asked for multiple people in interview
+        public int FindKthLargest(int[] nums, int k)
         {
-            throw new NotImplementedException();
+            return -1;
+            //for (int i = 0; i < nums.size(); i++)
+            //{
+            //    m.push(nums[i]);
+            //    if (m.size() > k)
+            //    {
+            //        m.pop();
+            //    }
+            //}
+            //return m.top();
+        }
+
+        /// <summary>
+        /// O(nlogn)
+        /// </summary>
+        public int FindKthLargest1(int[] nums, int k)
+        {
+            Array.Sort(nums);
+            return nums[nums.Length - k];
+        }
+
+        private void FindKLargestElements()
+        {
+            result = new int[k];
+            Array.Sort(arr);
+            for (int i = arr.Length-1,j=k-1; i >= arr.Length-k; i--)
+            {
+                result[j--] = arr[i];
+            }
         }
 
         public void ShowResult()
@@ -42,21 +71,5 @@ namespace csharpproject
             Console.WriteLine($"Showing {k} largest element from input array {string.Join(",", arr)}");
             Console.Write(String.Join("\n", result));
         }
-
-        private int smallest(int[] arr, out int index)
-        {
-            index = 0; 
-            int small = arr[index];
-            for(int i=1;i<arr.Length;i++)
-            {
-                if (arr[i] < small)
-                {
-                    small = arr[i];
-                    index = i;
-                }
-            }
-            return small;
-        }
-
     }
 }
