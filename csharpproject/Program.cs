@@ -19,7 +19,7 @@ namespace csharpproject
             {
 
                 // Just replace the name of the class to execute
-                IProblem problem = new TwoEqualSumSubarray();
+                IProblem problem = new LongestPalindromeSubstring();
                 problem.Execute();
                 problem.ShowResult();
                 

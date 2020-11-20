@@ -57,6 +57,7 @@
     <Compile Include="IProblem.cs" />
     <Compile Include="KLargestInArray.cs" />
     <Compile Include="LargestWordInDictionary.cs" />
+    <Compile Include="LongestPalindromeSubstring.cs" />
     <Compile Include="LowerBoundSTL.cs" />
     <Compile Include="MagicSquareFormation.cs" />
     <Compile Include="MaxDiffInArray.cs" />

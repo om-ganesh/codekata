@@ -1,4 +1,4 @@
-# Online Problems (mostly from geeksofgeeks, leetcode, hackerrank, and more)
+﻿# Online Problems (mostly from geeksofgeeks, leetcode, hackerrank, and more)
 This section includes various problems from different online sources and real interview sessions
 
 ### **Dynamic Array**  
@@ -120,4 +120,9 @@ Solution: [FindDuplicateParenthesis.cs](csharpproject/FindDuplicateParenthesis.c
 ### **Split array into two equal sum subarrays**
 Issue: https://github.com/om-ganesh/codekata/issues/46    
 Definition: [geeksforgeeks](https://www.geeksforgeeks.org/split-array-two-equal-sum-subarrays/)  
-Solution: [TwoEqualSumSubarray.cs](csharpproject/TwoEqualSumSubarray.cs) 
+Solution: [TwoEqualSumSubarray.cs](csharpproject/TwoEqualSumSubarray.cs)   
+
+### **Longest palindrome substring from the given string**
+Issue: https://github.com/om-ganesh/codekata/issues/54    
+Definition: [From geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0)  
+Solution: [LongestPalindromeSubstring.cs](csharpproject/LongestPalindromeSubstring.cs) 
