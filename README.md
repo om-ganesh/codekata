@@ -5,23 +5,38 @@ This file maintains the details of each program and the related source/other inf
 * IDE: Visual Studio 2019 (.net version 8.0)  
 
 ## Problem Categories
-The repository/project CodeKata (aka **CK**) is divided into different categories, and distributed into different projects.  
-You can find the respective readme file for each project, illustrating the addressed problem solutions.  
+The repository/project CodeKata (CK) is divided into following categorical projects. You can find the respective readme file for each project, illustrating the addressed problem solutions.  
+
+1. cppsolutions.vcxproj, csharpproject.csproj [Read more](csharpproject/readme.md)  
+	Includes all the problem solutions in C# and C++ language  
+2. dsaexposed.csproj  [Read more](dsaexposed/readme.md)  
+	It implements the fundamental algorithms in C#
+3. interviewcodings.csproj   
+	These are list of real interview attempted by me
+4. JohanRuleEngine.csproj  
+	This the interview problem asked on one of my previous company, Jonah
+5. oopfundamentals.csproj  
+	This project includes the illustration of basic OOP related concepts
+6. rsedgewickalgos.csproj  [Read more](rsedgewickalgos/readme.md)  
+	This project includes the problems from famous Algorithm books from famous R. Sedgewick and K. Wayne (https://algs4.cs.princeton.edu/home/)
+
 
 
 ## Code Contribution
 
 1. Create a new issue or pick existing one from project board  https://github.com/om-ganesh/codekata/projects/1
-2. Update the readme file with the title, description, and reference (if any) for the problem. [Check sample here...](readme-cat1.md)
-3. Create your problem branch from default branch i.e. [dev](https://github.com/om-ganesh/codekata/commits/dev) (include issue#, problem description, followed by name)  
+2. Update the readme file with the definition and reference (if any) for the problem. [Check sample here...](readme-cat1.md)
+3. Create new problem branch from default branch i.e. [master](https://github.com/om-ganesh/codekata/commits/master) (include issue#, problem description, followed by name)  
 For example: _ck-24-palindrome-subash_  
-4. Use your favorite language and editor to code the problem  
-5. Don't forget to provide link to your solution file in the problem description of readme file, created at step2 above.
-6. Make a pull request to merge the code to **dev**
-7. The PR must be reviewed by at least one contributor and then ready for merge  
-8. During merge, use **Squash and Merge** option to merge your work to the **dev** branch.
+4. Use your preferred language and editor to code the problem  
+5. Commit your code (Note: Recommended commit template is already available in the repo, as also explained below)  
+6. Provide the link to your code in readme file, from step2 above.
+7. Make a pull request against **master** branch
+8. Perform **Squash and Merge** to merge your work to the **master** branch. (Note: 1 mandatory reviewer should approve your PR)  
 9. Please follow following format to the commit message  
 
+
+## Commit Message Template  
 ```
 Title of the Commit <=Subject line (50 character max)
 
@@ -29,9 +44,7 @@ Title of the Commit <=Subject line (50 character max)
 
 Related To #[IssueNumber]  
 ```
-**Note:** Using **Resolves #[IssueNumber]** will close the issue on project board timeline
-
-**FYI;** This template is already available in the repository, so just follow these steps to apply the commit template.  
+**Easy steps to follow this template:**   
 - Go to the root path of the repository in your gitbash  
 - Write the following command to configure your commit template  
 _$git config commit.template ".github/.commit"_  
