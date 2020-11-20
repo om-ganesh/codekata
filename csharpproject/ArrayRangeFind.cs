@@ -15,26 +15,22 @@ namespace csharpproject
     /// </summary>
     class ArrayRangeFind : IProblem
     {
-        int[] input;
-        int maxRange = 0;
+        List<int[]> dataset = new List<int[]>();
         public ArrayRangeFind()
         {
-            input =  new int[] { 1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 13, 6 };
+            dataset.Add(new[] { 1 });
+            dataset.Add(new[] { 2, 3 });
+            dataset.Add(new[] { 1, 11, 3, 13 });
+            dataset.Add(new[] { 1, 11, 3, 0, 15, 9, 2, 4, 10, 7, 12, 8 });
+            dataset.Add(new[] { 1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 13, 6, 12, 14, 16, 18, 19, 17 });
+            dataset.Add(new[] { -1, 11, 3, 0, 15, 5, -2, 4, 10, 7, 13, 6 });
         }
 
         public void Execute()
         {
-            List<int[]> data = new List<int[]>();
-            data.Add(new []{1});
-            data.Add(new []{2, 3});
-            data.Add(new []{ 1, 11, 3, 13 });
-            data.Add(new []{ 1, 11, 3, 0, 15, 9, 2, 4, 10, 7, 12, 8 });
-            data.Add(new []{ 1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 13, 6, 12, 14, 16, 18, 19, 17 });
-            data.Add(new []{ -1, 11, 3, 0, 15, 5, -2, 4, 10, 7, 13, 6 });
-
-            data.ForEach(dt =>
+            dataset.ForEach(dt =>
             {
-                maxRange = GetRange(dt);
+                var maxRange = GetRange(dt);
                 Console.WriteLine($"The range for array [{string.Join(",", dt)}] = {maxRange}");
             });
             
@@ -60,14 +56,9 @@ namespace csharpproject
             return result;
         }
 
-        public void ReadInput()
-        {
-            throw new NotImplementedException();
-        }
-
         public void ShowResult()
         {
-            Console.WriteLine($"The highest range is {maxRange}");
+            
         }
     }
 }

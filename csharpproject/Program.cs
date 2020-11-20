@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace csharpproject
 {
+    /// <summary>
+    /// https://github.com/om-ganesh/codekata/tree/master/csharpproject
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -15,16 +18,11 @@ namespace csharpproject
             do
             {
 
-                // Replace your running program here
-
-                IProblem problem = new SplitArray();
-                
-                //problem.ReadInput();
-                
+                // Just replace the name of the class to execute
+                IProblem problem = new TwoEqualSumSubarray();
                 problem.Execute();
-                //problem.ShowResult();
+                problem.ShowResult();
                 
-                // skeleton for running application
                 Console.WriteLine("Press y/Y to repeat.");
                 option = Console.ReadLine().Trim();
             }while(string.Equals(option, "y", StringComparison.InvariantCultureIgnoreCase));
