@@ -125,4 +125,8 @@ Solution: [TwoEqualSumSubarray.cs](csharpproject/TwoEqualSumSubarray.cs)
 ### **Longest palindrome substring from the given string**
 Issue: https://github.com/om-ganesh/codekata/issues/54    
 Definition: [From geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0)  
-Solution: [LongestPalindromeSubstring.cs](csharpproject/LongestPalindromeSubstring.cs) 
+Solution: [LongestPalindromeSubstring.cs](csharpproject/LongestPalindromeSubstring.cs)   
+
+### **Min Cost to Connect All Points**
+Definition: [From Leetcode](https://leetcode.com/problems/min-cost-to-connect-all-points/)  
+Solution: [MSTMinCostToConnectPoints.cs](csharpproject/MSTMinCostToConnectPoints.cs) 

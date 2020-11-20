@@ -19,7 +19,7 @@ namespace csharpproject
             dataset.Add(new int[4][] { new int[] { 0, 0 }, new int[] { 1, 1 }, new int[] { 1, 0 }, new int[] { -1, 1 } });
             dataset.Add(new int[2][] { new int[] { -1000000, -1000000 }, new int[] { 1000000, 1000000 } });
             dataset.Add(new int[1][] { new int[] { 0, 0 } });
-            //WIP - Not working for this use case
+            //TODO - Not working for this use case
             dataset.Add(new int[4][] { new int[] { 2, -3 }, new int[] { -17, -8 }, new int[] { 13, 8 }, new int[] { -17, -15 } });
         }
 
@@ -137,7 +137,6 @@ namespace csharpproject
 
         public void ShowResult()
         {
-            throw new NotImplementedException();
         }
     }
 }
