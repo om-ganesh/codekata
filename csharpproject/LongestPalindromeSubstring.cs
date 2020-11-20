@@ -15,20 +15,20 @@ namespace csharpproject
 
         public LongestPalindromeSubstring()
         {
-            //dataset.Add("o");
-            //dataset.Add("mm");
+            dataset.Add("o");
+            dataset.Add("mm");
             dataset.Add("lol");
-            //dataset.Add("aaaabbaa");
-            //dataset.Add("abcvfaafx");
-            //dataset.Add("rfkqyuqfjkxy");
-            //dataset.Add("rfafkqyuqaqjkxy");
+            dataset.Add("aaaabbaa");
+            dataset.Add("abcvfaafx");
+            dataset.Add("rfkqyuqfjkxy");
+            dataset.Add("rfafkqyuqaqjkxy");
 
         }
         public void Execute()
         {
             dataset.ForEach(data =>
             {
-                Console.WriteLine($"For given string {data}, the longest substring is {GetMaxPalindrome(data)}");
+                Console.WriteLine($"For given string {data}, the longest palindrome substring is {GetMaxPalindrome(data)}");
             });
         }
 
@@ -107,14 +107,8 @@ namespace csharpproject
             return longestPalindrome;
         }
 
-        public void ReadInput()
-        {
-            throw new NotImplementedException();
-        }
-
         public void ShowResult()
         {
-            throw new NotImplementedException();
         }
     }
 }
