@@ -22,15 +22,8 @@ namespace csharpproject
             {
                 int result = GiveMaxByInsertingDigit(number, digit);
                 Console.WriteLine($"The max number after inserting {digit} in between number {number} = {result}");
-            });
-            
+            }); 
         }
-
-
-        public void ShowResult()
-        {
-        }
-
 
         private int GiveMaxByInsertingDigit(int number, int digit)
         {

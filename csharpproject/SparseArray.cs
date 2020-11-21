@@ -29,7 +29,7 @@ namespace csharpproject
 
             Console.WriteLine("Size of target array?");
             int queriesCount = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Input {stringsCount} target strings");
+            Console.WriteLine($"Input {queriesCount} target strings");
 
             queries = new string[queriesCount];
 
@@ -62,10 +62,12 @@ namespace csharpproject
                     result[i] = count;
                 }
             }
+
+            ShowResult();
         }
 
 
-        public void ShowResult()
+        private void ShowResult()
         {
             Console.WriteLine($"The array {string.Join(",", queries)} appears these times in {string.Join(",", strings)}");
             Console.WriteLine(string.Join("\n", result));

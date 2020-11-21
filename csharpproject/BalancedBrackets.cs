@@ -11,18 +11,17 @@ namespace csharpproject
     class BalancedBrackets : IProblem
     {
         string[] data;
-        bool[] result;
         public BalancedBrackets()
         {
             data = new string[]{ " ", "( ", " (]", "[||]", "((((()", "()))", "(()]", "{}[","[]{}","{[]}","[]{(}","({[}])","{{[[(())]]}}" };
-            result = new bool[data.Length];
         }
 
         public void Execute()
         {
             for(int i=0; i <data.Length; i++)
             {
-                result[i] = isBalanced(data[i]);
+                var result = isBalanced(data[i]);
+                Console.WriteLine($"Balance Bracket Check: {data[i]} = {result}");
             }
         }
 
@@ -92,14 +91,6 @@ namespace csharpproject
         //    }
         //    return stack.Count==0;
         //}
-
-        public void ShowResult()
-        {
-            for(int i=0;i <data.Length;i++)
-            {
-                Console.WriteLine($"Balance Bracket Check: {data[i]} = {result[i]}");
-            }
-        }
     }
 }
 

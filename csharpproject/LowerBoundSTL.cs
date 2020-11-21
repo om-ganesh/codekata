@@ -57,9 +57,11 @@ namespace csharpproject
                     m_resultList.Add(new Tuple<string, int>(ub[0] == q ? "Yes": "No", lb.Count+1));
                 }
             }
+
+            ShowResult();
         }
 
-        public void ShowResult()
+        private void ShowResult()
         {
             //Show results
             Console.WriteLine($"The elements {string.Join(",", m_queryList)} appears(YES/NO with index) in {string.Join(",", m_inputList)}");

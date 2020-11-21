@@ -7,8 +7,6 @@ namespace csharpproject
     interface IProblem
     {
         void Execute();
-        
 
-        void ShowResult();
     }
 }

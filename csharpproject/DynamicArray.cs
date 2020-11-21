@@ -13,7 +13,6 @@ namespace csharpproject
         int inputSize;
         List<int>[] seqList;
         List<List<int>> queries;
-        List<int> result;
 
         public DynamicArray()
         {
@@ -34,7 +33,7 @@ namespace csharpproject
         //Query1: 1 1 7 =>  Apply Query1 with logic: Append 7 to sequence (1 xor 0)%2
         public void Execute()
         {
-            result = new List<int>();
+            var result = new List<int>();
             int lastAnswer = 0;
 
             foreach (List<int> line in queries)
@@ -56,40 +55,7 @@ namespace csharpproject
                         break;
                 }
             }
-        }
-
-        public void ShowResult()
-        {
-            Console.WriteLine("Solution for https://www.hackerrank.com/challenges/dynamic-array/problem");
             Console.WriteLine(String.Join("\n", result));
         }
-
-
-        //Old methods
-        //static void RunDynamicArray()
-        //{
-        //    int n = 2;
-
-        //    DynamicArray dynamicArray = new DynamicArray(n);
-
-        //    Console.WriteLine("How many Queries?");
-        //    int q = Convert.ToInt32(Console.ReadLine());
-        //    for(int i=0; i<q; i++)
-        //    {
-        //        Console.WriteLine($"==== QUERY {i+1} =========");
-        //        Console.WriteLine("Input (QueryType) (Number X) (Number Y)");
-        //        string inputString = Console.ReadLine();
-        //        var inputs = inputString.Split(' ');
-        //        dynamicArray.Execute(Convert.ToInt32(inputs[0]), Convert.ToInt32(inputs[1]), Convert.ToInt32(inputs[2]));
-        //    }
-
-        //    dynamicArray.ShowResult();
-
-        //}
-
-        //public void ShowResult()
-        //{
-        //    lastAnswerList.ForEach(x => Console.WriteLine(x));
-        //}
     }
 }

@@ -12,7 +12,7 @@ The repository/project CodeKata (CK) is divided into following categorical proje
 2. dsaexposed.csproj  [Read more](dsaexposed/readme.md)  
 	It implements the fundamental algorithms in C#
 3. interviewcodings.csproj   
-	These are list of real interview attempted by me
+	These are list of real interview faced myself (Yr2016-2020)  
 4. JohanRuleEngine.csproj  
 	This the interview problem asked on one of my previous company, Jonah
 5. oopfundamentals.csproj  

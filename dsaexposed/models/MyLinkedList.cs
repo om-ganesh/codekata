@@ -57,7 +57,7 @@ namespace dsaexposed.models
         {
             Node<T> current = first;
             Node<T> jumped = first.Next;
-            //TODO jumped can be null so throws exception
+            // TODO WIP: Fix Null reference exception
             while (jumped!= null || jumped.Next !=null)
             {
                 current = current.Next;

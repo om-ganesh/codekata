@@ -46,10 +46,5 @@ namespace csharpproject
 
             return max-min;
         }
-
-        public void ShowResult()
-        {
-            
-        }
     }
 }

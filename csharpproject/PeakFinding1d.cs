@@ -48,10 +48,5 @@ namespace csharpproject
                 return m;
             return result; //Not found
         }
-
-        public void ShowResult()
-        {
-            
-        }
     }
 }

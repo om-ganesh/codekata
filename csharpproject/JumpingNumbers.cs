@@ -13,12 +13,8 @@ namespace csharpproject
     {
         public void Execute()
         {
-            //TODO
+            //TODO Find jumping numbers less than given value
             throw new NotImplementedException();
-        }
-
-        public void ShowResult()
-        {
         }
     }
 }

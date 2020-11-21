@@ -43,10 +43,6 @@ namespace csharpproject
             });
         }
 
-        public void ShowResult()
-        {
-        }
-
         private bool TryGetMaxProfit(int[] prices, out int maxProfit)
         {
             maxProfit = 0;
