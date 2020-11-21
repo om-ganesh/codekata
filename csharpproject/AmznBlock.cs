@@ -54,11 +54,6 @@ namespace csharpproject
             
         }
 
-        public void ShowResult()
-        {
-            
-        }
-
         private int GetMyClosing(int index, int[] arr)
         {
             int myClosing = 0;

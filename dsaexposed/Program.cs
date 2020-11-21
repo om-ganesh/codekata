@@ -14,7 +14,6 @@ namespace dsaexposed
         {
             Console.WriteLine("Illustrating DSA!");
 
-            //TODO
             //MyLinkedListImplement.Init();
             SortingMerge.Init();
 

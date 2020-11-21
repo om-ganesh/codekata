@@ -17,7 +17,6 @@ namespace dsaexposed
             Console.WriteLine($"The input array is: [{string.Join(",", input)}]");
             var output = Sort(input);
             Console.WriteLine($"The sorted array is: [{string.Join(",", output)}]");
-
         }
 
         private static int[] Sort(int[] x)

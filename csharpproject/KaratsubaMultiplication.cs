@@ -11,7 +11,6 @@ namespace csharpproject
     {
         int input1;
         int input2;
-        int result;
             
         public KaratsubaMultiplication()
         {
@@ -20,7 +19,8 @@ namespace csharpproject
         }
         public void Execute()
         {
-            result = Multiply(input1, input2);
+            var result = Multiply(input1, input2);
+            Console.WriteLine($"Multiplication (Karatsuba) of {input1} and {input2} is {result}");
         }
 
         private int Multiply(int x, int y)
@@ -60,11 +60,6 @@ namespace csharpproject
             {
                 Console.WriteLine("Invalid Inputs. Repeat the process");
             }
-        }
-
-        public void ShowResult()
-        {
-            Console.WriteLine($"Multiplication (Karatsuba) of {input1} and {input2} is {result}");
         }
     }
 }

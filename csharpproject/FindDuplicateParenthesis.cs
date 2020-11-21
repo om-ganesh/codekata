@@ -96,10 +96,6 @@ namespace csharpproject
             return count;
         }
 
-        public void ShowResult()
-        {
-        }
-
         // Not part of the solution
         //public string ConvertInfixToPostfix(string input)
         //{

@@ -13,12 +13,8 @@ namespace csharpproject
     {
         public void Execute()
         {
-            //TODO
+            // TODO Form a magic square
             throw new NotImplementedException();
-        }
-
-        public void ShowResult()
-        {
         }
     }
 }

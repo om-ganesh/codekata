@@ -106,9 +106,5 @@ namespace csharpproject
             }
             return longestPalindrome;
         }
-
-        public void ShowResult()
-        {
-        }
     }
 }

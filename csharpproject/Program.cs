@@ -17,11 +17,9 @@ namespace csharpproject
             string option;
             do
             {
-
                 // Just replace the name of the class to execute
-                IProblem problem = new LongestPalindromeSubstring();
+                IProblem problem = new LargestConsecutiveRange();
                 problem.Execute();
-                problem.ShowResult();
                 
                 Console.WriteLine("Press y/Y to repeat.");
                 option = Console.ReadLine().Trim();

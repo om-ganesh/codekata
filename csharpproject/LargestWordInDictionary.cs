@@ -13,12 +13,7 @@ namespace csharpproject
     {
         public void Execute()
         {
-            //TODO
-            throw new NotImplementedException();
-        }
-
-        public void ShowResult()
-        {
+            // TODO Find longest string from array by deleting chars in given string
             throw new NotImplementedException();
         }
     }
