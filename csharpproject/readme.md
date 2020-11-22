@@ -101,12 +101,6 @@ Solution: [FindDistinctNumbers.cs](FindDistinctNumbers.cs) / [FindDistinctNumber
 Definition: [Geeksforgeeks](https://www.geeksforgeeks.org/print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/)  
 Solution: [JumpingNumbers.cs](JumpingNumbers.cs) / [JumpingNumber.cpp](../cppsolutions/JumpingNumber.cpp)  
 
-### **Insert digit to find maximum Number**
-Issue: https://github.com/om-ganesh/codekata/issues/29  
-Definition: [Knowsh](https://www.knowsh.com/Notes/250501/Maximum-Possible-Value-By-Inserting-5)  
-Solution: [FindMaximumNumber.cpp](../cppsolutions/FindMaximumNumber.cpp)  
-Discussion: [InsertDigit.png](../problems/hint-getmaxinsertdigitbetweennumber.png.png)   
-
 ### **Maximum Profit with Stocks**
 Issue: https://github.com/om-ganesh/codekata/issues/28  
 Definition: [InterviewCake](https://www.interviewcake.com/question/python/stock-price)  
@@ -126,3 +120,5 @@ Solution: [TwoEqualSumSubarray.cs](TwoEqualSumSubarray.cs)
 Issue: https://github.com/om-ganesh/codekata/issues/54    
 Definition: [From geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0)  
 Solution: [LongestPalindromeSubstring.cs](LongestPalindromeSubstring.cs) 
+
+
