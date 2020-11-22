@@ -13,12 +13,11 @@ namespace csharpproject
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Algorithm Challenges");
-
-            string option;
+            string option; 
             do
             {
                 // Just replace the name of the class to execute
-                IProblem problem = new LargestConsecutiveRange();
+                IProblem problem = new PalindromeAlphaCharacters();
                 problem.Execute();
                 
                 Console.WriteLine("Press y/Y to repeat.");

@@ -7,19 +7,22 @@ This file maintains the details of each program and the related source/other inf
 ## Problem Categories
 The repository/project CodeKata (CK) is divided into following categorical projects. You can find the respective readme file for each project, illustrating the addressed problem solutions.  
 
+### Solution1: codekata.sln
 1. cppsolutions.vcxproj, csharpproject.csproj [Read more](csharpproject/readme.md)  
 	Includes all the problem solutions in C# and C++ language  
-2. dsaexposed.csproj  [Read more](dsaexposed/readme.md)  
-	It implements the fundamental algorithms in C#
-3. interviewcodings.csproj   
-	These are list of real interview faced myself (Yr2016-2020)  
-4. JohanRuleEngine.csproj  
-	This the interview problem asked on one of my previous company, Jonah
-5. oopfundamentals.csproj  
-	This project includes the illustration of basic OOP related concepts
-6. rsedgewickalgos.csproj  [Read more](rsedgewickalgos/readme.md)  
-	This project includes the problems from famous Algorithm books from famous R. Sedgewick and K. Wayne (https://algs4.cs.princeton.edu/home/)
+2. interviewcodings2018.csproj   [Read more](interviewcodings2018/readme.md)  
+	These are list of real interviews given on Yr2018/19
+3. interviewcodings2020.csproj   [Read more](interviewcodings2020/readme.md)  
+	These are list of real interview given on Yr2020/21
 
+
+### Solution2: otherkata.sln
+1. dsaexposed.csproj  [Read more](dsaexposed/readme.md)  
+	It implements the fundamental algorithms in C#
+2. JohanRuleEngine.csproj  
+	This the interview problem asked on one of my previous company, Jonah
+3. oopfundamentals.csproj  
+	This project includes the illustration of basic OOP related concepts  
 
 
 ## Code Contribution

@@ -15,7 +15,7 @@ namespace csharpproject
     /// </summary>
     class LargestConsecutiveRange : IProblem
     {
-        List<int[]> dataset = new List<int[]>();
+        List<int[]> dataset = new List<int[]>(); 
         public LargestConsecutiveRange()
         {
             dataset.Add(new int[] { });//expected 0
