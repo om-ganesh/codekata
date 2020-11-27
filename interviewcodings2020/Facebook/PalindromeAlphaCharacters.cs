@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace interviewcodings2020
+namespace interviewcodings2020.Facebook
 {
     /// <summary>
     /// https://stackoverflow.com/questions/30178172/check-for-palindrome-ignore-special-characters-whitespace-and-capitalization

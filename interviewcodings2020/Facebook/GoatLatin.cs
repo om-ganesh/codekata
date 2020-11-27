@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace interviewcodings2020
+namespace interviewcodings2020.Facebook
 {
     /// <summary>
     /// https://leetcode.com/problems/goat-latin/
