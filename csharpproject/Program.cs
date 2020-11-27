@@ -13,16 +13,12 @@ namespace csharpproject
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Algorithm Challenges");
-            string option; 
-            do
-            {
-                // Just replace the name of the class to execute
-                IProblem problem = new PalindromeAlphaCharacters();
-                problem.Execute();
-                
-                Console.WriteLine("Press y/Y to repeat.");
-                option = Console.ReadLine().Trim();
-            }while(string.Equals(option, "y", StringComparison.InvariantCultureIgnoreCase));
+
+            // Just replace the name of the class to execute
+            IProblem problem = new FindDistinctNumbers();
+            problem.Execute();
+
+            Console.Read();
         }
 
     }

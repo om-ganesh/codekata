@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using interviewcodings2020.Amazon;
+
 
 namespace interviewcodings2020
 {
@@ -13,7 +14,7 @@ namespace interviewcodings2020
             Console.WriteLine("List of Interview questions asked this season");
 
             // Just replace the name of the class to execute
-            IProblem problem = new GoatLatin();
+            IProblem problem = new FiveStarSeller();
             problem.Execute();
 
             Console.Read();
