@@ -155,6 +155,7 @@
     <ClCompile Include="ExpressionEvaluate.cpp" />
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
+    <ClCompile Include="FindLongestPalindrome.cpp" />
     <ClCompile Include="FindMaximumNumber.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
     <ClCompile Include="GraphBFSAndDFS.cpp" />
