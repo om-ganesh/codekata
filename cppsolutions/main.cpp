@@ -37,6 +37,7 @@
 #include "BoundaryCheck.cpp"
 #include "FindMaximumRange.cpp"
 #include "StockPrice.cpp"
+#include "FiveStarSeller.cpp"
 
 using namespace std;
 
@@ -141,5 +142,9 @@ int main()
 
     // 25. Stock Price
     StockPrice sp;
-    sp.execute();
+    // sp.execute();
+
+    // 26. Five Star Seller
+    FiveStarSeller fss;
+    fss.execute();
 }

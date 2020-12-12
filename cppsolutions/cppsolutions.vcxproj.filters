@@ -93,5 +93,8 @@
     <ClCompile Include="StockPrice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FiveStarSeller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
