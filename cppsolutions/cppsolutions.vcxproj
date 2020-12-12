@@ -156,6 +156,7 @@
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
     <ClCompile Include="FindMaximumNumber.cpp" />
+    <ClCompile Include="FiveStarSeller.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
     <ClCompile Include="GraphBFSAndDFS.cpp" />
     <ClCompile Include="JumpingNumber.cpp" />

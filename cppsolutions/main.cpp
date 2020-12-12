@@ -41,6 +41,7 @@
 #include "DuplicateParenthesis.cpp"
 #include "MirrorBinaryTree.cpp"
 #include "EqualSumSubArray.cpp"
+#include "FiveStarSeller.cpp"
 
 using namespace std;
 
@@ -162,4 +163,9 @@ int main()
     // 28. Equal Sum SubArray
     EqualSumSubArray essa;
     essa.execute();
+    // sp.execute();
+
+    // 29. Five Star Seller
+    FiveStarSeller fss;
+    fss.execute();
 }
