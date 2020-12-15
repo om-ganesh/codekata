@@ -29,43 +29,85 @@ namespace csharpproject
         {
             dataset.ForEach(data =>
             {
-                int quantity = 0;
-                // Trim away the leading and trailing 0s from input array
-                int[] arr = data.Trim();
-                int start = arr[0];
-                int end = GetMyClosing(0, arr);
-                for (int i = 1; i < arr.Length - 1; i++)
-                {
-                    if (arr[i] == end)
-                    {
-                        start = arr[i];
-                        end = GetMyClosing(i, arr);
-                    }
-                    else
-                    {
-                        quantity += (start < end ? start : end) - arr[i];
-                    }
-                    if (end == 0)
-                        break;
-                }
-
+                var quantity = Trap(data);
                 Console.WriteLine($"The total water reserved for {string.Join(",", data)} is {quantity}");
             });
             
         }
 
-        private int GetMyClosing(int index, int[] arr)
+        public int Trap(int[] height)
         {
-            int myClosing = 0;
-            for(int i =index+1; i<arr.Length;i++)
+            if (height.Length < 3)
             {
-                if (arr[i] >= arr[index])
-                    return arr[i];
-                
-                if (arr[i] > myClosing)
-                    myClosing = arr[i];
+                return 0;
             }
-            return myClosing;
+            int[] q1 = new int[height.Length];
+            int level = height[0];
+            for (int i = 0; i < height.Length; i++)
+            {
+                if (height[i] > level)
+                {
+                    level = height[i];
+                }
+                q1[i] = level;
+            }
+
+            int[] q2 = new int[height.Length];
+            level = height[height.Length - 1];
+            for (int i = height.Length - 1; i >= 0; i--)
+            {
+                if (height[i] > level)
+                {
+                    level = height[i];
+                }
+                q2[i] = level;
+            }
+
+            var quantity = 0;
+            for (int i = 0; i < height.Length; i++)
+            {
+                quantity += Math.Min(q1[i], q2[i]) - height[i];
+            }
+            return quantity;
         }
+
+        // OLD IMPLEMENTAION OF N^2
+        //public int Trap(int[] height)
+        //{
+        //    int quantity = 0;
+        //    // Trim away the leading and trailing 0s from input array
+        //    int[] arr = height.Trim();
+        //    int start = arr[0];
+        //    int end = GetMyClosing(0, arr);
+        //    for (int i = 1; i < arr.Length - 1; i++)
+        //    {
+        //        if (arr[i] == end)
+        //        {
+        //            start = arr[i];
+        //            end = GetMyClosing(i, arr);
+        //        }
+        //        else
+        //        {
+        //            quantity += (start < end ? start : end) - arr[i];
+        //        }
+        //        if (end == 0)
+        //            break;
+        //    }
+        //    return quantity;
+        //}
+
+        //private int GetMyClosing(int index, int[] arr)
+        //{
+        //    int myClosing = 0;
+        //    for(int i =index+1; i<arr.Length;i++)
+        //    {
+        //        if (arr[i] >= arr[index])
+        //            return arr[i];
+                
+        //        if (arr[i] > myClosing)
+        //            myClosing = arr[i];
+        //    }
+        //    return myClosing;
+        //}
     }
 }
