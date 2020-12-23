@@ -42,6 +42,7 @@
 #include "MirrorBinaryTree.cpp"
 #include "EqualSumSubArray.cpp"
 #include "FiveStarSeller.cpp"
+#include "AlphaPalindrome.cpp"
 
 using namespace std;
 
@@ -167,5 +168,9 @@ int main()
 
     // 29. Five Star Seller
     FiveStarSeller fss;
-    fss.execute();
+    // fss.execute();
+
+    // 27. Alpha Palindrome
+    AlphaPalindrome ap;
+    ap.execute();
 }

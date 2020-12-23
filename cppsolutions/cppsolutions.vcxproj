@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlphaPalindrome.cpp" />
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
     <ClCompile Include="BoundaryCheck.cpp" />
