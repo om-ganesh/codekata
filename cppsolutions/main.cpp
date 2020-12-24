@@ -42,7 +42,7 @@
 #include "MirrorBinaryTree.cpp"
 #include "EqualSumSubArray.cpp"
 #include "FiveStarSeller.cpp"
-#include "AlphaPalindrome.cpp"
+#include "Dinosaurs.cpp"
 
 using namespace std;
 
@@ -170,7 +170,7 @@ int main()
     FiveStarSeller fss;
     // fss.execute();
 
-    // 27. Alpha Palindrome
-    AlphaPalindrome ap;
-    ap.execute();
+    // 28. Dinosaurs CSV
+    Dinosaurs ds;
+    ds.execute();
 }

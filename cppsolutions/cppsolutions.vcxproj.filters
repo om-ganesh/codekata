@@ -108,7 +108,7 @@
     <ClCompile Include="FiveStarSeller.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AlphaPalindrome.cpp">
+    <ClCompile Include="Dinosaurs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
