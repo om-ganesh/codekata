@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlphaPalindrome.cpp" />
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
     <ClCompile Include="BoundaryCheck.cpp" />
@@ -179,6 +180,10 @@
     <ClCompile Include="STL.cpp" />
     <ClCompile Include="StockPrice.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dataset1.csv" />
+    <None Include="dataset2.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

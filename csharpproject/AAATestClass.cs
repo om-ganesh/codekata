@@ -15,8 +15,8 @@ namespace csharpproject
             //Console.WriteLine(string.Join(",", result));
 
             int[] data = new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-            var result = Trap(data);
-            Console.WriteLine(string.Join(",", result));
+            // var result = Trap(data);
+            // Console.WriteLine(string.Join(",", result));
         }
 
         public int[] TwoSum(int[] nums, int target)
