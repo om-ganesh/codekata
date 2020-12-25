@@ -14,7 +14,7 @@ namespace interviewcodings2020
             Console.WriteLine("List of Interview questions asked this season");
 
             // Just replace the name of the class to execute
-            IProblem problem = new FiveStarSeller();
+            IProblem problem = new ShoppingPatternTrio();
             problem.Execute();
 
             Console.Read();

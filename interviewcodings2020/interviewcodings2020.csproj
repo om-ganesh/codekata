@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Amazon\ShoppingPatternTrio.cs" />
     <Compile Include="Facebook\GoatLatin.cs" />
     <Compile Include="Microsoft\DinosaurCsv.cs" />
     <Compile Include="Microsoft\InsertDigitToReturnMax.cs" />
