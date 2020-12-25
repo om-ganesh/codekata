@@ -76,16 +76,32 @@ private:
 		return ds;
 	}
 
+	bool doesNameExist(string name, DataSet ds)
+	{
+		bool exists = false;
+		int length = ds.dataSet.size();
+
+		for (int i = 0; i < length; i++)
+		{
+			if (ds.dataSet[i].name == name)
+			{
+				exists = true;
+				break;
+			}
+		}
+		return exists;
+	}
+
 	vector<pair<double, string>> calculateSpeedAndMergeDataSets(DataSet ds1, DataSet ds2)
 	{
 		vector<pair<double, string>> results;
 
-		int length = ds1.dataSet.size();
+		int length = ds2.dataSet.size();
 		double g = 9.81;
 
 		for (int i = 0; i < length; i++)
 		{
-			string name = ds1.dataSet[i].name;
+			string name = ds2.dataSet[i].name;
 			string stance = ds2.dataSet[i].dietOrStance;
 			double strideLength = ds2.dataSet[i].length;
 			double legLength = ds1.dataSet[i].length;
@@ -94,8 +110,11 @@ private:
 
 			if (stance == "bipedal")
 			{
-				speed = (strideLength / legLength - 1) * sqrt(legLength * g);
-				results.push_back(make_pair(speed, name));
+				if (doesNameExist(name, ds1))
+				{
+					speed = (strideLength / legLength - 1) * sqrt(legLength * g);
+					results.push_back(make_pair(speed, name));
+				}
 			}
 			
 		}
