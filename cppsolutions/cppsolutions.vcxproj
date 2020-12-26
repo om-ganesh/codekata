@@ -171,8 +171,10 @@
     <ClCompile Include="MatrixFindPeak.cpp" />
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
     <ClCompile Include="MaxDifferenceInArray.cpp" />
+    <ClCompile Include="MaxSizeBlob.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="MirrorBinaryTree.cpp" />
+    <ClCompile Include="MoveZerosToEnd.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />

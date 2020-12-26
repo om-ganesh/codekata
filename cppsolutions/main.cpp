@@ -46,6 +46,8 @@
 #include "Dinosaurs.cpp"
 #include "ThreeSumSubArray.cpp"
 #include "SlidingWindowMaximum.cpp"
+#include "MoveZerosToEnd.cpp"
+#include "MaxSizeBlob.cpp"
 
 using namespace std;
 
@@ -187,5 +189,13 @@ int main()
 
     // 33. Sliding Window Max
     SlidingWindowMaximum swm;
-    swm.execute();
+    // swm.execute();
+
+    // 34. Move Zeros to End
+    MoveZerosToEnd mze;
+    // mze.execute();
+
+    // 35. Max Size Blob in Binary Matrix
+    MaxSizeBlob msb;
+    msb.execute();
 }
