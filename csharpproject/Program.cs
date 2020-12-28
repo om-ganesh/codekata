@@ -15,15 +15,9 @@ namespace csharpproject
             Console.WriteLine("Welcome to Algorithm Challenges");
 
             // Just replace the name of the class to execute
-            IProblem problem = new FindDistinctNumbers();
+            IProblem problem = new LongestPalindromeSubstring();
             problem.Execute();
 
-            Console.Read();
-
-            // Just replace the name of the class to execute
-            IProblem problem = new AAATestClass();
-            problem.Execute();
-                
             Console.Read();
         }
     }
