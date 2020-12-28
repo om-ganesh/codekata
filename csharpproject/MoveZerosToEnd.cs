@@ -16,6 +16,23 @@ namespace csharpproject
             Console.WriteLine($"After Moving: {string.Join(",", arr)}");
         }
 
+        // This algorithm does n writes (so doesn't address another issue of less writes)
+        // eg. {2,3,4,5,6,-2,0} it will perform n writes for this example
+        public void MoveZeroesNonOptimal(int[] nums)
+        {
+            int cnt = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] != 0)
+                {
+                    nums[cnt++] = nums[i];
+                }
+            }
+            for (int i = cnt; i < nums.Length; i++)
+            {
+                nums[i] = 0;
+            }
+        }
 
         public void MoveZeroes(int[] nums)
         {
@@ -40,5 +57,32 @@ namespace csharpproject
                 i++;
             }
         }
+
+        // Take the solution reference from leetcode (Pointer concept)
+        //public void MoveZeroesShortAndOptimal(int[] nums)
+        //{
+        //    int cnt = 0;
+        //    int lastFoundNonZero = -1;
+        //    for(int i=0; lastFoundNonZero +cnt< nums.Length;i++)
+        //    {
+        //        if (nums[i] != 0)
+        //        {
+        //            lastFoundNonZero++;
+        //            if (lastFoundNonZero < i)
+        //            {
+        //                nums[lastFoundNonZero] = nums[i];
+        //            }
+        //        }
+        //        else
+        //        {
+        //            cnt++;
+        //        }
+        //    }
+        //    while (lastFoundNonZero < nums.Length)
+        //    {
+        //        nums[lastFoundNonZero++] = 0;
+        //    }
+        //}
+
     }
 }
