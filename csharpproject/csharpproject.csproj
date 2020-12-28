@@ -46,6 +46,7 @@
     <Compile Include="AmznBlock.cs" />
     <Compile Include="LargestConsecutiveRange.cs" />
     <Compile Include="BalancedBrackets.cs" />
+    <Compile Include="MoveZerosToEnd.cs" />
     <Compile Include="StockPriceProfit.cs" />
     <Compile Include="DynamicArray.cs" />
     <Compile Include="FindDistinctNumbers.cs" />
