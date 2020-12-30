@@ -15,7 +15,7 @@ namespace csharpproject
             Console.WriteLine("Welcome to Algorithm Challenges");
 
             // Just replace the name of the class to execute
-            IProblem problem = new LongestPalindromeSubstring();
+            IProblem problem = new MoveZerosToEnd();
             problem.Execute();
 
             Console.Read();
