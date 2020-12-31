@@ -147,15 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlphaPalindrome.cpp" />
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
     <ClCompile Include="BoundaryCheck.cpp" />
     <ClCompile Include="DuplicateParenthesis.cpp" />
     <ClCompile Include="EqualSumSubArray.cpp" />
+    <ClCompile Include="Dinosaurs.cpp" />
     <ClCompile Include="ExpressionEvaluate.cpp" />
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
     <ClCompile Include="FindMaximumNumber.cpp" />
+    <ClCompile Include="FiveStarSeller.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
     <ClCompile Include="GraphBFSAndDFS.cpp" />
     <ClCompile Include="JumpingNumber.cpp" />
@@ -168,15 +171,24 @@
     <ClCompile Include="MatrixFindPeak.cpp" />
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
     <ClCompile Include="MaxDifferenceInArray.cpp" />
+    <ClCompile Include="MaxSizeBlob.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="MinimumProductionTime.cpp" />
     <ClCompile Include="MirrorBinaryTree.cpp" />
+    <ClCompile Include="MoveZerosToEnd.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
+    <ClCompile Include="SlidingWindowMaximum.cpp" />
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="StackDataStructureByForwardList.cpp" />
     <ClCompile Include="STL.cpp" />
     <ClCompile Include="StockPrice.cpp" />
+    <ClCompile Include="ThreeSumSubArray.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dataset1.csv" />
+    <None Include="dataset2.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

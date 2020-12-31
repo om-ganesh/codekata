@@ -46,6 +46,8 @@
     <Compile Include="AmznBlock.cs" />
     <Compile Include="LargestConsecutiveRange.cs" />
     <Compile Include="BalancedBrackets.cs" />
+    <Compile Include="MoveZerosToEnd.cs" />
+    <Compile Include="TimeRequiredForProduction.cs" />
     <Compile Include="StockPriceProfit.cs" />
     <Compile Include="DynamicArray.cs" />
     <Compile Include="FindDistinctNumbers.cs" />
@@ -65,9 +67,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SparseArray.cs" />
     <Compile Include="AAATestClass.cs" />
+    <Compile Include="TreeMirror.cs" />
     <Compile Include="ThreeSumToZeroProblem.cs" />
     <Compile Include="TwoEqualSumSubarray.cs" />
     <Compile Include="Utility\ArrayExtensions.cs" />
+    <Compile Include="Utility\FileReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

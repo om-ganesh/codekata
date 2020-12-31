@@ -17,7 +17,7 @@ namespace csharpproject
             // Just replace the name of the class to execute
             IProblem problem = new ThreeSumToZeroProblem();
             problem.Execute();
-                
+
             Console.Read();
         }
     }

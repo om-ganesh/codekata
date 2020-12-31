@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA6D3311-7753-42FA-BAB5-A2F71AB84397}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>interviewcodings2020</RootNamespace>
-    <AssemblyName>interviewcodings2020</AssemblyName>
+    <ProjectGuid>{04703A0C-0390-485E-9D26-D93BEBFF0B03}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>codekata.core</RootNamespace>
+    <AssemblyName>codekata.core</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,26 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Facebook\GoatLatin.cs" />
-    <Compile Include="Microsoft\DinosaurWithHighSpeedCsv.cs" />
-    <Compile Include="Microsoft\InsertDigitToReturnMax.cs" />
-    <Compile Include="IProblem.cs" />
-    <Compile Include="Facebook\PalindromeAlphaCharacters.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="FileUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Amazon\FiveStarSeller.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="Microsoft\data\dataset1.csv" />
-    <None Include="Microsoft\data\dataset2.csv" />
-    <None Include="readme.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\codekata.core\codekata.core.csproj">
-      <Project>{04703a0c-0390-485e-9d26-d93bebff0b03}</Project>
-      <Name>codekata.core</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
