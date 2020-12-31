@@ -48,6 +48,8 @@
 #include "SlidingWindowMaximum.cpp"
 #include "MoveZerosToEnd.cpp"
 #include "MaxSizeBlob.cpp"
+#include "MinimumProductionTime.cpp"
+
 
 using namespace std;
 
@@ -197,5 +199,9 @@ int main()
 
     // 35. Max Size Blob in Binary Matrix
     MaxSizeBlob msb;
-    msb.execute();
+    // msb.execute();
+
+    // 36. Minimum Production Time Finding
+    MinimumProductionTime mpt;
+    mpt.execute();
 }

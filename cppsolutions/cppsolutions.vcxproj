@@ -173,6 +173,7 @@
     <ClCompile Include="MaxDifferenceInArray.cpp" />
     <ClCompile Include="MaxSizeBlob.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="MinimumProductionTime.cpp" />
     <ClCompile Include="MirrorBinaryTree.cpp" />
     <ClCompile Include="MoveZerosToEnd.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
