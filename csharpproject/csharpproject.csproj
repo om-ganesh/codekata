@@ -67,6 +67,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SparseArray.cs" />
     <Compile Include="AAATestClass.cs" />
+    <Compile Include="TreeMirror.cs" />
     <Compile Include="TwoEqualSumSubarray.cs" />
     <Compile Include="Utility\ArrayExtensions.cs" />
     <Compile Include="Utility\FileReader.cs" />

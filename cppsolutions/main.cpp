@@ -41,6 +41,15 @@
 #include "DuplicateParenthesis.cpp"
 #include "MirrorBinaryTree.cpp"
 #include "EqualSumSubArray.cpp"
+#include "FiveStarSeller.cpp"
+#include "AlphaPalindrome.cpp"
+#include "Dinosaurs.cpp"
+#include "ThreeSumSubArray.cpp"
+#include "SlidingWindowMaximum.cpp"
+#include "MoveZerosToEnd.cpp"
+#include "MaxSizeBlob.cpp"
+#include "MinimumProductionTime.cpp"
+
 
 using namespace std;
 
@@ -161,5 +170,38 @@ int main()
 
     // 28. Equal Sum SubArray
     EqualSumSubArray essa;
-    essa.execute();
+    // essa.execute();
+    // sp.execute();
+
+    // 29. Five Star Seller
+    FiveStarSeller fss;
+    // fss.execute();
+
+    // 30. Alphabatic Palindrome
+    AlphaPalindrome ap;
+    // ap.execute();
+
+    // 31. Dinosaurs CSV
+    Dinosaurs ds;
+    // ds.execute();
+
+    // 32. Three Sum Sub Array
+    ThreeSumSubArray tssa;
+    // tssa.execute();
+
+    // 33. Sliding Window Max
+    SlidingWindowMaximum swm;
+    // swm.execute();
+
+    // 34. Move Zeros to End
+    MoveZerosToEnd mze;
+    // mze.execute();
+
+    // 35. Max Size Blob in Binary Matrix
+    MaxSizeBlob msb;
+    // msb.execute();
+
+    // 36. Minimum Production Time Finding
+    MinimumProductionTime mpt;
+    mpt.execute();
 }
