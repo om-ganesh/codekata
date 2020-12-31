@@ -15,9 +15,13 @@ namespace csharpproject
             Console.WriteLine("Welcome to Algorithm Challenges");
 
             // Just replace the name of the class to execute
+        fiveStarSellerAndOtehrs
             IProblem problem = new AAATestClass();
             problem.Execute();
                 
+            IProblem problem = new MoveZerosToEnd();
+            problem.Execute();
+
             Console.Read();
         }
     }
