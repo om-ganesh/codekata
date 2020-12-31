@@ -15,7 +15,7 @@ namespace csharpproject
             Console.WriteLine("Welcome to Algorithm Challenges");
 
             // Just replace the name of the class to execute
-            IProblem problem = new MoveZerosToEnd();
+            IProblem problem = new TreeMirror();
             problem.Execute();
 
             Console.Read();
