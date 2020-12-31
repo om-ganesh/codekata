@@ -41,6 +41,8 @@
 #include "DuplicateParenthesis.cpp"
 #include "MirrorBinaryTree.cpp"
 #include "EqualSumSubArray.cpp"
+#include "MinimumSpanningTree.cpp"
+#include "CriticalAndPseudocriticalEdges.cpp"
 
 using namespace std;
 
@@ -161,5 +163,13 @@ int main()
 
     // 28. Equal Sum SubArray
     EqualSumSubArray essa;
-    essa.execute();
+    // essa.execute();
+
+    // 29. Minimum Spanning Tree
+    MinimumSpanningTree mst;
+    // mst.execute();
+
+    // 30. Critical-Pseudocritical Edges
+    CriticalAndPseudocriticalEdges cpce;
+    cpce.execute();
 }

@@ -150,6 +150,7 @@
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
     <ClCompile Include="BoundaryCheck.cpp" />
+    <ClCompile Include="CriticalAndPseudocriticalEdges.cpp" />
     <ClCompile Include="DuplicateParenthesis.cpp" />
     <ClCompile Include="EqualSumSubArray.cpp" />
     <ClCompile Include="ExpressionEvaluate.cpp" />
@@ -169,6 +170,7 @@
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
     <ClCompile Include="MaxDifferenceInArray.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="MinimumSpanningTree.cpp" />
     <ClCompile Include="MirrorBinaryTree.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
