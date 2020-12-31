@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Facebook\GoatLatin.cs" />
-    <Compile Include="Microsoft\DinosaurCsv.cs" />
+    <Compile Include="Microsoft\DinosaurWithHighSpeedCsv.cs" />
     <Compile Include="Microsoft\InsertDigitToReturnMax.cs" />
     <Compile Include="IProblem.cs" />
     <Compile Include="Facebook\PalindromeAlphaCharacters.cs" />
@@ -54,7 +54,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Microsoft\data\dataset1.csv" />
+    <None Include="Microsoft\data\dataset2.csv" />
     <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\codekata.core\codekata.core.csproj">
+      <Project>{04703a0c-0390-485e-9d26-d93bebff0b03}</Project>
+      <Name>codekata.core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

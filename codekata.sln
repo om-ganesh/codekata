@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interviewcodings2018", "int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interviewcodings2020", "interviewcodings2020\interviewcodings2020.csproj", "{BA6D3311-7753-42FA-BAB5-A2F71AB84397}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codekata.core", "codekata.core\codekata.core.csproj", "{04703A0C-0390-485E-9D26-D93BEBFF0B03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,18 @@ Global
 		{BA6D3311-7753-42FA-BAB5-A2F71AB84397}.Release|x64.Build.0 = Release|Any CPU
 		{BA6D3311-7753-42FA-BAB5-A2F71AB84397}.Release|x86.ActiveCfg = Release|Any CPU
 		{BA6D3311-7753-42FA-BAB5-A2F71AB84397}.Release|x86.Build.0 = Release|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Debug|x64.Build.0 = Debug|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Debug|x86.Build.0 = Debug|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|x64.ActiveCfg = Release|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|x64.Build.0 = Release|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|x86.ActiveCfg = Release|Any CPU
+		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
