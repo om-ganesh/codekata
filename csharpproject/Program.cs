@@ -15,7 +15,7 @@ namespace csharpproject
             Console.WriteLine("Welcome to Algorithm Challenges");
 
             // Just replace the name of the class to execute
-            IProblem problem = new TimeRequiredForProduction();
+            IProblem problem = new ThreeSumToZeroProblem();
             problem.Execute();
 
             Console.Read();
