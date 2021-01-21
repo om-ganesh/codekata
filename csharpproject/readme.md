@@ -121,4 +121,7 @@ Issue: https://github.com/om-ganesh/codekata/issues/54
 Definition: [From geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0)  
 Solution: [LongestPalindromeSubstring.cs](LongestPalindromeSubstring.cs) 
 
-
+### **Rotate string in place by given offset**
+Issue:    
+Definition: [From lintcode](https://www.lintcode.com/problem/rotate-string/description)  
+Solution: [RotateStringInplaceByOffset.cs](RotateStringInplaceByOffset.cs) 
