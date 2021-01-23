@@ -49,7 +49,9 @@
 #include "MoveZerosToEnd.cpp"
 #include "MaxSizeBlob.cpp"
 #include "MinimumProductionTime.cpp"
-
+#include "NumberOfProvinces.cpp"
+#include "MaximumSumSubArray.cpp"
+#include "NumberOfIslands.cpp"
 
 using namespace std;
 
@@ -203,5 +205,17 @@ int main()
 
     // 36. Minimum Production Time Finding
     MinimumProductionTime mpt;
-    mpt.execute();
+    // mpt.execute();
+
+    // 37. Number of Provinces
+    NumberOfProvinces nop;
+    // nop.execute();
+
+    // 38. Maximum Sum Sub Array
+    MaximumSumSubArray mssa;
+    // mssa.execute();
+
+    // 39. Number of Islands
+    NumberOfIslands noi;
+    noi.execute();
 }

@@ -171,11 +171,14 @@
     <ClCompile Include="MatrixFindPeak.cpp" />
     <ClCompile Include="MatrixMinimumCostPath.cpp" />
     <ClCompile Include="MaxDifferenceInArray.cpp" />
+    <ClCompile Include="MaximumSumSubArray.cpp" />
     <ClCompile Include="MaxSizeBlob.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="MinimumProductionTime.cpp" />
     <ClCompile Include="MirrorBinaryTree.cpp" />
     <ClCompile Include="MoveZerosToEnd.cpp" />
+    <ClCompile Include="NumberOfIslands.cpp" />
+    <ClCompile Include="NumberOfProvinces.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />
