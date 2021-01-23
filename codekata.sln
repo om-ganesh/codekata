@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interviewcodings2020", "int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codekata.core", "codekata.core\codekata.core.csproj", "{04703A0C-0390-485E-9D26-D93BEBFF0B03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codingsunittests", "codingsunittests\codingsunittests.csproj", "{EB26064D-178F-48D7-BCA3-FB8CB83E055A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,18 @@ Global
 		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|x64.Build.0 = Release|Any CPU
 		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|x86.ActiveCfg = Release|Any CPU
 		{04703A0C-0390-485E-9D26-D93BEBFF0B03}.Release|x86.Build.0 = Release|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Release|x64.Build.0 = Release|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB26064D-178F-48D7-BCA3-FB8CB83E055A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
