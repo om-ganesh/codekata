@@ -47,6 +47,7 @@
     <Compile Include="LargestConsecutiveRange.cs" />
     <Compile Include="BalancedBrackets.cs" />
     <Compile Include="MoveZerosToEnd.cs" />
+    <Compile Include="RotateStringInplaceByOffset.cs" />
     <Compile Include="TimeRequiredForProduction.cs" />
     <Compile Include="StockPriceProfit.cs" />
     <Compile Include="DynamicArray.cs" />
