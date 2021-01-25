@@ -55,7 +55,7 @@ private:
 		return negatedMatrix;
 	}
 
-	void connectedComponents(stack<coordinate>* neighboringCoordinate, vector<vector<int>> &negatedMatrix, int label, int x, int y, int row, int col)
+	void connectedComponents(stack<coordinate> &neighboringCoordinate, vector<vector<int>> &negatedMatrix, int label, int x, int y, int row, int col)
 	{
 		coordinate up, down, left, right;
 		negatedMatrix[x][y] = label;
@@ -66,7 +66,7 @@ private:
 			up.y = y;
 			if (negatedMatrix[up.x][up.y] == -1)
 			{
-				neighboringCoordinate->push(up);
+				neighboringCoordinate.push(up);
 			}
 		}
 
@@ -76,7 +76,7 @@ private:
 			left.y = y - 1;
 			if (negatedMatrix[left.x][left.y] == -1)
 			{
-				neighboringCoordinate->push(left);
+				neighboringCoordinate.push(left);
 			}
 		}
 
@@ -86,7 +86,7 @@ private:
 			down.y = y;
 			if (negatedMatrix[down.x][down.y] == -1)
 			{
-				neighboringCoordinate->push(down);
+				neighboringCoordinate.push(down);
 			}
 		}
 
@@ -96,14 +96,14 @@ private:
 			right.y = y + 1;
 			if (negatedMatrix[right.x][right.y] == -1)
 			{
-				neighboringCoordinate->push(right);
+				neighboringCoordinate.push(right);
 			}
 		}
 
-		while (!neighboringCoordinate->empty())
+		while (!neighboringCoordinate.empty())
 		{
-			coordinate cd = neighboringCoordinate->top();
-			neighboringCoordinate->pop();
+			coordinate cd = neighboringCoordinate.top();
+			neighboringCoordinate.pop();
 			connectedComponents(neighboringCoordinate, negatedMatrix, label, cd.x, cd.y, row, col);
 		}
 	}
@@ -123,7 +123,7 @@ private:
 				if (negatedMatrix[i][j] == -1)
 				{
 					label = label + 1;
-					connectedComponents(&neighboringCoordinate, negatedMatrix, label, i, j, row, col);
+					connectedComponents(neighboringCoordinate, negatedMatrix, label, i, j, row, col);
 				}
 			}
 		}
@@ -149,7 +149,7 @@ public:
 		for (int i = 0; i < numberOfTestCases; i++)
 		{
 			vector<vector<int>> testCase = data.getInput(i);
-			cout << "Number of Provinces: " << data.getNumberOfIslands(testCase) << endl;
+			cout << "Number of Islands: " << data.getNumberOfIslands(testCase) << endl;
 		}
 		return 0;
 	}

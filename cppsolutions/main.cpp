@@ -52,6 +52,9 @@
 #include "NumberOfProvinces.cpp"
 #include "MaximumSumSubArray.cpp"
 #include "NumberOfIslands.cpp"
+#include "AddTwoNumbers.cpp"
+#include "StringReverse.cpp"
+#include "FindDuplicate.cpp"
 
 using namespace std;
 
@@ -217,5 +220,17 @@ int main()
 
     // 39. Number of Islands
     NumberOfIslands noi;
-    noi.execute();
+    // noi.execute();
+
+    // 40. Add Two Numbers
+    AddTwoNumbers atn;
+    // atn.execute();
+
+    // 41. String Reverse
+    StringReverse sr;
+    // sr.execute();
+
+    // 42. Find Duplicate
+    FindDuplicate fd;
+    fd.execute();
 }

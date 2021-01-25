@@ -147,6 +147,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FindDuplicate.cpp" />
+    <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AlphaPalindrome.cpp" />
     <ClCompile Include="BalancedBrackets.cpp" />
     <ClCompile Include="BinaryTreeExample.cpp" />
@@ -186,6 +188,7 @@
     <ClCompile Include="StackDataStructureByForwardList.cpp" />
     <ClCompile Include="STL.cpp" />
     <ClCompile Include="StockPrice.cpp" />
+    <ClCompile Include="StringReverse.cpp" />
     <ClCompile Include="ThreeSumSubArray.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />
   </ItemGroup>
