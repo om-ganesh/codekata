@@ -55,6 +55,7 @@
 #include "AddTwoNumbers.cpp"
 #include "StringReverse.cpp"
 #include "FindDuplicate.cpp"
+#include "FindChange.cpp"
 
 using namespace std;
 
@@ -232,5 +233,9 @@ int main()
 
     // 42. Find Duplicate
     FindDuplicate fd;
-    fd.execute();
+    // fd.execute();
+
+    // 43. Find Change
+    FindChange fc;
+    fc.execute();
 }

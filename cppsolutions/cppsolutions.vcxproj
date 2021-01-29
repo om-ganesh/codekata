@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FindChange.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AlphaPalindrome.cpp" />
