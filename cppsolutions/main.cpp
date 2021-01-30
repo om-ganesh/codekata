@@ -56,6 +56,8 @@
 #include "StringReverse.cpp"
 #include "FindDuplicate.cpp"
 #include "FindChange.cpp"
+#include "FindWriter.cpp"
+#include "ReverseInteger.cpp"
 
 using namespace std;
 
@@ -237,5 +239,13 @@ int main()
 
     // 43. Find Change
     FindChange fc;
-    fc.execute();
+    // fc.execute();
+
+    // 44. Find Writer
+    FindWriter fw;
+    // fw.execute();
+
+    // 45. Reverse Integer
+    ReverseInteger ri;
+    ri.execute();
 }

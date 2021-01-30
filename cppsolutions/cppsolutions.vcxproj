@@ -161,6 +161,7 @@
     <ClCompile Include="FindDistinctNumbers.cpp" />
     <ClCompile Include="FindLargestWordInDictionary.cpp" />
     <ClCompile Include="FindMaximumNumber.cpp" />
+    <ClCompile Include="FindWriter.cpp" />
     <ClCompile Include="FiveStarSeller.cpp" />
     <ClCompile Include="GivenSumSubArray.cpp" />
     <ClCompile Include="GraphBFSAndDFS.cpp" />
@@ -184,6 +185,7 @@
     <ClCompile Include="NumberOfProvinces.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
+    <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="StackDataStructureByForwardList.cpp" />
