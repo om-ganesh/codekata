@@ -59,6 +59,7 @@
 #include "FindWriter.cpp"
 #include "ReverseInteger.cpp"
 #include "VerifyingAlienDictionary.cpp"
+#include "LongestOddEvenSequence.cpp"
 
 using namespace std;
 
@@ -252,5 +253,9 @@ int main()
 
     // 46. Verifying Alien Dictionary
     VerifyingAlienDictionary vad;
-    vad.execute();
+    // vad.execute();
+
+    // 47. LongestOddEvenSequence
+    LongestOddEvenSequence loes;
+    loes.execute();
 }
