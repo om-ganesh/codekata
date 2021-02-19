@@ -60,6 +60,7 @@
 #include "ReverseInteger.cpp"
 #include "VerifyingAlienDictionary.cpp"
 #include "LongestOddEvenSequence.cpp"
+#include "LongestPalindromeInArray.cpp"
 
 using namespace std;
 
@@ -257,5 +258,9 @@ int main()
 
     // 47. LongestOddEvenSequence
     LongestOddEvenSequence loes;
-    loes.execute();
+    // loes.execute();
+
+    // 48. LongestPalindromeInArray
+    LongestPalindromeInArray lpia;
+    lpia.execute();
 }

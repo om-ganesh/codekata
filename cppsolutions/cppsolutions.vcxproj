@@ -169,6 +169,7 @@
     <ClCompile Include="KaratsubaIntegerMultiplication.cpp" />
     <ClCompile Include="KLargestInArray.cpp" />
     <ClCompile Include="LongestOddEvenSequence.cpp" />
+    <ClCompile Include="LongestPalindromeInArray.cpp" />
     <ClCompile Include="MagicSquare.cpp" />
     <ClCompile Include="MagicSquareForming.cpp" />
     <ClCompile Include="main.cpp" />
