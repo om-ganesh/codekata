@@ -156,6 +156,9 @@
     <ClCompile Include="ReverseInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="VerifyingAlienDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="dataset1.csv" />

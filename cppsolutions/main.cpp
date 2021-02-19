@@ -58,6 +58,7 @@
 #include "FindChange.cpp"
 #include "FindWriter.cpp"
 #include "ReverseInteger.cpp"
+#include "VerifyingAlienDictionary.cpp"
 
 using namespace std;
 
@@ -247,5 +248,9 @@ int main()
 
     // 45. Reverse Integer
     ReverseInteger ri;
-    ri.execute();
+    // ri.execute();
+
+    // 46. Verifying Alien Dictionary
+    VerifyingAlienDictionary vad;
+    vad.execute();
 }

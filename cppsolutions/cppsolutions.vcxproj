@@ -193,6 +193,7 @@
     <ClCompile Include="StockPrice.cpp" />
     <ClCompile Include="StringReverse.cpp" />
     <ClCompile Include="ThreeSumSubArray.cpp" />
+    <ClCompile Include="VerifyingAlienDictionary.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />
   </ItemGroup>
   <ItemGroup>
