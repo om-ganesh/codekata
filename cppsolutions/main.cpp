@@ -61,6 +61,7 @@
 #include "VerifyingAlienDictionary.cpp"
 #include "LongestOddEvenSequence.cpp"
 #include "LongestPalindromeInArray.cpp"
+#include "FindMaxTwoItems.cpp"
 
 using namespace std;
 
@@ -262,5 +263,9 @@ int main()
 
     // 48. LongestPalindromeInArray
     LongestPalindromeInArray lpia;
-    lpia.execute();
+    // lpia.execute();
+
+    // 49. Find Max Two Items (without sorting)
+    FindMaxTwoItems fmti;
+    fmti.execute();
 }
