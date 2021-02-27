@@ -15,7 +15,7 @@ namespace csharpproject
             Console.WriteLine("Welcome to Algorithm Challenges");
 
             // Just replace the name of the class to execute
-            IProblem problem = new RotateStringInplaceByOffset();
+            IProblem problem = new RandomNumberGeneration();
             problem.Execute();
 
             Console.Read();

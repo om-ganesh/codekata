@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlmostIncreasingSequence.cs" />
     <Compile Include="AmznBlock.cs" />
     <Compile Include="LargestConsecutiveRange.cs" />
     <Compile Include="BalancedBrackets.cs" />
     <Compile Include="MoveZerosToEnd.cs" />
+    <Compile Include="RandomNumberGeneration.cs" />
     <Compile Include="RotateStringInplaceByOffset.cs" />
     <Compile Include="TimeRequiredForProduction.cs" />
     <Compile Include="StockPriceProfit.cs" />
