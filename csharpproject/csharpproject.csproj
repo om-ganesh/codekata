@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlmostIncreasingSequence.cs" />
     <Compile Include="AmznBlock.cs" />
     <Compile Include="LargestConsecutiveRange.cs" />
     <Compile Include="BalancedBrackets.cs" />
