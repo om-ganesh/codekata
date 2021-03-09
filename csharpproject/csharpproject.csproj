@@ -73,6 +73,7 @@
     <Compile Include="TwoEqualSumSubarray.cs" />
     <Compile Include="Utility\ArrayExtensions.cs" />
     <Compile Include="Utility\FileReader.cs" />
+    <Compile Include="WildcardWordProcess.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
