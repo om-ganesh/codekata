@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>.\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -43,21 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GraphImplementation.cs" />
     <Compile Include="models\BinarySearcher.cs" />
+    <Compile Include="models\BuiltInCollections.cs" />
     <Compile Include="models\CompanyTree.cs" />
+    <Compile Include="models\Graph.cs" />
     <Compile Include="models\MyLinkedList.cs" />
     <Compile Include="models\Node.cs" />
     <Compile Include="models\SortingAlgo.cs" />
+    <Compile Include="models\TreeNode.cs" />
     <Compile Include="MyLinkedListImplement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShowTreeChildrenBreadthWise.cs" />
     <Compile Include="SortingMerge.cs" />
     <Compile Include="TreeTraversal.cs" />
+    <Compile Include="utility\FileReader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\tinygraph.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

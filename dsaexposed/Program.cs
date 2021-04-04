@@ -14,12 +14,20 @@ namespace dsaexposed
         {
             Console.WriteLine("Illustrating DSA!");
 
-            //MyLinkedListImplement.Init();
+            MyLinkedListImplement.Init();
+
             SortingMerge.Init();
 
             BinarySearcher.Init();
 
             SortingAlgo.Init();
+
+            //Just exploring the builtin collections also
+            BuiltInCollections.Init();
+
+            //WIP: throwing error 
+            //Graph graph = GraphImplementation.CreateGraph(@"data\tinygraph.txt");
+            //GraphImplementation.DisplayEdges(graph);
 
             Console.WriteLine("@HelloGybe Interview!!!");
             ShowTreeChildrenBreadthWise.Init();

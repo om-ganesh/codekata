@@ -4,11 +4,32 @@ using System.Text;
 
 namespace dsaexposed.models
 {
-    class MyLinkedList<T>
+    public class MyLinkedList<T>
     {
         Node<T> first;
         int size;
 
+        public Node<T> First { get { return this.first; } }
+
+        public static Node<T> CreateInstance(T[] arr)
+        {
+            Node<T> head = null;
+            for(int i=arr.Length-1;i>=0;i--)
+            {
+                Node<T> temp = new Node<T>(arr[i]);
+                if (head == null)
+                {
+                    head = temp;
+                }
+                else
+                {
+                    temp.Next = head;
+                    head = temp;
+                }
+
+            }
+            return head;
+        }
         public void AddNode(Node<T> node)
         {
             if (first == null)
@@ -53,11 +74,34 @@ namespace dsaexposed.models
             }
         }
 
+        public void Reverse()
+        {
+            Node<T> pre = new Node<T>();
+            Node<T> current = first;
+
+            while(current!=null)
+            {
+                //LOGIC: During reverse, point current to pre and move pre to current, and then current to next
+                //WE would need extra node to perform this operation
+                
+                //1. Since, Current will point to pre (we have to save where current is pointing to)
+                Node<T> next = current.Next;
+
+                //2. Now point current to pre and move pre pointing to current
+                current.Next = pre;
+                pre = current;
+                
+                //3. Finally move current to next, which will be current for coming iteration
+                current = next;
+            }
+            first = pre;
+        }
+
         public Node<T> FindMiddle()
         {
             Node<T> current = first;
             Node<T> jumped = first.Next;
-            // TODO WIP: Fix Null reference exception
+            //TODO jumped can be null so throws exception
             while (jumped!= null || jumped.Next !=null)
             {
                 current = current.Next;
@@ -99,14 +143,19 @@ namespace dsaexposed.models
 
         }
 
-        public void PrintAll()
+        public void PrintAll(Node<T> node = null)
         {
-            if (first==null)
+            if(node == null)
             {
-                Console.WriteLine("No elements available.");
-                return;
+                node = first;
+                if (first == null)
+                {
+                    Console.WriteLine("No elements available.");
+                    return;
+                }
             }
-            Node<T> temp = first;
+            
+            Node<T> temp = node;
             int i = 0;
             while(temp != null)
             {
@@ -123,7 +172,7 @@ namespace dsaexposed.models
     }
 
 
-    class Node<T>
+    public class Node<T>
     {
         public T Data { get; set; }
         public Node<T> Next { get; set; }
