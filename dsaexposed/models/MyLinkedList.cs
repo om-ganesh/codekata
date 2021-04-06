@@ -81,7 +81,7 @@ namespace dsaexposed.models
 
             while(current!=null)
             {
-                //LOGIC: During reverse, point current to pre and move pre to current, and then current to next
+                //LOGIC: During reverse, point current to empty/pre and move pre to current, and then current to next
                 //WE would need extra node to perform this operation
                 
                 //1. Since, Current will point to pre (we have to save where current is pointing to)

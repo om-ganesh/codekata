@@ -50,6 +50,7 @@
     <Compile Include="models\Graph.cs" />
     <Compile Include="models\MyLinkedList.cs" />
     <Compile Include="models\Node.cs" />
+    <Compile Include="models\PriorityQueue.cs" />
     <Compile Include="models\SortingAlgo.cs" />
     <Compile Include="models\TreeNode.cs" />
     <Compile Include="MyLinkedListImplement.cs" />
