@@ -168,6 +168,12 @@
     <ClCompile Include="FindMaxTwoItems.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ShuffleNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BresenhamCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="dataset1.csv" />

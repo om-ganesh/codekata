@@ -62,6 +62,8 @@
 #include "LongestOddEvenSequence.cpp"
 #include "LongestPalindromeInArray.cpp"
 #include "FindMaxTwoItems.cpp"
+#include "ShuffleNumbers.cpp"
+#include "BresenhamCircle.cpp"
 
 using namespace std;
 
@@ -267,5 +269,13 @@ int main()
 
     // 49. Find Max Two Items (without sorting)
     FindMaxTwoItems fmti;
-    fmti.execute();
+    // fmti.execute();
+
+    // 50. Random Shuffle of an Array
+    ShuffleNumbers sn;
+    // sn.execute();
+
+    // 51 Bresenhams Circle
+    BresenhamCircle bsc;
+    bsc.execute();
 }

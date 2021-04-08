@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BresenhamCircle.cpp" />
     <ClCompile Include="FindChange.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
@@ -189,6 +190,7 @@
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="ShuffleNumbers.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />
     <ClCompile Include="SparseArray.cpp" />
     <ClCompile Include="StackDataStructureByForwardList.cpp" />
