@@ -64,6 +64,7 @@
 #include "FindMaxTwoItems.cpp"
 #include "ShuffleNumbers.cpp"
 #include "BresenhamCircle.cpp"
+#include "LinkedListBasicOperations.cpp"
 
 using namespace std;
 
@@ -277,5 +278,9 @@ int main()
 
     // 51 Bresenhams Circle
     BresenhamCircle bsc;
-    bsc.execute();
+    // bsc.execute();
+
+    // 52 Linked List Basics
+    LinkedListBasicOperations llbo;
+    llbo.execute();
 }
