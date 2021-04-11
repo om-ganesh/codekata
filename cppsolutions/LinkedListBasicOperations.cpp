@@ -60,6 +60,30 @@ private:
 		cout << endl;
 	}
 
+	ListNode* removeNthElement(ListNode* head, int n)
+	{
+		ListNode* previous = head;
+		ListNode* current = head->next;
+		bool done = false;
+		int count = 2;
+
+		while (count <= n || done != true)
+		{
+			if (count == n)
+			{
+				previous->next = current->next;
+				done = true;
+			}
+			else
+			{
+				previous = previous->next;
+				current = current->next;
+			}
+			count++;
+		}
+		return head;
+	}
+
 public:
 	int execute()
 	{
@@ -71,6 +95,8 @@ public:
 			vector<int> testCase = data.getTestCase(i);
 			ListNode* head = data.convertArrayToLinkedList(testCase);
 			data.printLinkedList(head);
+			ListNode* deleted = data.removeNthElement(head, 4);
+			data.printLinkedList(deleted);
 		}
 
 		return 0;
