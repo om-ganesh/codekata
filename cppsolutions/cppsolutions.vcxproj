@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BresenhamCircle.cpp" />
+    <ClCompile Include="ChessKnight.cpp" />
     <ClCompile Include="FindChange.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
@@ -173,6 +174,7 @@
     <ClCompile Include="LinkedListBasicOperations.cpp" />
     <ClCompile Include="LongestOddEvenSequence.cpp" />
     <ClCompile Include="LongestPalindromeInArray.cpp" />
+    <ClCompile Include="MacAddress.cpp" />
     <ClCompile Include="MagicSquare.cpp" />
     <ClCompile Include="MagicSquareForming.cpp" />
     <ClCompile Include="main.cpp" />

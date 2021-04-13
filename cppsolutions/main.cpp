@@ -65,6 +65,8 @@
 #include "ShuffleNumbers.cpp"
 #include "BresenhamCircle.cpp"
 #include "LinkedListBasicOperations.cpp"
+#include "MacAddress.cpp"
+#include "ChessKnight.cpp"
 
 using namespace std;
 
@@ -282,5 +284,13 @@ int main()
 
     // 52 Linked List Basics
     LinkedListBasicOperations llbo;
-    llbo.execute();
+    // llbo.execute();
+
+    // 53. Mac Address
+    MacAddress ma;
+    // ma.execute();
+
+    // 54. Chess Knight
+    ChessKnight ck;
+    ck.execute();
 }
