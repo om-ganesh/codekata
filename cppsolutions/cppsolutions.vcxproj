@@ -203,6 +203,7 @@
     <ClCompile Include="STL.cpp" />
     <ClCompile Include="StockPrice.cpp" />
     <ClCompile Include="StringReverse.cpp" />
+    <ClCompile Include="Sudoko.cpp" />
     <ClCompile Include="Template.cpp" />
     <ClCompile Include="ThreeSumSubArray.cpp" />
     <ClCompile Include="VerifyingAlienDictionary.cpp" />

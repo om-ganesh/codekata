@@ -195,6 +195,9 @@
     <ClCompile Include="FileNaming.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sudoko.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="dataset1.csv" />

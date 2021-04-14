@@ -70,6 +70,7 @@
 #include "LongestWord.cpp"
 #include "DifferentSquares.cpp"
 #include "FileNaming.cpp"
+#include "Sudoko.cpp"
 
 using namespace std;
 
@@ -307,5 +308,9 @@ int main()
 
     // 57. File Naming
     FileNaming fn;
-    fn.execute();
+    // fn.execute();
+
+    // 58. Sudoko Checker
+    Sudoko sk;
+    sk.execute();
 }
