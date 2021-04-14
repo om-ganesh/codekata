@@ -149,6 +149,8 @@
   <ItemGroup>
     <ClCompile Include="BresenhamCircle.cpp" />
     <ClCompile Include="ChessKnight.cpp" />
+    <ClCompile Include="DifferentSquares.cpp" />
+    <ClCompile Include="FileNaming.cpp" />
     <ClCompile Include="FindChange.cpp" />
     <ClCompile Include="FindDuplicate.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
@@ -201,6 +203,7 @@
     <ClCompile Include="STL.cpp" />
     <ClCompile Include="StockPrice.cpp" />
     <ClCompile Include="StringReverse.cpp" />
+    <ClCompile Include="Template.cpp" />
     <ClCompile Include="ThreeSumSubArray.cpp" />
     <ClCompile Include="VerifyingAlienDictionary.cpp" />
     <ClCompile Include="WaterBlockProblem.cpp" />

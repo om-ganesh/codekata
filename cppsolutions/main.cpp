@@ -68,6 +68,8 @@
 #include "MacAddress.cpp"
 #include "ChessKnight.cpp"
 #include "LongestWord.cpp"
+#include "DifferentSquares.cpp"
+#include "FileNaming.cpp"
 
 using namespace std;
 
@@ -297,5 +299,13 @@ int main()
 
     // 55. Longest Word
     LongestWord lw;
-    lw.execute();
+    // lw.execute();
+
+    // 56. Different Squares
+    DifferentSquares dsq;
+    // dsq.execute();
+
+    // 57. File Naming
+    FileNaming fn;
+    fn.execute();
 }
