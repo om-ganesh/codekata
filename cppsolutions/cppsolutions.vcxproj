@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayPacking.cpp" />
     <ClCompile Include="BresenhamCircle.cpp" />
     <ClCompile Include="ChessKnight.cpp" />
     <ClCompile Include="DifferentSquares.cpp" />

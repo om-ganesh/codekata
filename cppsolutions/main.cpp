@@ -71,6 +71,7 @@
 #include "DifferentSquares.cpp"
 #include "FileNaming.cpp"
 #include "Sudoko.cpp"
+#include "ArrayPacking.cpp"
 
 using namespace std;
 
@@ -312,5 +313,9 @@ int main()
 
     // 58. Sudoko Checker
     Sudoko sk;
-    sk.execute();
+    // sk.execute();
+
+    // 59. Array Packing
+    ArrayPacking apk;
+    apk.execute();
 }
