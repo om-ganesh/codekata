@@ -72,6 +72,7 @@
 #include "FileNaming.cpp"
 #include "Sudoko.cpp"
 #include "ArrayPacking.cpp"
+#include "Rounders.cpp"
 
 using namespace std;
 
@@ -317,5 +318,9 @@ int main()
 
     // 59. Array Packing
     ArrayPacking apk;
-    apk.execute();
+    // apk.execute();
+
+    // 60. Rounders
+    Rounders rnd;
+    rnd.execute();
 }

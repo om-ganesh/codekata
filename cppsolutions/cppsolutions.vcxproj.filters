@@ -201,6 +201,9 @@
     <ClCompile Include="ArrayPacking.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Rounders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="dataset1.csv" />

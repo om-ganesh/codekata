@@ -197,6 +197,7 @@
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
+    <ClCompile Include="Rounders.cpp" />
     <ClCompile Include="ShuffleNumbers.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />
     <ClCompile Include="SparseArray.cpp" />
