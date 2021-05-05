@@ -73,6 +73,7 @@
 #include "Sudoko.cpp"
 #include "ArrayPacking.cpp"
 #include "Rounders.cpp"
+#include "RemoveDuplicatesFromList.cpp"
 
 using namespace std;
 
@@ -322,5 +323,9 @@ int main()
 
     // 60. Rounders
     Rounders rnd;
-    rnd.execute();
+    // rnd.execute();
+
+    // 61. Remove Duplicates From List
+    RemoveDuplicatesFromList rdfl;
+    rdfl.execute();
 }

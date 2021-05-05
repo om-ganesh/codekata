@@ -196,6 +196,7 @@
     <ClCompile Include="NumberOfProvinces.cpp" />
     <ClCompile Include="QueueDataStructureByList.cpp" />
     <ClCompile Include="FindMaximumRange.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromList.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="Rounders.cpp" />
     <ClCompile Include="ShuffleNumbers.cpp" />
