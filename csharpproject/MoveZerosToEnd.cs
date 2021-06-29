@@ -10,9 +10,10 @@ namespace csharpproject
     {
         public void Execute()
         {
-            int[] arr = new int[] { 5,0, 1, 0, 3, 12 };
+            // int[] arr = new int[] { 5,0, 1, 0, 3, 12 };
+            int[] arr = new int[] { 2,1,2,2,2,3,4,2 };
             Console.WriteLine($"Before Moving: {string.Join(",", arr)}");
-            MoveZeroes(arr);
+            MoveZeroes1(arr);
             Console.WriteLine($"After Moving: {string.Join(",", arr)}");
         }
 
@@ -31,6 +32,36 @@ namespace csharpproject
             for (int i = cnt; i < nums.Length; i++)
             {
                 nums[i] = 0;
+            }
+        }
+
+        public void MoveZeroes1(int[] arr)
+        {
+            int offset = -1;
+            int count = 0;
+            int toMove = 2;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                // Keep i pointer on the tomove element
+                if (arr[i] != toMove)
+                {
+                    offset++;
+                    if (offset < i)
+                    {
+                        arr[offset] = arr[i];
+                    }
+                }
+                else
+                {
+                    count++;
+                }
+            }
+            Console.WriteLine(offset + "--" + string.Join(",", arr));
+            offset++;
+            while (offset < arr.Length)
+            {
+                arr[offset++] = toMove;
             }
         }
 
