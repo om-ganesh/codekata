@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Facebook\FirstAndLastElementInArray.cs" />
     <Compile Include="Facebook\GoatLatin.cs" />
+    <Compile Include="Facebook\RightMostZeroIndex.cs" />
     <Compile Include="Microsoft\DinosaurWithHighSpeedCsv.cs" />
     <Compile Include="Microsoft\InsertDigitToReturnMax.cs" />
     <Compile Include="IProblem.cs" />
