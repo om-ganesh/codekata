@@ -1,30 +1,18 @@
-﻿# The real problems asked during interview sessions
+﻿# The real problems asked during interview sessions for different companies.
 
 ### **Insert digit to find maximum Number**
 Issue: https://github.com/om-ganesh/codekata/issues/29  
 Definition: [Knowsh](https://www.knowsh.com/Notes/250501/Maximum-Possible-Value-By-Inserting-5)  
-Solution: [InsertDigitToReturnMax.cs](InsertDigitToReturnMax.cs)  
-Discussion: [InsertDigit.png](../problems/hint-getmaxinsertdigitbetweennumber.png.png)   
+Solution: [InsertDigitToReturnMax.cs](Microsoft/InsertDigitToReturnMax.cs)  
+Discussion: [InsertDigit.png](../problems/hint-getmaxinsertdigitbetweennumber.png)   
 
 ### **Find if the given string is palindrome (ignoring the chars except alphanumeric)**  
-Definition: Determine if given string is a palindrome, considering only alphanumeric characters and ignoring cases.  
-Solution: [PalindromeAlphaCharacters.cs](PalindromeAlphaCharacters.cs)   
+Definition: Determine if given string is a palindrome, considering only alphanumeric characters and ignoring cases.  Refer: [StackOverflow](https://stackoverflow.com/questions/30178172/check-for-palindrome-ignore-special-characters-whitespace-and-capitalization)   
+Solution: [PalindromeAlphaCharacters.cs](Facebook/PalindromeAlphaCharacters.cs)   
 
 ### **Goat Latin Problem**  
 Definition: [Leetcode](https://leetcode.com/problems/goat-latin/)  
-Solution:  TODO  
-
-### **Find the integer pairs with count to match the max count**  
-Definition: 
-```
-Given an integer array, find the number of times a particular digit should be repeated to make its count equal to the count of the integer which is occurring max times.
-Input: [1,2,2,3,2,2,3]
-Output: {1:3,3:2}
-Explanation: Here digit 2 is repeated max times i.e. 4.
-For other digit 1 so, we need to add 3 times to make equal to 4 so => <1,3>
-For other digit 3, we need to add it 2 times to make equal to 4 so => <3,2>
-```
-Solution:  TODO  
+Solution: [GoatLatin.cs](Facebook/GoatLatin.cs)   
 
 
 ### **Read the datafile to produce required output as explained in description**  
@@ -56,6 +44,16 @@ Deinonychus,1.11,bipedal
 Struthiomimus,1.24,bipedal
 Velociraptorr,2.62,bipedal
 ```
-Solution: TODO  
+Solution: [DinosaurWithHighSpeedCsv.cs](Microsoft/DinosaurWithHighSpeedCsv.cs)  
 
-
+### **Find the integer pairs with count to match the max count**  
+Definition: 
+```
+Given an integer array, find the number of times a particular digit should be repeated to make its count equal to the count of the integer which is occurring max times.
+Input: [1,2,2,3,2,2,3]
+Output: {1:3,3:2}
+Explanation: Here digit 2 is repeated max times i.e. 4.
+For other digit 1 so, we need to add 3 times to make equal to 4 so => <1,3>
+For other digit 3, we need to add it 2 times to make equal to 4 so => <3,2>
+```
+Solution:  TODO  

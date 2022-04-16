@@ -16,15 +16,6 @@ The repository/project CodeKata (CK) is divided into following categorical proje
 	These are list of real interview given on Yr2020/21
 
 
-### Solution2: otherkata.sln
-1. dsaexposed.csproj  [Read more](dsaexposed/readme.md)  
-	It implements the fundamental algorithms in C#
-2. JohanRuleEngine.csproj  
-	This the interview problem asked on one of my previous company, Jonah
-3. oopfundamentals.csproj  
-	This project includes the illustration of basic OOP related concepts  
-
-
 ## Code Contribution
 
 1. Create a new issue or pick existing one from project board  https://github.com/om-ganesh/codekata/projects/1

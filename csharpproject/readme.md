@@ -26,8 +26,8 @@ Definition: [Visual description](../problems/CodeJam-Matrix-MinimumPath.png)
 Solution: [MatrixMinimumCostPath.cpp](../cppsolutions/MatrixMinimumCostPath.cpp)  
 
 ### **Karatsuba Multiplication**
-Definition: [HackerRank](https://www.geeksforgeeks.org/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/)  
-Solution: [IntegerMultiplication.cs](IntegerMultiplication.cs)  / [KaratsubaIntegerMultiplication.cpp](../cppsolutions/KaratsubaIntegerMultiplication.cpp)   
+Definition: [Geeksforgeeks](https://www.geeksforgeeks.org/karatsuba-algorithm-for-fast-multiplication-using-divide-and-conquer-algorithm/)  
+Solution: [KaratsubaMultiplication.cs](KaratsubaMultiplication.cs)  / [KaratsubaIntegerMultiplication.cpp](../cppsolutions/KaratsubaIntegerMultiplication.cpp)   
 Discussion: [Solution explained](../problems/KaratsubaMultiplicationMethod.png)  
 
 ### **Maxmimum Difference in Array**
@@ -63,7 +63,7 @@ Solution: [LargestConsecutiveRange.cs](LargestConsecutiveRange.cs)   / [FindMaxi
 ### **Magic Square Formation**
 Definition: [HackerRank](https://www.hackerrank.com/challenges/magic-square-forming/problem)  
 Solution: [MagicSquareForming.cpp](../cppsolutions/MagicSquareForming.cpp)  
-  
+TODO  
 Problem2 Definition:  
 ```
 The sum in each row / col / diag for a matrix of size n is M, where M = n(n ^ 2 + 1) / 2
@@ -88,6 +88,7 @@ Solution: [ExpressionEvaluate.cpp](../cppsolutions/ExpressionEvaluate.cpp)
 ### **Largest Word in Dictionary**
 Definition: [Geeksforgeeks](https://practice.geeksforgeeks.org/problems/find-largest-word-in-dictionary/0)  
 Solution: [LargestWordInDictionary.cs](LargestWordInDictionary.cs) / [FindLargestWordInDictionary.cpp](../cppsolutions/FindLargestWordInDictionary.cpp)  
+TODO  
 
 ### **Subarray with given sum**
 Definition: [Geeksforgeeks](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0)  
@@ -100,6 +101,7 @@ Solution: [FindDistinctNumbers.cs](FindDistinctNumbers.cs) / [FindDistinctNumber
 ### **Jumping Number**
 Definition: [Geeksforgeeks](https://www.geeksforgeeks.org/print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/)  
 Solution: [JumpingNumbers.cs](JumpingNumbers.cs) / [JumpingNumber.cpp](../cppsolutions/JumpingNumber.cpp)  
+TODO  
 
 ### **Maximum Profit with Stocks**
 Issue: https://github.com/om-ganesh/codekata/issues/28  
@@ -108,7 +110,7 @@ Solution: [StockPriceProfit.cs](StockPriceProfit.cs)  / [StockPrice.cpp](../cpps
 
 ### **Find duplicate parenthesis**
 Issue: https://github.com/om-ganesh/codekata/issues/19  
-Definition: [Geeksforgeeks](https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
+Definition: [Geeksforgeeks](https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)  
 Solution: [FindDuplicateParenthesis.cs](FindDuplicateParenthesis.cs)
 
 ### **Split array into two equal sum subarrays**
