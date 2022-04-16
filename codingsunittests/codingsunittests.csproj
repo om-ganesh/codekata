@@ -57,6 +57,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FirstAndLastElementInArrayTest.cs" />
     <Compile Include="GenerateRandomPointInsideCircleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IsStringsAnagramTest.cs" />
@@ -69,6 +70,10 @@
     <ProjectReference Include="..\interviewcodings2018\interviewcodings2018.csproj">
       <Project>{ebdb1a39-4086-4c6b-82b1-a595f8172499}</Project>
       <Name>interviewcodings2018</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\interviewcodings2020\interviewcodings2020.csproj">
+      <Project>{ba6d3311-7753-42fa-bab5-a2f71ab84397}</Project>
+      <Name>interviewcodings2020</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -4,6 +4,7 @@ using System.Linq;
 
 using interviewcodings2020.Amazon;
 using interviewcodings2020.Microsoft;
+using interviewcodings2020.Facebook;
 
 namespace interviewcodings2020
 {
@@ -14,7 +15,7 @@ namespace interviewcodings2020
             Console.WriteLine("List of Interview questions asked this season");
 
             // Just replace the name of the class to execute
-            IProblem problem = new DinosaurWithHighSpeedCsv();
+            IProblem problem = new FirstAndLastElementInArray();
             problem.Execute();
 
             Console.Read();
